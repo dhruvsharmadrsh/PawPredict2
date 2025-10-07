@@ -6,7 +6,12 @@ import {
   useLocation,
   Navigate,
 } from 'react-router-dom';
-import { ClerkProvider, SignedIn, SignedOut, RedirectToSignIn } from '@clerk/clerk-react';
+import {
+  ClerkProvider,
+  SignedIn,
+  SignedOut,
+  RedirectToSignIn,
+} from '@clerk/clerk-react';
 import styles from './App.module.css';
 import PredictionPage from './pages/PredictionPage';
 import HomePage from './pages/HomePage';
@@ -18,12 +23,12 @@ import BackgroundMusic from './components/BackgroundMusic';
 import CustomContextMenu from './components/CustomContextMenu';
 import BreedsPage from './pages/BreedsDirectoryPage';
 import BreedDetailPage from './pages/BreedDetailPage';
-
+import NotFoundPage from './pages/NotFoundPage';
 // Get Clerk Publishable Key from Create React App env
 const clerkPubKey = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
 
 if (!clerkPubKey) {
-  throw new Error("Missing REACT_APP_CLERK_PUBLISHABLE_KEY in .env file");
+  throw new Error('Missing REACT_APP_CLERK_PUBLISHABLE_KEY in .env file');
 }
 
 // Protected Route Component
@@ -69,7 +74,7 @@ const PageTransition = ({ children }) => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/breeds" element={<BreedsPage />} />
           <Route path="/breeds/:breedName" element={<BreedDetailPage />} />
-          
+
           {/* Protected Routes */}
           <Route
             path="/predict"
@@ -79,6 +84,8 @@ const PageTransition = ({ children }) => {
               </ProtectedRoute>
             }
           />
+
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </div>
 
@@ -159,7 +166,6 @@ function App() {
   return (
     <ClerkProvider publishableKey={clerkPubKey}>
       <Router>
-   
         <CustomContextMenu />
         <div className={styles.app}>
           <Navbar />
@@ -167,8 +173,8 @@ function App() {
             <PageTransition />
           </main>
           <Footer />
-          
-          <BackgroundMusic 
+
+          <BackgroundMusic
             src="/background-music.mp3"
             volume={0.5}
             autoStart={false}
