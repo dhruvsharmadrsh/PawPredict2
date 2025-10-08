@@ -1,4 +1,4 @@
-/* ---------- Animation utilities ---------- */
+
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(18px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -103,7 +103,7 @@
 }
 .glass-badge:hover { transform: translateY(-6px); box-shadow: 0 20px 60px rgba(0,0,0,0.45); }
 
-/* ---------- Tabs: underline indicator + tab look ---------- */
+/*! ---------- Tabs: underline indicator + tab look ---------- */
 .tab-btn {
   position: relative;
   z-index: 10;
@@ -140,13 +140,13 @@
   z-index: 4;
 }
 
-/* small responsive tweaks */
+
 @media (max-width: 720px) {
   .tab-btn { min-width: 96px; padding: 8px 12px; font-size: 14px; }
   .tab-underline { bottom: 10px; height: 6px; }
 }
 
-/* small focus outline for keyboard navigation */
+
 .tab-btn:focus { outline: 3px solid rgba(99,102,241,0.18); outline-offset: 3px; }
 button:focus { outline: 3px solid rgba(99,102,241,0.12); outline-offset: 3px; }
 

@@ -83,7 +83,7 @@ const HomePage = () => {
               <span className={`uppercase text-sm tracking-widest font-bold ${
                 isDarkMode ? 'text-gray-200' : 'text-white'
               }`}>
-                AI-POWERED
+                Mind in Motion
               </span>
             </div>
 

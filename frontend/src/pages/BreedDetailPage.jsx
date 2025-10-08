@@ -12,7 +12,7 @@ const BreedDetailPage = () => {
 
   // Convert URL param back to breed name
   const actualBreedName = Object.keys(breedsData).find(
-    name => name.toLowerCase().replace(/\s+/g, '-') === breedName
+    (name) => name.toLowerCase().replace(/\s+/g, '-') === breedName
   );
 
   if (!actualBreedName) {
@@ -22,7 +22,10 @@ const BreedDetailPage = () => {
           <span className={styles.notFoundIcon}>🐕</span>
           <h2>Oops! Breed Not Found</h2>
           <p>The breed you're looking for doesn't exist in our database.</p>
-          <button onClick={() => navigate('/breeds')} className={styles.notFoundButton}>
+          <button
+            onClick={() => navigate('/breeds')}
+            className={styles.notFoundButton}
+          >
             Explore All Breeds
           </button>
         </div>
@@ -39,8 +42,13 @@ const BreedDetailPage = () => {
   // Calculate compatibility score (0-100)
   const calculateScore = (value) => {
     const scores = {
-      'Very High': 100, 'High': 80, 'Moderate to High': 75,
-      'Moderate': 60, 'Low to Moderate': 40, 'Low': 20, 'Very Low': 10
+      'Very High': 100,
+      High: 80,
+      'Moderate to High': 75,
+      Moderate: 60,
+      'Low to Moderate': 40,
+      Low: 20,
+      'Very Low': 10,
     };
     return scores[value] || 50;
   };
@@ -49,17 +57,19 @@ const BreedDetailPage = () => {
     <div className={styles.detailContainer}>
       {/* Floating Action Buttons */}
       <div className={styles.floatingActions}>
-        <button 
-          className={styles.backButton} 
+        <button
+          className={styles.backButton}
           onClick={() => navigate('/breeds')}
           title="Back to Breeds"
         >
           <span className={styles.backIcon}>←</span>
         </button>
-        <button 
-          className={`${styles.favoriteButton} ${isFavorite ? styles.favorited : ''}`}
+        <button
+          className={`${styles.favoriteButton} ${
+            isFavorite ? styles.favorited : ''
+          }`}
           onClick={toggleFavorite}
-          title={isFavorite ? "Remove from favorites" : "Add to favorites"}
+          title={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
         >
           <span className={styles.heartIcon}>{isFavorite ? '❤️' : '🤍'}</span>
         </button>
@@ -143,7 +153,9 @@ const BreedDetailPage = () => {
             </div>
             <div className={styles.statContent}>
               <p className={styles.statLabel}>Trainability</p>
-              <p className={styles.statValue}>{breed.trainability.split('-')[0].trim()}</p>
+              <p className={styles.statValue}>
+                {breed.trainability.split('-')[0].trim()}
+              </p>
             </div>
           </div>
         </div>
@@ -152,29 +164,37 @@ const BreedDetailPage = () => {
       {/* Tabs Navigation */}
       <div className={styles.tabsContainer}>
         <div className={styles.tabs}>
-          <button 
-            className={`${styles.tab} ${activeTab === 'overview' ? styles.activeTab : ''}`}
+          <button
+            className={`${styles.tab} ${
+              activeTab === 'overview' ? styles.activeTab : ''
+            }`}
             onClick={() => setActiveTab('overview')}
           >
             <span className={styles.tabIcon}>📋</span>
             Overview
           </button>
-          <button 
-            className={`${styles.tab} ${activeTab === 'care' ? styles.activeTab : ''}`}
+          <button
+            className={`${styles.tab} ${
+              activeTab === 'care' ? styles.activeTab : ''
+            }`}
             onClick={() => setActiveTab('care')}
           >
             <span className={styles.tabIcon}>💚</span>
             Care Guide
           </button>
-          <button 
-            className={`${styles.tab} ${activeTab === 'health' ? styles.activeTab : ''}`}
+          <button
+            className={`${styles.tab} ${
+              activeTab === 'health' ? styles.activeTab : ''
+            }`}
             onClick={() => setActiveTab('health')}
           >
             <span className={styles.tabIcon}>🏥</span>
             Health & Nutrition
           </button>
-          <button 
-            className={`${styles.tab} ${activeTab === 'compatibility' ? styles.activeTab : ''}`}
+          <button
+            className={`${styles.tab} ${
+              activeTab === 'compatibility' ? styles.activeTab : ''
+            }`}
             onClick={() => setActiveTab('compatibility')}
           >
             <span className={styles.tabIcon}>👨‍👩‍👧</span>
@@ -236,9 +256,9 @@ const BreedDetailPage = () => {
                   <span className={styles.charIcon}>🎯</span>
                   <h3>Prey Drive</h3>
                   <div className={styles.progressBar}>
-                    <div 
+                    <div
                       className={styles.progressFill}
-                      style={{width: `${calculateScore(breed.prey_drive)}%`}}
+                      style={{ width: `${calculateScore(breed.prey_drive)}%` }}
                     ></div>
                   </div>
                   <p>{breed.prey_drive}</p>
@@ -247,9 +267,11 @@ const BreedDetailPage = () => {
                   <span className={styles.charIcon}>🛡️</span>
                   <h3>Protective Instinct</h3>
                   <div className={styles.progressBar}>
-                    <div 
+                    <div
                       className={styles.progressFill}
-                      style={{width: `${calculateScore(breed.protective_instincts)}%`}}
+                      style={{
+                        width: `${calculateScore(breed.protective_instincts)}%`,
+                      }}
                     ></div>
                   </div>
                   <p>{breed.protective_instincts}</p>
@@ -258,9 +280,9 @@ const BreedDetailPage = () => {
                   <span className={styles.charIcon}>🎭</span>
                   <h3>Playfulness</h3>
                   <div className={styles.progressBar}>
-                    <div 
+                    <div
                       className={styles.progressFill}
-                      style={{width: `${calculateScore(breed.playfulness)}%`}}
+                      style={{ width: `${calculateScore(breed.playfulness)}%` }}
                     ></div>
                   </div>
                   <p>{breed.playfulness}</p>
@@ -269,9 +291,11 @@ const BreedDetailPage = () => {
                   <span className={styles.charIcon}>🚶</span>
                   <h3>Independence</h3>
                   <div className={styles.progressBar}>
-                    <div 
+                    <div
                       className={styles.progressFill}
-                      style={{width: `${calculateScore(breed.independence_level)}%`}}
+                      style={{
+                        width: `${calculateScore(breed.independence_level)}%`,
+                      }}
                     ></div>
                   </div>
                   <p>{breed.independence_level}</p>
@@ -289,12 +313,24 @@ const BreedDetailPage = () => {
                   </h2>
                 </div>
                 <div className={styles.similarBreedsGrid}>
-                  {breed.similar_breeds.map((similarBreed, index) => (
-                    <div key={index} className={styles.similarBreedCard}>
-                      <span className={styles.similarBreedIcon}>🐶</span>
-                      <span className={styles.similarBreedName}>{similarBreed}</span>
-                    </div>
-                  ))}
+                  {breed.similar_breeds.map((similarBreed, index) => {
+                    const normalizedBreed = similarBreed
+                      .toLowerCase()
+                      .replace(/\s+/g, '-') // spaces → hyphen
+                      .replace(/_/g, '-') // underscores → hyphen
+                      .replace(/--+/g, '-'); // remove double hyphens if any
+
+                    return (
+                      <a key={index} href={normalizedBreed}>
+                        <div className={styles.similarBreedCard}>
+                          <span className={styles.similarBreedIcon}>🐶</span>
+                          <span className={styles.similarBreedName}>
+                            {similarBreed}
+                          </span>
+                        </div>
+                      </a>
+                    );
+                  })}
                 </div>
               </div>
             )}
@@ -315,7 +351,9 @@ const BreedDetailPage = () => {
               <div className={styles.careInfo}>
                 <div className={styles.careItem}>
                   <span className={styles.careLabel}>Exercise Needs:</span>
-                  <span className={styles.careValue}>{breed.exercise_needs}</span>
+                  <span className={styles.careValue}>
+                    {breed.exercise_needs}
+                  </span>
                 </div>
                 <div className={styles.careItem}>
                   <span className={styles.careLabel}>Energy Level:</span>
@@ -346,35 +384,50 @@ const BreedDetailPage = () => {
                   <span className={styles.groomIcon}>🪮</span>
                   <div>
                     <p className={styles.groomLabel}>Brushing</p>
-                    <p className={styles.groomValue}>{breed.brushing_frequency}</p>
+                    <p className={styles.groomValue}>
+                      {breed.brushing_frequency}
+                    </p>
                   </div>
                 </div>
                 <div className={styles.groomingItem}>
                   <span className={styles.groomIcon}>🛁</span>
                   <div>
                     <p className={styles.groomLabel}>Bathing</p>
-                    <p className={styles.groomValue}>{breed.bathing_frequency}</p>
+                    <p className={styles.groomValue}>
+                      {breed.bathing_frequency}
+                    </p>
                   </div>
                 </div>
                 <div className={styles.groomingItem}>
                   <span className={styles.groomIcon}>💅</span>
                   <div>
                     <p className={styles.groomLabel}>Nail Trimming</p>
-                    <p className={styles.groomValue}>{breed.nail_trimming_frequency}</p>
+                    <p className={styles.groomValue}>
+                      {breed.nail_trimming_frequency}
+                    </p>
                   </div>
                 </div>
                 <div className={styles.groomingItem}>
                   <span className={styles.groomIcon}>✂️</span>
                   <div>
                     <p className={styles.groomLabel}>Professional Grooming</p>
-                    <p className={styles.groomValue}>{breed.professional_grooming_frequency}</p>
+                    <p className={styles.groomValue}>
+                      {breed.professional_grooming_frequency}
+                    </p>
                   </div>
                 </div>
               </div>
               <div className={styles.coatInfo}>
-                <p><strong>Coat Type:</strong> {breed.coat_type}</p>
-                <p><strong>Shedding Level:</strong> {breed.shedding_level}</p>
-                <p><strong>Hypoallergenic:</strong> {breed.hypoallergenic ? 'Yes' : 'No'}</p>
+                <p>
+                  <strong>Coat Type:</strong> {breed.coat_type}
+                </p>
+                <p>
+                  <strong>Shedding Level:</strong> {breed.shedding_level}
+                </p>
+                <p>
+                  <strong>Hypoallergenic:</strong>{' '}
+                  {breed.hypoallergenic ? 'Yes' : 'No'}
+                </p>
               </div>
             </div>
 
@@ -408,7 +461,9 @@ const BreedDetailPage = () => {
                 <div className={styles.livingCard}>
                   <span className={styles.livingIcon}>🔇</span>
                   <h4>Noise Sensitivity</h4>
-                  <p className={styles.livingStatus}>{breed.noise_sensitivity}</p>
+                  <p className={styles.livingStatus}>
+                    {breed.noise_sensitivity}
+                  </p>
                 </div>
               </div>
             </div>
@@ -438,7 +493,9 @@ const BreedDetailPage = () => {
                   <span className={styles.nutIcon}>🔥</span>
                   <div>
                     <p className={styles.nutLabel}>Calorie Requirements</p>
-                    <p className={styles.nutValue}>{breed.calorie_requirements}</p>
+                    <p className={styles.nutValue}>
+                      {breed.calorie_requirements}
+                    </p>
                   </div>
                 </div>
                 <div className={styles.nutritionItem}>
@@ -452,20 +509,23 @@ const BreedDetailPage = () => {
                   <span className={styles.nutIcon}>🍽️</span>
                   <div>
                     <p className={styles.nutLabel}>Food Type</p>
-                    <p className={styles.nutValue}>{breed.food_type_preferences}</p>
+                    <p className={styles.nutValue}>
+                      {breed.food_type_preferences}
+                    </p>
                   </div>
                 </div>
               </div>
-              {breed.special_nutritional_needs && breed.special_nutritional_needs.length > 0 && (
-                <div className={styles.specialNeeds}>
-                  <h4>Special Nutritional Needs:</h4>
-                  <ul>
-                    {breed.special_nutritional_needs.map((need, index) => (
-                      <li key={index}>{need}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+              {breed.special_nutritional_needs &&
+                breed.special_nutritional_needs.length > 0 && (
+                  <div className={styles.specialNeeds}>
+                    <h4>Special Nutritional Needs:</h4>
+                    <ul>
+                      {breed.special_nutritional_needs.map((need, index) => (
+                        <li key={index}>{need}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
             </div>
 
             {/* Common Health Issues */}
@@ -486,9 +546,9 @@ const BreedDetailPage = () => {
               </div>
               <div className={styles.healthNote}>
                 <p>
-                  <strong>💡 Note:</strong> Regular veterinary check-ups and preventive care 
-                  can help manage these conditions. Consult with your veterinarian for a 
-                  personalized health plan.
+                  <strong>💡 Note:</strong> Regular veterinary check-ups and
+                  preventive care can help manage these conditions. Consult with
+                  your veterinarian for a personalized health plan.
                 </p>
               </div>
             </div>
@@ -506,8 +566,8 @@ const BreedDetailPage = () => {
                 <div className={styles.costDetails}>
                   <p className={styles.costText}>{breed.cost_range}</p>
                   <small className={styles.costNote}>
-                    Costs include initial purchase price and estimated monthly expenses for 
-                    food, grooming, healthcare, and supplies.
+                    Costs include initial purchase price and estimated monthly
+                    expenses for food, grooming, healthcare, and supplies.
                   </small>
                 </div>
               </div>
@@ -545,14 +605,18 @@ const BreedDetailPage = () => {
                   <span className={styles.compatIcon}>🚪</span>
                   <div className={styles.compatContent}>
                     <p className={styles.compatLabel}>Stranger Friendliness</p>
-                    <p className={styles.compatValue}>{breed.stranger_friendliness}</p>
+                    <p className={styles.compatValue}>
+                      {breed.stranger_friendliness}
+                    </p>
                   </div>
                 </div>
                 <div className={styles.compatItem}>
                   <span className={styles.compatIcon}>⏱️</span>
                   <div className={styles.compatContent}>
                     <p className={styles.compatLabel}>Alone Time Tolerance</p>
-                    <p className={styles.compatValue}>{breed.alone_time_tolerance}</p>
+                    <p className={styles.compatValue}>
+                      {breed.alone_time_tolerance}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -567,7 +631,13 @@ const BreedDetailPage = () => {
                 </h2>
               </div>
               <div className={styles.suitabilityCards}>
-                <div className={`${styles.suitabilityCard} ${breed.novice_owner_friendly ? styles.suitable : styles.notSuitable}`}>
+                <div
+                  className={`${styles.suitabilityCard} ${
+                    breed.novice_owner_friendly
+                      ? styles.suitable
+                      : styles.notSuitable
+                  }`}
+                >
                   <span className={styles.suitIcon}>
                     {breed.novice_owner_friendly ? '✓' : '✗'}
                   </span>
@@ -575,13 +645,24 @@ const BreedDetailPage = () => {
                 </div>
                 <div className={styles.suitabilityCard}>
                   <span className={styles.suitIcon}>📚</span>
-                  <p>Experience Level: {breed.novice_owner_friendly ? 'Beginner' : 'Experienced'}</p>
+                  <p>
+                    Experience Level:{' '}
+                    {breed.novice_owner_friendly ? 'Beginner' : 'Experienced'}
+                  </p>
                 </div>
               </div>
               <div className={styles.adaptabilityInfo}>
-                <p><strong>Adaptability Level:</strong> {breed.adaptability_level}</p>
-                <p><strong>Mental Stimulation Needs:</strong> {breed.mental_stimulation_needs}</p>
-                <p><strong>Social Needs:</strong> {breed.social_needs}</p>
+                <p>
+                  <strong>Adaptability Level:</strong>{' '}
+                  {breed.adaptability_level}
+                </p>
+                <p>
+                  <strong>Mental Stimulation Needs:</strong>{' '}
+                  {breed.mental_stimulation_needs}
+                </p>
+                <p>
+                  <strong>Social Needs:</strong> {breed.social_needs}
+                </p>
               </div>
             </div>
 

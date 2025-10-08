@@ -2,7 +2,7 @@
 import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './BreedsPage.module.css';
-import { breedsData } from '../data/breedsData'; // ✅ Import the data
+import { breedsData } from '../data/breedsData'; 
 const BreedsPage = () => {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState('');

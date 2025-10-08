@@ -82,7 +82,7 @@ const Navbar = () => {
                 PawPredict
               </span>
               <span className="text-xs font-semibold tracking-widest text-gray-500 dark:text-gray-400">
-                AI POWERED
+                Mind in Motion
               </span>
             </div>
           </div>

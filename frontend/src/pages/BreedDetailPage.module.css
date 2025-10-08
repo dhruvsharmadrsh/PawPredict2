@@ -1,4 +1,4 @@
-/* ===== Container & Layout ===== */
+/*! ===== Container & Layout ===== */
 .detailContainer {
   min-height: 100vh;
   background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
@@ -6,7 +6,7 @@
   position: relative;
 }
 
-/* ===== Floating Action Buttons ===== */
+/*! ===== Floating Action Buttons ===== */
 .floatingActions {
   position: fixed;
   top: 100px;
@@ -84,7 +84,7 @@
   75% { transform: scale(1.2); }
 }
 
-/* ===== Hero Section ===== */
+/*! ===== Hero Section ===== */
 .hero {
   position: relative;
   width: 100%;
@@ -192,7 +192,7 @@
 
 }
 
-/* ===== Stats Section ===== */
+/*! ===== Stats Section ===== */
 .statsSection {
   max-width: 1400px;
   margin: 0 auto;
@@ -267,7 +267,7 @@
   font-weight: 700;
 }
 
-/* ===== Tabs Navigation ===== */
+/*! ===== Tabs Navigation ===== */
 .tabsContainer {
   max-width: 1400px;
   margin: 0 auto;
@@ -328,7 +328,7 @@
   font-size: 1.2rem;
 }
 
-/* ===== Tab Content ===== */
+/* !===== Tab Content ===== */
 .tabContent {
   max-width: 1400px;
   margin: 0 auto;
@@ -346,7 +346,7 @@
   grid-column: 1 / -1;
 }
 
-/* ===== Sections ===== */
+/*? ===== Sections ===== */
 .section {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(20px);
@@ -382,7 +382,7 @@
   border-radius: 12px;
 }
 
-/* ===== Temperament Tags ===== */
+/*? ===== Temperament Tags ===== */
 .tagContainer {
   display: flex;
   flex-wrap: wrap;
@@ -407,7 +407,7 @@
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.3), rgba(118, 75, 162, 0.3));
 }
 
-/* ===== Color Grid ===== */
+/*? ===== Color Grid ===== */
 .colorGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -505,7 +505,7 @@
   margin-top: 0.5rem;
 }
 
-/* ===== Similar Breeds ===== */
+/*? ===== Similar Breeds ===== */
 .similarBreedsGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

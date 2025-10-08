@@ -98,7 +98,7 @@ const Footer = () => {
                   PawPredict
                 </span>
                 <span className="text-xs font-semibold tracking-widest opacity-70">
-                  AI POWERED
+                  Mind in Motion
                 </span>
               </div>
             </div>
@@ -187,7 +187,7 @@ const Footer = () => {
               <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full"></span>
             </h3>
             <p className="text-sm opacity-90 leading-relaxed">
-              Get the latest updates on AI-powered pet care delivered to your inbox.
+              Stay updated with the newest trends in AI-driven pet care — right in your inbox
             </p>
             <form className="space-y-3" onSubmit={(e) => e.preventDefault()}>
               <input

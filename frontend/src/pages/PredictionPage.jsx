@@ -11,8 +11,8 @@ import {
   AlertTriangle,
   RefreshCw,
   HelpCircle,
-  User, // Add User icon for authentication/profile
-  Lock, // Add Lock icon for protected content
+  User, 
+  Lock, 
 } from 'lucide-react';
 
 // NOTE: We assume the user is authenticated because the component is wrapped in <ProtectedRoute> in App.jsx.
@@ -45,7 +45,6 @@ const DogBreedPredictor = ({ isDarkMode = true }) => {
   const [dragging, setDragging] = useState(false);
   const [tab, setTab] = useState('overview');
   const [backendStatus, setBackendStatus] = useState('checking');
-  // Removed: mousePos, scrollY, indicator, tabRefs, tabsContainerRef for performance/simplicity
 
   const fileInput = useRef(null);
   const containerRef = useRef(null); // Retained for a simple effect if needed
@@ -53,13 +52,11 @@ const DogBreedPredictor = ({ isDarkMode = true }) => {
   const API_URL = 'http://localhost:8000';
   const CONFIDENCE_THRESHOLD = 60; // Set minimum confidence threshold
   
-  // New state to indicate user is logged in (implicit from ProtectedRoute, but good practice)
   const [isAuthenticated, setIsAuthenticated] = useState(true); 
 
   useEffect(() => {
     checkBackend();
     
-    // Cleanup/Removed: event listeners for mousemove, scroll, resize
 
     // NOTE: In a real-world scenario with Clerk, you would check for user status here
     // const { isSignedIn } = useAuth(); 
@@ -116,16 +113,12 @@ const DogBreedPredictor = ({ isDarkMode = true }) => {
     try {
       const formData = new FormData();
       formData.append('file', file);
-      
-      // IMPORTANT: In a component protected by Clerk, you would usually
-      // fetch the current session token and add it to the headers here:
-      // const token = await getToken();
-      // const headers = { 'Authorization': `Bearer ${token}` };
+
       
       const res = await fetch(`${API_URL}/predict`, { 
         method: 'POST', 
         body: formData,
-        // headers: headers, // Assuming token is not needed for /predict (as per main.py update), but kept for context.
+        
       });
       
       if (!res.ok) {
@@ -137,7 +130,6 @@ const DogBreedPredictor = ({ isDarkMode = true }) => {
       setBackendStatus('online');
     } catch (err) {
       setError(err.message);
-      // Don't set backendStatus to offline on prediction error, as it might be an auth/model error
     } finally {
       setLoading(false);
     }
@@ -150,7 +142,6 @@ const DogBreedPredictor = ({ isDarkMode = true }) => {
     setError(null);
     setTab('overview');
     if (fileInput.current) fileInput.current.value = '';
-    // Removed: setTimeout(updateIndicator, 80);
   };
 
   // Simplified renderInfo for improved performance
@@ -695,8 +686,6 @@ const DogBreedPredictor = ({ isDarkMode = true }) => {
         // Remove complex animations for better performance
         @keyframes pulse-simple { 0%, 100% { opacity: 0.8; } 50% { opacity: 1; } }
       `}</style>
-
-      {/* Removed the complex mouse-tracking background effect */}
       <div className="absolute inset-0 opacity-10 pointer-events-none" 
         style={{ background: 'radial-gradient(circle 800px at 50% 50%, rgba(139, 92, 246, 0.2), transparent 70%)' }}
       />
@@ -710,7 +699,7 @@ const DogBreedPredictor = ({ isDarkMode = true }) => {
               <AlertCircle className="w-4 h-4 text-red-400" />
             )}
             <span className="text-white text-xs font-bold tracking-wide">
-              {backendStatus === 'online' ? 'AI SYSTEM READY' : 'BACKEND OFFLINE'}
+              {backendStatus === 'online' ? 'SYSTEM READY' : 'BACKEND OFFLINE'}
             </span>
           </div>
 

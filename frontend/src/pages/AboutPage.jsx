@@ -414,7 +414,7 @@ const AboutPage = () => {
             <span className={`font-bold text-sm tracking-widest ${
               isDarkMode ? 'text-gray-200' : 'text-gray-700'
             }`}>
-              AI-POWERED INNOVATION
+              Mind in Motion
             </span>
           </div>
 
@@ -906,9 +906,9 @@ const AboutPage = () => {
           }}>
             Ready to Try Our{' '}
             <span className="bg-gradient-to-br from-yellow-400 to-orange-400 bg-clip-text text-transparent">
-              AI-Powered
+              website
             </span>{' '}
-            System?
+     
           </h2>
 
           <p className={`text-xl mb-12 leading-relaxed max-w-3xl mx-auto ${
@@ -917,8 +917,7 @@ const AboutPage = () => {
           style={{
             textShadow: isDarkMode ? 'none' : '0 2px 8px rgba(0,0,0,0.3)'
           }}>
-            Experience the power of advanced machine learning for instant and
-            accurate dog breed identification
+            Discover your dog’s breed instantly with the accuracy
           </p>
 
           <Link
@@ -932,7 +931,7 @@ const AboutPage = () => {
           <p className={`mt-8 text-base font-semibold ${
             isDarkMode ? 'text-gray-400' : 'text-white text-opacity-80'
           }`}>
-            ✨ 100% Free • No Sign-up Required • Instant Results
+            ✨ 100% Free • Instant Results
           </p>
         </div>
       </div>
