@@ -1,6 +1,5 @@
 export const breedsData = {
-
-"Afghan Hound": {
+  "afghan-hound": {
     "size": "Large",
     "weight_range": "50-60 lbs",
     "height_range": "24-27 inches",
@@ -95,9 +94,17 @@ export const breedsData = {
       "Borzoi"
     ],
     "common_names": [
-      "Afghan",
-      "Tazi",
-      "Balkh Hound"
+      "Anastasia",
+      "Adelaide",
+      "Genevieve",
+      "Theodore",
+      "Duchess",
+      "Noble",
+      "Imperial",
+      "Penelope",
+      "Sebastian",
+      "Victoria",
+      "Regal"
     ],
     "adoption_considerations": [
       "High grooming needs",
@@ -106,9 +113,9 @@ export const breedsData = {
       "Not suitable for first-time owners"
     ],
     "cost_range": "Purchase: $1,500-3,000; Monthly care: $150-300",
-    "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Afghan_dog_-_cropped.jpg/250px-Afghan_dog_-_cropped.jpg"
   },
-  "African Hunting Dog": {
+  "african-hunting-dog": {
     "size": "Large",
     "weight_range": "40-80 lbs",
     "height_range": "24-30 inches",
@@ -192,9 +199,19 @@ export const breedsData = {
       "No domestic equivalents"
     ],
     "common_names": [
-      "Painted Dog",
-      "Cape Hunting Dog",
-      "Painted Wolf"
+      "River",
+      "Penny",
+      "Summit",
+      "Thunder",
+      "Phoenix",
+      "Aurora",
+      "Breeze",
+      "Mountain",
+      "Sophie",
+      "Abby",
+      "Echo",
+      "Ocean",
+      "Dash"
     ],
     "adoption_considerations": [
       "Wild animal - not suitable as pet",
@@ -202,9 +219,9 @@ export const breedsData = {
       "Requires specialized wildlife care"
     ],
     "cost_range": "Not applicable - wild animal",
-    "img_url": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=400"
+    "img_url": "https://www.nationalgeographic.com/content/dam/expeditions/get-inspired/an-inside-look/leaders-of-the-pack-african-wild-dogs/wild-dog.jpg"
   },
-  "Airedale Terrier": {
+  "airedale-terrier": {
     "size": "Large",
     "weight_range": "45-65 lbs",
     "height_range": "22-24 inches",
@@ -292,8 +309,16 @@ export const breedsData = {
       "Irish Terrier"
     ],
     "common_names": [
-      "King of Terriers",
-      "Airedale"
+      "King",
+      "Bingley",
+      "Waterside",
+      "Rex",
+      "Duke",
+      "Laddie",
+      "Terry",
+      "Scout",
+      "Victoria",
+      "Lady"
     ],
     "adoption_considerations": [
       "High exercise needs",
@@ -302,9 +327,9 @@ export const breedsData = {
       "Regular grooming needed"
     ],
     "cost_range": "Purchase: $800-2,000; Monthly care: $100-200",
-    "img_url": "https://images.unsplash.com/photo-1551717743-49959800b1f6?w=400"
+    "img_url": "https://th.bing.com/th/id/OIP.KBqtGtO1Nxcd5ok7lOBmUwHaE8?w=259&h=180&c=7&r=0&o=7&cb=12&dpr=1.4&pid=1.7&rm=3"
   },
-  "American Staffordshire Terrier": {
+  "american-staffordshire-terrier": {
     "size": "Medium",
     "weight_range": "40-70 lbs",
     "height_range": "17-19 inches",
@@ -397,8 +422,19 @@ export const breedsData = {
       "American Pit Bull Terrier"
     ],
     "common_names": [
-      "AmStaff",
-      "American Staffy"
+      "Rosie",
+      "Giggles",
+      "Abby",
+      "Dash",
+      "River",
+      "Summit",
+      "Wiggles",
+      "Oscar",
+      "Cheerful",
+      "Winston",
+      "Chase",
+      "Merry",
+      "Frisky"
     ],
     "adoption_considerations": [
       "Breed-specific legislation in some areas",
@@ -407,9 +443,9 @@ export const breedsData = {
       "Early socialization crucial"
     ],
     "cost_range": "Purchase: $1,200-3,000; Monthly care: $80-150",
-    "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/AMERICAN_STAFFORDSHIRE_TERRIER%2C_Zican%E2%80%99s_Bz_Ez_Dragon_%2824208348891%29.2.jpg"
   },
-  "Appenzeller": {
+  "appenzeller": {
     "size": "Medium",
     "weight_range": "48-70 lbs",
     "height_range": "20-22 inches",
@@ -496,8 +532,18 @@ export const breedsData = {
       "Entlebucher Mountain Dog"
     ],
     "common_names": [
-      "Appenzeller Sennenhund",
-      "Appenzeller Mountain Dog"
+      "Ranger",
+      "Honor",
+      "Forest",
+      "Duke",
+      "Lucky",
+      "Constant",
+      "Murphy",
+      "Stella",
+      "Steady",
+      "Oscar",
+      "Phoenix",
+      "Lola"
     ],
     "adoption_considerations": [
       "Very high exercise needs",
@@ -506,9 +552,9 @@ export const breedsData = {
       "Strong herding instincts"
     ],
     "cost_range": "Purchase: $1,500-2,500; Monthly care: $120-200",
-    "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
+    "img_url": "https://uk.bellfor.info/image/catalog/Blog/Blog-Pictures/Appenzeller_Sennenhund_Hundefutter/AppenzellerSennenhund.jpg"
   },
-  "Australian Terrier": {
+  "australian-terrier": {
     "size": "Small",
     "weight_range": "15-20 lbs",
     "height_range": "10-11 inches",
@@ -596,8 +642,19 @@ export const breedsData = {
       "Norwich Terrier"
     ],
     "common_names": [
-      "Aussie Terrier",
-      "Australian Terrier"
+      "Bella",
+      "Joyful",
+      "Sunny",
+      "Sparky",
+      "Echo",
+      "Bounce",
+      "Ginger",
+      "Bear",
+      "Lucy",
+      "Star",
+      "Sky",
+      "Blaze",
+      "Giggles"
     ],
     "adoption_considerations": [
       "High prey drive",
@@ -606,9 +663,9 @@ export const breedsData = {
       "Apartment suitable"
     ],
     "cost_range": "Purchase: $800-1,500; Monthly care: $60-120",
-    "img_url": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?w=400"
+    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Australian-Terrier-standing-in-the-garden.jpg"
   },
-  "Bedlington Terrier": {
+  "bedlington-terrier": {
     "size": "Medium",
     "weight_range": "17-23 lbs",
     "height_range": "15-17.5 inches",
@@ -699,8 +756,19 @@ export const breedsData = {
       "Dandie Dinmont Terrier"
     ],
     "common_names": [
-      "Bedlington",
-      "Lamb Dog"
+      "Tucker",
+      "Jake",
+      "Merry",
+      "Sparky",
+      "Blaze",
+      "Sage",
+      "Thunder",
+      "Winston",
+      "Aurora",
+      "Peppy",
+      "Maggie",
+      "Happy",
+      "Cheerful"
     ],
     "adoption_considerations": [
       "High grooming needs",
@@ -709,9 +777,9 @@ export const breedsData = {
       "Hypoallergenic coat"
     ],
     "cost_range": "Purchase: $1,000-2,000; Monthly care: $100-180",
-    "img_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400"
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Boutchie_apres_championnat_004.JPG/1200px-Boutchie_apres_championnat_004.JPG"
   },
-  "Bernese Mountain Dog": {
+  "bernese-mountain-dog": {
     "size": "Large",
     "weight_range": "70-115 lbs",
     "height_range": "23-27.5 inches",
@@ -798,8 +866,18 @@ export const breedsData = {
       "Newfoundland"
     ],
     "common_names": [
-      "Berner",
-      "Bernese"
+      "Constant",
+      "Hunter",
+      "Tucker",
+      "Sky",
+      "Rocky",
+      "Faithful",
+      "Lucky",
+      "Oscar",
+      "Star",
+      "True",
+      "Zoe",
+      "Lucy"
     ],
     "adoption_considerations": [
       "Short lifespan",
@@ -808,9 +886,9 @@ export const breedsData = {
       "Prone to health issues"
     ],
     "cost_range": "Purchase: $1,500-3,000; Monthly care: $150-300",
-    "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Bernese_Mountain_Dog_-_9_months.JPG/250px-Bernese_Mountain_Dog_-_9_months.JPG"
   },
-  "Blenheim Spaniel": {
+  "blenheim-spaniel": {
     "size": "Small",
     "weight_range": "12-18 lbs",
     "height_range": "12-13 inches",
@@ -899,8 +977,20 @@ export const breedsData = {
       "Cocker Spaniel"
     ],
     "common_names": [
-      "Cavalier King Charles Spaniel",
-      "Cavalier"
+      "Ranger",
+      "River",
+      "Valley",
+      "Aurora",
+      "Hunter",
+      "Sadie",
+      "Lola",
+      "Willow",
+      "Summer",
+      "Phoenix",
+      "Chase",
+      "Sophie",
+      "Forest",
+      "Quest"
     ],
     "adoption_considerations": [
       "Heart health issues common",
@@ -909,9 +999,9 @@ export const breedsData = {
       "Gentle nature"
     ],
     "cost_range": "Purchase: $1,000-2,500; Monthly care: $80-150",
-    "img_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400"
+    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Cavalier-King-Charles-Spaniel-standing-in-the-grass.jpg"
   },
-  "Border Collie": {
+  "border-collie": {
     "size": "Medium",
     "weight_range": "30-55 lbs",
     "height_range": "18-22 inches",
@@ -1004,8 +1094,19 @@ export const breedsData = {
       "Shetland Sheepdog"
     ],
     "common_names": [
-      "Border Collie",
-      "Collie"
+      "Scholar",
+      "Newton",
+      "Ridge",
+      "True",
+      "Loyal",
+      "Summit",
+      "Faithful",
+      "Bright",
+      "Einstein",
+      "Heart",
+      "Hunter",
+      "Thunder",
+      "Watson"
     ],
     "adoption_considerations": [
       "Extremely high exercise needs",
@@ -1014,9 +1115,9 @@ export const breedsData = {
       "Not suitable for apartments"
     ],
     "cost_range": "Purchase: $800-2,000; Monthly care: $100-180",
-    "img_url": "https://images.unsplash.com/photo-1551717743-49959800b1f6?w=400"
+    "img_url": "https://images.ctfassets.net/sfnkq8lmu5d7/3e9YUdwYZ6xFEG07HtPNeu/2173e34d441fa6583d86345975c99a32/2025-08-06_How_smart_are_Boarder_Collies_really_-_Hero.jpg?w=1000&h=750&fl=progressive&q=70&fm=jpg"
   },
-  "Border Terrier": {
+  "border-terrier": {
     "size": "Small",
     "weight_range": "11.5-15.5 lbs",
     "height_range": "12-15 inches",
@@ -1104,7 +1205,19 @@ export const breedsData = {
       "Dandie Dinmont Terrier"
     ],
     "common_names": [
-      "Border Terrier"
+      "Cheerful",
+      "Penny",
+      "Peppy",
+      "Happy",
+      "Jolly",
+      "Journey",
+      "Bounce",
+      "Murphy",
+      "Bella",
+      "Arrow",
+      "Ranger",
+      "Quest",
+      "Maggie"
     ],
     "adoption_considerations": [
       "High prey drive",
@@ -1113,9 +1226,9 @@ export const breedsData = {
       "Moderate grooming needs"
     ],
     "cost_range": "Purchase: $800-1,500; Monthly care: $60-120",
-    "img_url": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?w=400"
+    "img_url": "https://www.thesprucepets.com/thmb/XcxPAjlxNOoA5OSfkS0asVvivzA=/3832x0/filters:no_upscale():strip_icc()/BorderTerrierGettyImages-531551140CaptureLight-25a9cfa1a0b94bb68ea1848f84fe181c.jpg"
   },
-  "Boston Bull": {
+  "boston-bull": {
     "size": "Small",
     "weight_range": "10-25 lbs",
     "height_range": "9-15 inches",
@@ -1203,8 +1316,18 @@ export const breedsData = {
       "English Bulldog"
     ],
     "common_names": [
-      "Boston Terrier",
-      "American Gentleman"
+      "Nova",
+      "Steady",
+      "Stella",
+      "Trust",
+      "Leo",
+      "Coco",
+      "Max",
+      "Daisy",
+      "Storm",
+      "Sage",
+      "Faith",
+      "Bear"
     ],
     "adoption_considerations": [
       "Breathing issues in heat",
@@ -1213,9 +1336,9 @@ export const breedsData = {
       "Low grooming needs"
     ],
     "cost_range": "Purchase: $1,000-2,500; Monthly care: $70-130",
-    "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Boston_Terrier_male.jpg/250px-Boston_Terrier_male.jpg"
   },
-  "Bouvier des Flandres": {
+  "bouvier-des-flandres": {
     "size": "Large",
     "weight_range": "70-110 lbs",
     "height_range": "23.5-27.5 inches",
@@ -1307,8 +1430,18 @@ export const breedsData = {
       "Old English Sheepdog"
     ],
     "common_names": [
-      "Bouvier",
-      "Flanders Cattle Dog"
+      "Jack",
+      "Echo",
+      "Luna",
+      "True",
+      "Stella",
+      "Quest",
+      "Faithful",
+      "Dash",
+      "Bear",
+      "Noble",
+      "Chloe",
+      "Ruby"
     ],
     "adoption_considerations": [
       "High grooming needs",
@@ -1317,9 +1450,9 @@ export const breedsData = {
       "Large size requirements"
     ],
     "cost_range": "Purchase: $1,500-2,500; Monthly care: $150-250",
-    "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
+    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Bouvier-des-Flandres-standing-atop-a-hill.jpg"
   },
-  "Brabancon Griffon": {
+  "brabancon-griffon": {
     "size": "Small",
     "weight_range": "8-10 lbs",
     "height_range": "9-11 inches",
@@ -1409,9 +1542,18 @@ export const breedsData = {
       "Pug"
     ],
     "common_names": [
-      "Petit Brabancon",
-      "Small Brabant Griffon",
-      "Smooth Brussels Griffon"
+      "Jack",
+      "Cooper",
+      "Loyal",
+      "Canyon",
+      "Tucker",
+      "Bond",
+      "True",
+      "Lily",
+      "River",
+      "Aurora",
+      "Bear",
+      "Daisy"
     ],
     "adoption_considerations": [
       "Sensitive nature",
@@ -1420,9 +1562,9 @@ export const breedsData = {
       "Bonds closely to one person"
     ],
     "cost_range": "Purchase: $800-1,500; Monthly care: $60-120",
-    "img_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400"
+    "img_url": "https://d128mjo55rz53e.cloudfront.net/media/images/brabancon-1.max-500x500.format-jpeg.jpg"
   },
-  "Brittany Spaniel": {
+  "brittany-spaniel": {
     "size": "Medium",
     "weight_range": "30-40 lbs",
     "height_range": "17-20 inches",
@@ -1514,9 +1656,19 @@ export const breedsData = {
       "Pointer"
     ],
     "common_names": [
-      "Brittany",
-      "Breton Spaniel",
-      "Epagneul Breton"
+      "Ranger",
+      "Zoe",
+      "Ocean",
+      "Echo",
+      "Quest",
+      "Thunder",
+      "Valley",
+      "Ginger",
+      "Willow",
+      "Sadie",
+      "Sage",
+      "River",
+      "Snow"
     ],
     "adoption_considerations": [
       "Very high exercise needs",
@@ -1525,9 +1677,9 @@ export const breedsData = {
       "Not suitable for apartments"
     ],
     "cost_range": "Purchase: $800-1,500; Monthly care: $100-180",
-    "img_url": "https://images.unsplash.com/photo-1551717743-49959800b1f6?w=400"
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/American_Brittany_standing.jpg/1200px-American_Brittany_standing.jpg"
   },
-  "Cardigan": {
+  "cardigan": {
     "size": "Medium",
     "weight_range": "25-38 lbs",
     "height_range": "10.5-12.5 inches",
@@ -1619,10 +1771,18 @@ export const breedsData = {
       "Australian Cattle Dog"
     ],
     "common_names": [
-      "Cardigan Welsh Corgi",
-      "Cardigan Corgi",
-      "Cardi",
-      "CWC"
+      "Leo",
+      "Jake",
+      "Oliver",
+      "Abby",
+      "Noble",
+      "Loyal",
+      "Quest",
+      "Ginger",
+      "Duke",
+      "Canyon",
+      "Dash",
+      "Honor"
     ],
     "adoption_considerations": [
       "Prone to weight gain",
@@ -1631,9 +1791,9 @@ export const breedsData = {
       "Heavy shedding"
     ],
     "cost_range": "Purchase: $1,000-2,000; Monthly care: $80-150",
-    "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
+    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Cardigan-Welsh-Corgi-on-White-111.jpg"
   },
-  "Chesapeake Bay Retriever": {
+  "chesapeake-bay-retriever": {
     "size": "Large",
     "weight_range": "55-80 lbs",
     "height_range": "21-26 inches",
@@ -1726,9 +1886,20 @@ export const breedsData = {
       "Curly-Coated Retriever"
     ],
     "common_names": [
-      "Chessie",
-      "CBR",
-      "Chesapeake"
+      "Sky",
+      "Snow",
+      "Thunder",
+      "Abby",
+      "Winston",
+      "Autumn",
+      "Meadow",
+      "Tucker",
+      "Storm",
+      "Aurora",
+      "Quest",
+      "Blaze",
+      "Ridge",
+      "Journey"
     ],
     "adoption_considerations": [
       "High exercise needs",
@@ -1737,9 +1908,9 @@ export const breedsData = {
       "Heavy shedding"
     ],
     "cost_range": "Purchase: $1,200-2,500; Monthly care: $120-200",
-    "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
+    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Chesapeake-Bay-Retriever-MP.jpg"
   },
-  "Chihuahua": {
+  "chihuahua": {
     "size": "Small",
     "weight_range": "2-6 lbs",
     "height_range": "5-8 inches",
@@ -1835,8 +2006,20 @@ export const breedsData = {
       "Toy Fox Terrier"
     ],
     "common_names": [
-      "Chi",
-      "Chihuahueño"
+      "Snuggles",
+      "Pip",
+      "Tiny",
+      "Button",
+      "Grace",
+      "Cuddles",
+      "Beatrice",
+      "Cookie",
+      "Pixie",
+      "Binky",
+      "Sophia",
+      "Isabella",
+      "Peaches",
+      "Peanut"
     ],
     "adoption_considerations": [
       "Fragile due to small size",
@@ -1845,9 +2028,9 @@ export const breedsData = {
       "Strong personality"
     ],
     "cost_range": "Purchase: $500-1,500; Monthly care: $50-100",
-    "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Chihuahua1_bvdb.jpg"
   },
-  "Dandie Dinmont": {
+  "dandie-dinmont": {
     "size": "Small",
     "weight_range": "18-24 lbs",
     "height_range": "8-11 inches",
@@ -1934,8 +2117,18 @@ export const breedsData = {
       "Sealyham Terrier"
     ],
     "common_names": [
-      "Dandie Dinmont Terrier",
-      "Dandie"
+      "Bear",
+      "Cooper",
+      "Dash",
+      "Aurora",
+      "Max",
+      "Bond",
+      "True",
+      "Ridge",
+      "Bella",
+      "Faith",
+      "Ginger",
+      "Luna"
     ],
     "adoption_considerations": [
       "Back problems due to long body",
@@ -1944,9 +2137,9 @@ export const breedsData = {
       "Good apartment dog"
     ],
     "cost_range": "Purchase: $1,200-2,000; Monthly care: $80-140",
-    "img_url": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?w=400"
+    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Dandie-Dinmont-Terrier-slide-6.jpg"
   },
-  "Doberman": {
+  "doberman": {
     "size": "Large",
     "weight_range": "60-100 lbs",
     "height_range": "24-28 inches",
@@ -2038,9 +2231,19 @@ export const breedsData = {
       "Giant Schnauzer"
     ],
     "common_names": [
-      "Doberman Pinscher",
-      "Dobie",
-      "Dobermann"
+      "Iron",
+      "Atlas",
+      "Goliath",
+      "Bright",
+      "Trust",
+      "True",
+      "Devoted",
+      "Champion",
+      "Sharp",
+      "Tank",
+      "Heart",
+      "Smart",
+      "Major"
     ],
     "adoption_considerations": [
       "Requires experienced handler",
@@ -2049,9 +2252,9 @@ export const breedsData = {
       "Potential breed restrictions"
     ],
     "cost_range": "Purchase: $1,500-3,000; Monthly care: $150-250",
-    "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
+    "img_url": "https://tse1.mm.bing.net/th/id/OIP.Gze2l2FlfyQu4a9Yz8URIAHaFj?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
-  "English Foxhound": {
+  "english-foxhound": {
     "size": "Large",
     "weight_range": "60-75 lbs",
     "height_range": "21-25 inches",
@@ -2142,8 +2345,20 @@ export const breedsData = {
       "Beagle"
     ],
     "common_names": [
-      "English Foxhound",
-      "Foxhound"
+      "Thunder",
+      "Chloe",
+      "Hunter",
+      "Arrow",
+      "Lola",
+      "Summit",
+      "River",
+      "Chase",
+      "Snow",
+      "Sky",
+      "Scout",
+      "Forest",
+      "Buddy",
+      "Journey"
     ],
     "adoption_considerations": [
       "Extremely high exercise needs",
@@ -2152,9 +2367,9 @@ export const breedsData = {
       "Needs pack companionship"
     ],
     "cost_range": "Purchase: $800-1,500; Monthly care: $100-180",
-    "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
+    "img_url": "https://www.thesprucepets.com/thmb/8g2kjd0C5gyLC1jLMj0HIa0tYyk=/3008x0/filters:no_upscale():strip_icc()/GettyImages-93607391-ff031ae6911a4e9c94c1528371a1f3b1.jpg"
   },
-  "English Setter": {
+  "english-setter": {
     "size": "Large",
     "weight_range": "45-80 lbs",
     "height_range": "23-27 inches",
@@ -2247,8 +2462,17 @@ export const breedsData = {
       "Brittany"
     ],
     "common_names": [
-      "English Setter",
-      "Setter"
+      "Prince",
+      "Victoria",
+      "Maximilian",
+      "King",
+      "Grace",
+      "Evangeline",
+      "Duke",
+      "Noble",
+      "Regal",
+      "Princess",
+      "Genevieve"
     ],
     "adoption_considerations": [
       "High grooming needs",
@@ -2257,9 +2481,9 @@ export const breedsData = {
       "Gentle nature"
     ],
     "cost_range": "Purchase: $800-2,000; Monthly care: $120-200",
-    "img_url": "https://images.unsplash.com/photo-1551717743-49959800b1f6?w=400"
+    "img_url": "https://tse4.mm.bing.net/th/id/OIP.m3ZLmMszOD2Xs3nDBzA_tQAAAA?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
-  "English Springer": {
+  "english-springer": {
     "size": "Medium",
     "weight_range": "40-50 lbs",
     "height_range": "19-20 inches",
@@ -2351,10 +2575,18 @@ export const breedsData = {
       "Field Spaniel"
     ],
     "common_names": [
-      "English Springer Spaniel",
-      "English Springer",
-      "Springer Spaniel",
-      "Springer"
+      "Milo",
+      "Jake",
+      "Lucky",
+      "Molly",
+      "Ranger",
+      "Faith",
+      "True",
+      "Sky",
+      "Penny",
+      "Faithful",
+      "Coco",
+      "Scout"
     ],
     "adoption_considerations": [
       "High exercise needs",
@@ -2363,9 +2595,9 @@ export const breedsData = {
       "Excellent family dog"
     ],
     "cost_range": "Purchase: $800-1,800; Monthly care: $100-180",
-    "img_url": "https://images.unsplash.com/photo-1551717743-49959800b1f6?w=400"
+    "img_url": "https://tse2.mm.bing.net/th/id/OIP.davnhC3JrTWhPqz9oTQIOAHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
-  "EntleBucher": {
+  "entlebucher": {
     "size": "Medium",
     "weight_range": "40-65 lbs",
     "height_range": "16-21 inches",
@@ -2454,9 +2686,18 @@ export const breedsData = {
       "Greater Swiss Mountain Dog"
     ],
     "common_names": [
-      "Entlebucher Mountain Dog",
-      "Entlebucher Sennenhund",
-      "Entle"
+      "Canyon",
+      "Lola",
+      "Max",
+      "Ridge",
+      "Sage",
+      "Abby",
+      "Milo",
+      "Charlie",
+      "Faith",
+      "Constant",
+      "Trust",
+      "Daisy"
     ],
     "adoption_considerations": [
       "Extremely high exercise needs",
@@ -2465,9 +2706,9 @@ export const breedsData = {
       "Not apartment suitable"
     ],
     "cost_range": "Purchase: $1,200-2,500; Monthly care: $120-200",
-    "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
+    "img_url": "https://tse1.explicit.bing.net/th/id/OIP.rAWm4DVdObuKmUjorphLSQHaEo?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
-  "Eskimo Dog": {
+  "eskimo-dog": {
     "size": "Large",
     "weight_range": "60-95 lbs",
     "height_range": "20-28 inches",
@@ -2559,9 +2800,18 @@ export const breedsData = {
       "Samoyed"
     ],
     "common_names": [
-      "Canadian Eskimo Dog",
-      "Inuit Dog",
-      "Qimmiq"
+      "Winston",
+      "Loyal",
+      "Zoe",
+      "Duke",
+      "Quest",
+      "Summit",
+      "Jack",
+      "Abby",
+      "Faithful",
+      "Echo",
+      "True",
+      "Penny"
     ],
     "adoption_considerations": [
       "Requires cold climate",
@@ -2570,9 +2820,9 @@ export const breedsData = {
       "Independent nature"
     ],
     "cost_range": "Purchase: $1,000-3,000; Monthly care: $120-200",
-    "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
+    "img_url": "https://tse4.mm.bing.net/th/id/OIP.O8zS-qcWE-rjnuhUtA8ZpwHaFj?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
-  "Norwich Terrier": {
+  "norwich-terrier": {
     "size": "Small",
     "weight_range": "10-14 lbs",
     "height_range": "9-10 inches",
@@ -2661,7 +2911,19 @@ export const breedsData = {
       "Border Terrier"
     ],
     "common_names": [
-      "Norwich Terrier"
+      "Cooper",
+      "Happy",
+      "Sage",
+      "Giggles",
+      "Wiggles",
+      "Frisky",
+      "Oscar",
+      "Max",
+      "Sky",
+      "Blaze",
+      "Sparky",
+      "Ruby",
+      "Arrow"
     ],
     "adoption_considerations": [
       "High prey drive",
@@ -2672,7 +2934,7 @@ export const breedsData = {
     "cost_range": "Purchase: $800-2,000; Monthly care: $70-130",
     "img_url": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?w=400"
   },
-  "Old English Sheepdog": {
+  "old-english-sheepdog": {
     "size": "Large",
     "weight_range": "60-100 lbs",
     "height_range": "21-24 inches",
@@ -2764,9 +3026,18 @@ export const breedsData = {
       "Tibetan Terrier"
     ],
     "common_names": [
-      "OES",
-      "English Sheepdog",
-      "Bobtail"
+      "Toby",
+      "Winston",
+      "Sky",
+      "Rocky",
+      "Hunter",
+      "Chloe",
+      "Sophie",
+      "Constant",
+      "Jake",
+      "Trust",
+      "True",
+      "Willow"
     ],
     "adoption_considerations": [
       "Very high grooming needs",
@@ -2777,7 +3048,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,200-2,500; Monthly care: $200-400",
     "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
   },
-  "Pekinese": {
+  "pekinese": {
     "size": "Small",
     "weight_range": "7-14 lbs",
     "height_range": "6-9 inches",
@@ -2872,9 +3143,18 @@ export const breedsData = {
       "Japanese Chin"
     ],
     "common_names": [
-      "Peke",
-      "Lion Dog",
-      "Pekingese"
+      "Bond",
+      "Willow",
+      "Noble",
+      "Sophie",
+      "Molly",
+      "Journey",
+      "Duke",
+      "Oliver",
+      "Faithful",
+      "Chloe",
+      "Dash",
+      "Leo"
     ],
     "adoption_considerations": [
       "High grooming needs",
@@ -2885,7 +3165,7 @@ export const breedsData = {
     "cost_range": "Purchase: $750-2,500; Monthly care: $80-150",
     "img_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400"
   },
-  "Pembroke": {
+  "pembroke": {
     "size": "Medium",
     "weight_range": "22-30 lbs",
     "height_range": "10-12 inches",
@@ -2977,10 +3257,18 @@ export const breedsData = {
       "Lancashire Heeler"
     ],
     "common_names": [
-      "Pembroke Welsh Corgi",
-      "Pem",
-      "PWC",
-      "Corgi"
+      "Jack",
+      "Chloe",
+      "Leo",
+      "Buddy",
+      "Thunder",
+      "Trust",
+      "True",
+      "Heart",
+      "Ruby",
+      "Ginger",
+      "Journey",
+      "Chase"
     ],
     "adoption_considerations": [
       "High shedding",
@@ -2991,7 +3279,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,200-3,000; Monthly care: $80-150",
     "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
   },
-  "Pomeranian": {
+  "pomeranian": {
     "size": "Small",
     "weight_range": "3-7 lbs",
     "height_range": "6-7 inches",
@@ -3087,9 +3375,20 @@ export const breedsData = {
       "American Eskimo Dog"
     ],
     "common_names": [
-      "Pom",
-      "Pom Pom",
-      "Zwergspitz"
+      "Cordelia",
+      "Cuddles",
+      "Cupcake",
+      "Isabella",
+      "Snuggles",
+      "Peanut",
+      "Arabella",
+      "Angel",
+      "Maximilian",
+      "Sweetie",
+      "Binky",
+      "Bubbles",
+      "Tiny",
+      "Honey"
     ],
     "adoption_considerations": [
       "Very small and fragile",
@@ -3100,7 +3399,7 @@ export const breedsData = {
     "cost_range": "Purchase: $500-4,000; Monthly care: $50-120",
     "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
   },
-  "Rhodesian Ridgeback": {
+  "rhodesian-ridgeback": {
     "size": "Large",
     "weight_range": "70-85 lbs",
     "height_range": "24-27 inches",
@@ -3191,9 +3490,18 @@ export const breedsData = {
       "Thai Ridgeback"
     ],
     "common_names": [
-      "Ridgeback",
-      "RR",
-      "Lion Dog"
+      "Loyal",
+      "Penny",
+      "True",
+      "Tucker",
+      "Thunder",
+      "Jake",
+      "Chase",
+      "Echo",
+      "Bella",
+      "Sadie",
+      "Buddy",
+      "Constant"
     ],
     "adoption_considerations": [
       "Requires experienced owner",
@@ -3204,7 +3512,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,200-3,000; Monthly care: $120-200",
     "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
   },
-  "Rottweiler": {
+  "rottweiler": {
     "size": "Large",
     "weight_range": "80-135 lbs",
     "height_range": "22-27 inches",
@@ -3294,9 +3602,19 @@ export const breedsData = {
       "Mastiff"
     ],
     "common_names": [
-      "Rottie",
-      "Rott",
-      "Rottweiler"
+      "Maximus",
+      "Caesar",
+      "Sharp",
+      "Thor",
+      "Faith",
+      "Ace",
+      "Warrior",
+      "Tesla",
+      "Honor",
+      "Alert",
+      "Heart",
+      "Titan",
+      "Noble"
     ],
     "adoption_considerations": [
       "Requires experienced owner",
@@ -3307,7 +3625,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,200-3,000; Monthly care: $150-300",
     "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
   },
-  "Saint Bernard": {
+  "saint-bernard": {
     "size": "Giant",
     "weight_range": "120-180 lbs",
     "height_range": "26-30 inches",
@@ -3398,9 +3716,18 @@ export const breedsData = {
       "Great Pyrenees"
     ],
     "common_names": [
-      "Saint Bernard",
-      "St. Bernard",
-      "Saint"
+      "Iron",
+      "Victor",
+      "Crown",
+      "Major",
+      "King",
+      "Regal",
+      "Diesel",
+      "Majesty",
+      "Titan",
+      "Atlas",
+      "Tank",
+      "Commander"
     ],
     "adoption_considerations": [
       "Very large size",
@@ -3411,7 +3738,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,500-3,000; Monthly care: $200-400",
     "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
   },
-  "Saluki": {
+  "saluki": {
     "size": "Large",
     "weight_range": "40-65 lbs",
     "height_range": "23-28 inches",
@@ -3506,9 +3833,17 @@ export const breedsData = {
       "Whippet"
     ],
     "common_names": [
-      "Arabian Hound",
-      "Persian Greyhound",
-      "Royal Dog of Egypt"
+      "Prince",
+      "Crown",
+      "Isabella",
+      "Penelope",
+      "Grace",
+      "Maximilian",
+      "Princess",
+      "Victoria",
+      "Noble",
+      "Evangeline",
+      "Monarch"
     ],
     "adoption_considerations": [
       "Very high prey drive",
@@ -3519,7 +3854,7 @@ export const breedsData = {
     "cost_range": "Purchase: $2,500-5,000; Monthly care: $100-180",
     "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
   },
-  "Samoyed": {
+  "samoyed": {
     "size": "Large",
     "weight_range": "35-65 lbs",
     "height_range": "19-23.5 inches",
@@ -3611,9 +3946,18 @@ export const breedsData = {
       "Pomeranian"
     ],
     "common_names": [
-      "Sammy",
-      "Smiley",
-      "Bjelkier"
+      "Sky",
+      "Cooper",
+      "Penny",
+      "Scout",
+      "Lola",
+      "Winston",
+      "Trust",
+      "Sage",
+      "Milo",
+      "Constant",
+      "Murphy",
+      "Heart"
     ],
     "adoption_considerations": [
       "Extremely high grooming needs",
@@ -3624,7 +3968,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,200-3,000; Monthly care: $150-300",
     "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
   },
-  "Scotch Terrier": {
+  "scotch-terrier": {
     "size": "Small",
     "weight_range": "18-22 lbs",
     "height_range": "10 inches",
@@ -3713,9 +4057,19 @@ export const breedsData = {
       "Sealyham Terrier"
     ],
     "common_names": [
-      "Scottish Terrier",
-      "Scottie",
-      "Aberdeenie"
+      "Merry",
+      "Sophie",
+      "Joyful",
+      "Rosie",
+      "Oliver",
+      "Sky",
+      "Giggles",
+      "Bounce",
+      "Echo",
+      "Aurora",
+      "Sunny",
+      "Arrow",
+      "Leo"
     ],
     "adoption_considerations": [
       "Independent nature",
@@ -3726,7 +4080,7 @@ export const breedsData = {
     "cost_range": "Purchase: $800-2,000; Monthly care: $80-150",
     "img_url": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?w=400"
   },
-  "Scottish Deerhound": {
+  "scottish-deerhound": {
     "size": "Giant",
     "weight_range": "75-110 lbs",
     "height_range": "28-32 inches",
@@ -3819,9 +4173,19 @@ export const breedsData = {
       "Saluki"
     ],
     "common_names": [
-      "Deerhound",
-      "Scottish Deerhound",
-      "Royal Dog of Scotland"
+      "Ranger",
+      "Leo",
+      "Thunder",
+      "Forest",
+      "Misty",
+      "Summer",
+      "Star",
+      "Arrow",
+      "Snow",
+      "Murphy",
+      "Ruby",
+      "Phoenix",
+      "Spring"
     ],
     "adoption_considerations": [
       "Very large size",
@@ -3832,7 +4196,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,500-2,500; Monthly care: $150-250",
     "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
   },
-  "Sealyham Terrier": {
+  "sealyham-terrier": {
     "size": "Small",
     "weight_range": "20-24 lbs",
     "height_range": "10.5 inches",
@@ -3922,8 +4286,19 @@ export const breedsData = {
       "West Highland White Terrier"
     ],
     "common_names": [
-      "Sealyham Terrier",
-      "Sealy"
+      "Cooper",
+      "Peppy",
+      "Joyful",
+      "Charlie",
+      "Wiggles",
+      "Journey",
+      "Oscar",
+      "Nova",
+      "Happy",
+      "Summit",
+      "Forest",
+      "Zippy",
+      "Rocky"
     ],
     "adoption_considerations": [
       "High grooming needs",
@@ -3934,7 +4309,7 @@ export const breedsData = {
     "cost_range": "Purchase: $800-1,800; Monthly care: $80-150",
     "img_url": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?w=400"
   },
-  "Shetland Sheepdog": {
+  "shetland-sheepdog": {
     "size": "Small",
     "weight_range": "15-25 lbs",
     "height_range": "13-16 inches",
@@ -4028,9 +4403,18 @@ export const breedsData = {
       "Australian Shepherd"
     ],
     "common_names": [
-      "Sheltie",
-      "Shetland Sheepdog",
-      "Miniature Collie"
+      "Leo",
+      "Rosie",
+      "Trust",
+      "Abby",
+      "Bella",
+      "Honor",
+      "Summit",
+      "Sadie",
+      "True",
+      "Forest",
+      "River",
+      "Coco"
     ],
     "adoption_considerations": [
       "High grooming needs",
@@ -4041,7 +4425,7 @@ export const breedsData = {
     "cost_range": "Purchase: $800-2,000; Monthly care: $100-180",
     "img_url": "https://images.unsplash.com/photo-1551717743-49959800b1f6?w=400"
   },
-  "Shih Tzu": {
+  "shih-tzu": {
     "size": "Small",
     "weight_range": "9-16 lbs",
     "height_range": "9-10.5 inches",
@@ -4137,9 +4521,18 @@ export const breedsData = {
       "Havanese"
     ],
     "common_names": [
-      "Shih Tzu",
-      "Lion Dog",
-      "Chrysanthemum Dog"
+      "Honor",
+      "Steady",
+      "Maggie",
+      "Tucker",
+      "Sophie",
+      "Lucy",
+      "Sage",
+      "Bella",
+      "Rocky",
+      "Star",
+      "Noble",
+      "Ranger"
     ],
     "adoption_considerations": [
       "Very high grooming needs",
@@ -4150,7 +4543,7 @@ export const breedsData = {
     "cost_range": "Purchase: $500-1,800; Monthly care: $100-200",
     "img_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400"
   },
-  "Siberian Husky": {
+  "siberian-husky": {
     "size": "Medium",
     "weight_range": "35-60 lbs",
     "height_range": "20-23.5 inches",
@@ -4244,9 +4637,19 @@ export const breedsData = {
       "American Eskimo Dog"
     ],
     "common_names": [
-      "Husky",
-      "Sibe",
-      "Siberian"
+      "Loyal",
+      "Aristotle",
+      "Rex",
+      "Steady",
+      "Maximus",
+      "Faith",
+      "Smart",
+      "Zeus",
+      "Faithful",
+      "Chief",
+      "Brutus",
+      "Victor",
+      "Newton"
     ],
     "adoption_considerations": [
       "Extreme exercise needs",
@@ -4257,7 +4660,7 @@ export const breedsData = {
     "cost_range": "Purchase: $600-2,000; Monthly care: $100-180",
     "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
   },
-  "Staffordshire Bullterrier": {
+  "staffordshire-bullterrier": {
     "size": "Medium",
     "weight_range": "24-38 lbs",
     "height_range": "14-16 inches",
@@ -4352,10 +4755,19 @@ export const breedsData = {
       "American Pit Bull Terrier"
     ],
     "common_names": [
-      "Stafford",
-      "Staffy",
-      "Staff",
-      "Staffordshire Bull Terrier"
+      "Rosie",
+      "Sky",
+      "Dash",
+      "Peppy",
+      "Sunny",
+      "Giggles",
+      "Charlie",
+      "Sparky",
+      "Joyful",
+      "Sophie",
+      "River",
+      "Maggie",
+      "Sage"
     ],
     "adoption_considerations": [
       "Breed restrictions in some areas",
@@ -4366,7 +4778,7 @@ export const breedsData = {
     "cost_range": "Purchase: $800-2,000; Monthly care: $80-150",
     "img_url": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400"
   },
-  "Sussex Spaniel": {
+  "sussex-spaniel": {
     "size": "Medium",
     "weight_range": "35-45 lbs",
     "height_range": "13-15 inches",
@@ -4455,8 +4867,20 @@ export const breedsData = {
       "Clumber Spaniel"
     ],
     "common_names": [
-      "Sussex Spaniel",
-      "Sussex"
+      "Luna",
+      "Canyon",
+      "Leo",
+      "Summer",
+      "Storm",
+      "Star",
+      "Ranger",
+      "Thunder",
+      "Mountain",
+      "River",
+      "Sadie",
+      "Nova",
+      "Misty",
+      "Arrow"
     ],
     "adoption_considerations": [
       "Weight management crucial",
@@ -4467,7 +4891,7 @@ export const breedsData = {
     "cost_range": "Purchase: $800-2,500; Monthly care: $100-180",
     "img_url": "https://images.unsplash.com/photo-1551717743-49959800b1f6?w=400"
   },
-  "Tibetan Mastiff": {
+  "tibetan-mastiff": {
     "size": "Giant",
     "weight_range": "70-150 lbs",
     "height_range": "24-29 inches",
@@ -4560,9 +4984,18 @@ export const breedsData = {
       "Anatolian Shepherd"
     ],
     "common_names": [
-      "Tibetan Mastiff",
-      "Do-Khyi",
-      "Tsang-khyi"
+      "Ace",
+      "Noble",
+      "Goliath",
+      "Titan",
+      "Atlas",
+      "Brutus",
+      "Chief",
+      "Iron",
+      "Hercules",
+      "King",
+      "Crown",
+      "Monarch"
     ],
     "adoption_considerations": [
       "Requires very experienced owner",
@@ -4573,7 +5006,7 @@ export const breedsData = {
     "cost_range": "Purchase: $2,000-10,000+; Monthly care: $200-400",
     "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
   },
-  "Tibetan Terrier": {
+  "tibetan-terrier": {
     "size": "Medium",
     "weight_range": "18-30 lbs",
     "height_range": "14-17 inches",
@@ -4666,9 +5099,19 @@ export const breedsData = {
       "Bearded Collie"
     ],
     "common_names": [
-      "Tibetan Terrier",
-      "TT",
-      "Holy Dog of Tibet"
+      "Misty",
+      "Sunny",
+      "Summit",
+      "Chloe",
+      "Merry",
+      "Happy",
+      "Tucker",
+      "Sadie",
+      "Buddy",
+      "Wiggles",
+      "Ridge",
+      "Hunter",
+      "Bounce"
     ],
     "adoption_considerations": [
       "Very high grooming needs",
@@ -4679,7 +5122,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,200-2,500; Monthly care: $100-200",
     "img_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400"
   },
-  "Walker Hound": {
+  "walker-hound": {
     "size": "Large",
     "weight_range": "45-80 lbs",
     "height_range": "20-27 inches",
@@ -4768,9 +5211,20 @@ export const breedsData = {
       "Black and Tan Coonhound"
     ],
     "common_names": [
-      "Treeing Walker Coonhound",
-      "Walker Coonhound",
-      "TWC"
+      "Spring",
+      "River",
+      "Cooper",
+      "Coco",
+      "Meadow",
+      "Thunder",
+      "Sophie",
+      "Dash",
+      "Arrow",
+      "Willow",
+      "Blaze",
+      "Hunter",
+      "Lightning",
+      "Scout"
     ],
     "adoption_considerations": [
       "Very high exercise needs",
@@ -4781,7 +5235,7 @@ export const breedsData = {
     "cost_range": "Purchase: $400-800; Monthly care: $80-150",
     "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
   },
-  "Weimaraner": {
+  "weimaraner": {
     "size": "Large",
     "weight_range": "55-90 lbs",
     "height_range": "23-27 inches",
@@ -4871,9 +5325,18 @@ export const breedsData = {
       "Rhodesian Ridgeback"
     ],
     "common_names": [
-      "Weim",
-      "Gray Ghost",
-      "Silver Ghost"
+      "Faithful",
+      "Constant",
+      "Cooper",
+      "Lily",
+      "True",
+      "Charlie",
+      "Storm",
+      "Thunder",
+      "Bella",
+      "Oliver",
+      "Oscar",
+      "Summit"
     ],
     "adoption_considerations": [
       "Extremely high exercise needs",
@@ -4884,7 +5347,7 @@ export const breedsData = {
     "cost_range": "Purchase: $700-2,000; Monthly care: $120-200",
     "img_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
   },
-  "Welsh Springer Spaniel": {
+  "welsh-springer-spaniel": {
     "size": "Medium",
     "weight_range": "35-55 lbs",
     "height_range": "17-19 inches",
@@ -4973,9 +5436,20 @@ export const breedsData = {
       "Irish Setter"
     ],
     "common_names": [
-      "Welsh Springer Spaniel",
-      "Welsh Springer",
-      "Welshie"
+      "Mountain",
+      "Star",
+      "Chase",
+      "Forest",
+      "Blaze",
+      "Journey",
+      "Lily",
+      "Aurora",
+      "Jack",
+      "Dash",
+      "Rain",
+      "Lightning",
+      "Winter",
+      "Lucy"
     ],
     "adoption_considerations": [
       "High exercise needs",
@@ -4986,7 +5460,7 @@ export const breedsData = {
     "cost_range": "Purchase: $800-2,000; Monthly care: $100-180",
     "img_url": "https://images.unsplash.com/photo-1551717743-49959800b1f6?w=400"
   },
-  "West Highland White Terrier": {
+  "west-highland-white-terrier": {
     "size": "Small",
     "weight_range": "15-20 lbs",
     "height_range": "10-11 inches",
@@ -5073,9 +5547,19 @@ export const breedsData = {
       "Sealyham Terrier"
     ],
     "common_names": [
-      "Westie",
-      "West Highland White Terrier",
-      "WHWT"
+      "Cheerful",
+      "Wiggles",
+      "Ranger",
+      "Penny",
+      "Sparky",
+      "Rocky",
+      "Willow",
+      "Cooper",
+      "Hunter",
+      "Peppy",
+      "Arrow",
+      "Joyful",
+      "Sadie"
     ],
     "adoption_considerations": [
       "High grooming needs",
@@ -5086,7 +5570,7 @@ export const breedsData = {
     "cost_range": "Purchase: $800-2,500; Monthly care: $80-160",
     "img_url": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?w=400"
   },
-  "French_bulldog": {
+  "french-bulldog": {
     "size": "Small",
     "weight_range": "Under 28 lbs",
     "height_range": "11-13 inches",
@@ -5183,11 +5667,22 @@ export const breedsData = {
       "Pug"
     ],
     "common_names": [
-      "Frenchie"
+      "Noble",
+      "Lily",
+      "Faithful",
+      "Jake",
+      "Winston",
+      "Stella",
+      "Devoted",
+      "Murphy",
+      "Journey",
+      "Scout",
+      "Star",
+      "Lola"
     ],
-    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/French-Bulldog-standing-outdoors.jpg"
+    "img_url": "https://pawleaks.com/wp-content/uploads/2021/11/fawn-french-bulldog-640x433.jpg"
   },
-  "German_shepherd": {
+  "german-shepherd": {
     "size": "Large",
     "weight_range": "50-90 lbs (female 50-70, male 65-90)",
     "height_range": "22-26 inches (female 22-24, male 24-26)",
@@ -5281,11 +5776,23 @@ export const breedsData = {
       "Dutch Shepherd"
     ],
     "common_names": [
-      "German Shepherd"
+      "Atlas",
+      "Steady",
+      "Warrior",
+      "Brutus",
+      "Newton",
+      "Caesar",
+      "Alert",
+      "Bright",
+      "Constant",
+      "Honor",
+      "Zeus",
+      "Colonel",
+      "Faithful"
     ],
-    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/German-Shepherd-on-White-00.jpg"
+    "img_url": "https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg"
   },
-  "German_short-haired_pointer": {
+  "german-short-haired-pointer": {
     "size": "Medium to Large",
     "weight_range": "45-70 lbs (males 55-70, females lighter)",
     "height_range": "23-25 inches (male), 21-23 inches (female)",
@@ -5379,11 +5886,23 @@ export const breedsData = {
       "Vizsla"
     ],
     "common_names": [
-      "German Shorthaired"
+      "Phoenix",
+      "Echo",
+      "Rain",
+      "Autumn",
+      "Lily",
+      "Thunder",
+      "Lucy",
+      "Sage",
+      "Oscar",
+      "Star",
+      "Ranger",
+      "Snow",
+      "Summer"
     ],
-    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/German-Shorthaired-Pointer-on-point-1.jpg"
+    "img_url": "https://th.bing.com/th/id/R.44930e709687a224a5e155abd25ef7bc?rik=qt6F8hscCKPwDw&riu=http%3a%2f%2fspockthedog.com%2fwp-content%2fuploads%2f2016%2f02%2fGerman-Shorthaired-Pointer.jpg&ehk=x4QfL4CulN6QuRrNK7oSZYxIeoipuF2N5RGt0jNJys0%3d&risl=&pid=ImgRaw&r=0"
   },
-  "Gordon_setter": {
+  "gordon-setter": {
     "size": "Large",
     "weight_range": "45-80 lbs (female 45-70, male 55-80)",
     "height_range": "23-27 inches (female 23-26, male 24-27)",
@@ -5473,11 +5992,21 @@ export const breedsData = {
       "Pointer"
     ],
     "common_names": [
-      "Gordon"
+      "Beatrice",
+      "Prince",
+      "Royal",
+      "Maximilian",
+      "Crown",
+      "Noble",
+      "Sebastian",
+      "Duke",
+      "Grace",
+      "Evangeline",
+      "Cordelia"
     ],
-    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Gordon-Setter-On-White-01.jpg"
+    "img_url": "https://tse1.mm.bing.net/th/id/OIP.uJlEQrKG3fd8ZTWh-F0I2QHaE6?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
-  "Great_Dane": {
+  "great-dane": {
     "size": "Giant",
     "weight_range": "110-175+ lbs",
     "height_range": "28-32 inches (minimum: males 30, females 28)",
@@ -5572,11 +6101,22 @@ export const breedsData = {
       "Leonberger"
     ],
     "common_names": [
-      "Dane"
+      "Thor",
+      "Monarch",
+      "Regal",
+      "Queen",
+      "Iron",
+      "Khan",
+      "Commander",
+      "Atlas",
+      "Maximus",
+      "Tank",
+      "Brutus",
+      "Crown"
     ],
-    "img_url": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/07141952/Great-Dane-standing-in-profile-outdoors1.jpg"
+    "img_url": "https://image.petmd.com/files/inline-images/great-dane-5.jpg?VersionId=s_HKryETYVtUvss_RChuH3Aen3phEShs"
   },
-  "Great_Pyrenees": {
+  "great-pyrenees": {
     "size": "Large to Giant",
     "weight_range": "85-115+ lbs",
     "height_range": "25-32 inches (female 25-29, male 27-32)",
@@ -5660,11 +6200,22 @@ export const breedsData = {
       "Anatolian Shepherd"
     ],
     "common_names": [
-      "Pyrenean Mountain Dog"
+      "Major",
+      "Zeus",
+      "Ranger",
+      "Majesty",
+      "Crown",
+      "Noble",
+      "Warrior",
+      "Atlas",
+      "Colonel",
+      "Rex",
+      "Queen",
+      "Victor"
     ],
-    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Great-Pyrenees-walking-on-the-beach.jpg"
+    "img_url": "https://tse3.mm.bing.net/th/id/OIP.NTmBducMQoog-ykQ_4nvdgHaE8?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
-  "Greater_Swiss_Mountain_dog": {
+  "greater-swiss-mountain-dog": {
     "size": "Large to Giant",
     "weight_range": "85-140 lbs",
     "height_range": "23.5-28.5 inches (female 23.5-27, male 25.5-28.5)",
@@ -5746,11 +6297,22 @@ export const breedsData = {
       "Entlebucher"
     ],
     "common_names": [
-      "Swissie"
+      "Victor",
+      "Titan",
+      "Major",
+      "Crown",
+      "Chief",
+      "Zeus",
+      "Regal",
+      "Maximus",
+      "King",
+      "Caesar",
+      "Sovereign",
+      "Warrior"
     ],
-    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Greater-Swiss-Mountain-Dog-On-White-01.jpg"
+    "img_url": "https://images.ctfassets.net/aynow2efrlx4/2TPyMOJoqiqaexET83EbKp/a520229166b42c396bc50852794fad07/Greater-Swiss-Mountain-Dog-2.jpg?w=1000&h=1000"
   },
-  "Ibizan_hound": {
+  "ibizan-hound": {
     "size": "Medium",
     "weight_range": "45-50 lbs",
     "height_range": "22.5-27.5 inches (female 22.5-26, male 23.5-27.5)",
@@ -5831,11 +6393,23 @@ export const breedsData = {
       "Cirneco dell’Etna"
     ],
     "common_names": [
-      "Ibizan, Beezer"
+      "Rosie",
+      "Phoenix",
+      "Journey",
+      "Summit",
+      "Aurora",
+      "Bear",
+      "Storm",
+      "Spring",
+      "Leo",
+      "Ridge",
+      "Autumn",
+      "Thunder",
+      "Forest"
     ],
-    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Ibizan-Hound-sitting-in-profile-in-the-desert.jpg"
+    "img_url": "https://th.bing.com/th/id/OIP.cqZRnczxMKqS1MoXo1ZWCgHaFP?o=7&cb=12rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
-  "Irish_setter": {
+  "irish-setter": {
     "size": "Large",
     "weight_range": "55-70 lbs",
     "height_range": "24-27 inches",
@@ -5915,11 +6489,21 @@ export const breedsData = {
       "English Setter"
     ],
     "common_names": [
-      "Red Setter, Irish Red Setter"
+      "Anastasia",
+      "Genevieve",
+      "Monarch",
+      "Queen",
+      "Arabella",
+      "Majesty",
+      "Sophia",
+      "Maximilian",
+      "Sebastian",
+      "Evangeline",
+      "Cordelia"
     ],
-    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Irish-Setter.3.jpg"
+    "img_url": "https://tse1.mm.bing.net/th/id/OIP.WLDDSxvS8Xv4BVdTIDgHOQHaEc?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
-  "Irish_terrier": {
+  "irish-terrier": {
     "size": "Medium",
     "weight_range": "25-27 lbs",
     "height_range": "18 inches (approx.)",
@@ -6002,11 +6586,23 @@ export const breedsData = {
       "Welsh Terrier"
     ],
     "common_names": [
-      "Irish Terrier"
+      "Storm",
+      "Sage",
+      "Sadie",
+      "Milo",
+      "Sparky",
+      "Cooper",
+      "Cheerful",
+      "Phoenix",
+      "Peppy",
+      "Molly",
+      "Happy",
+      "Wiggles",
+      "Aurora"
     ],
-    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Irish-Terrier-on-white-01.jpg"
+    "img_url": "https://th.bing.com/th/id/R.a37a76c6cc59c24923163e55ccd8a0cd?rik=Bmht3r%2bPVGy6ww&riu=http%3a%2f%2fanimalsbreeds.com%2fwp-content%2fuploads%2f2014%2f07%2fIrish-Terrier-2.jpg&ehk=i2lpf1ghO38BlqMR137SksGk%2bejnEMzXkVKUX3WTXd8%3d&risl=&pid=ImgRaw&r=0"
   },
-  "Irish_water_spaniel": {
+  "irish-water-spaniel": {
     "size": "Medium to Large",
     "weight_range": "45-68 lbs",
     "height_range": "21-24 inches",
@@ -6092,11 +6688,23 @@ export const breedsData = {
       "Curly-Coated Retriever"
     ],
     "common_names": [
-      "Whiptail"
+      "Snow",
+      "Thunder",
+      "Buddy",
+      "Aurora",
+      "Spring",
+      "Storm",
+      "Luna",
+      "Journey",
+      "Dash",
+      "River",
+      "Blaze",
+      "Scout",
+      "Coco"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Irish-Water-Spaniel-On-White-01.jpg"
   },
-  "Irish_wolfhound": {
+  "irish-wolfhound": {
     "size": "Giant",
     "weight_range": "105-180 lbs",
     "height_range": "30-32+ inches (female minimum 30, male minimum 32)",
@@ -6188,11 +6796,23 @@ export const breedsData = {
       "Great Dane"
     ],
     "common_names": [
-      "Wolfhound"
+      "Coco",
+      "Phoenix",
+      "Summer",
+      "Echo",
+      "Blaze",
+      "River",
+      "Sage",
+      "Zoe",
+      "Stella",
+      "Summit",
+      "Willow",
+      "Snow",
+      "Autumn"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Irish-Wolfhound-standing-in-a-field.jpg"
   },
-  "Italian_greyhound": {
+  "italian-greyhound": {
     "size": "Small",
     "weight_range": "7-14 lbs",
     "height_range": "13-15 inches",
@@ -6279,11 +6899,21 @@ export const breedsData = {
       "Greyhound"
     ],
     "common_names": [
-      "Italian Greyhound"
+      "Anastasia",
+      "Sophia",
+      "Victoria",
+      "Duchess",
+      "Regal",
+      "Sovereign",
+      "Maximilian",
+      "Alexander",
+      "Royal",
+      "Theodore",
+      "Evangeline"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Italian-Greyhound-standing-in-three-quarter-view.jpg"
   },
-  "Japanese_spaniel": {
+  "japanese-spaniel": {
     "size": "Toy",
     "weight_range": "7-11 lbs",
     "height_range": "8-11 inches",
@@ -6370,11 +7000,24 @@ export const breedsData = {
       "Cavalier King Charles Spaniel"
     ],
     "common_names": [
-      "Japanese Chin"
+      "Muffin",
+      "Bubbles",
+      "Beatrice",
+      "Pixie",
+      "Genevieve",
+      "Pip",
+      "Victoria",
+      "Princess",
+      "Binky",
+      "Tiny",
+      "Bambi",
+      "Snuggles",
+      "Honey",
+      "Cherry"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Japanese-Chin-on-White-02.jpg.jpg"
   },
-  "Kerry_blue_terrier": {
+  "kerry-blue-terrier": {
     "size": "Medium",
     "weight_range": "33-40 lbs (male), slightly less for females",
     "height_range": "18-19.5 inches (male), 17.5-19 inches (female)",
@@ -6459,11 +7102,23 @@ export const breedsData = {
       "Soft Coated Wheaten Terrier"
     ],
     "common_names": [
-      "Kerry Blue"
+      "Willow",
+      "Sunny",
+      "Bear",
+      "Bounce",
+      "Buddy",
+      "Wiggles",
+      "Sophie",
+      "Merry",
+      "Thunder",
+      "Sparky",
+      "Rain",
+      "Star",
+      "Maggie"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Kerry-Blue-Terrier-standing-stacked-outdoors.jpg"
   },
-  "Labrador_retriever": {
+  "labrador-retriever": {
     "size": "Large",
     "weight_range": "55-80 lbs (female 55-70, male 65-80)",
     "height_range": "21.5-24.5 inches",
@@ -6552,11 +7207,24 @@ export const breedsData = {
       "Flat-Coated Retriever"
     ],
     "common_names": [
-      "Lab"
+      "Star",
+      "Lucy",
+      "Lightning",
+      "Willow",
+      "Ruby",
+      "Quest",
+      "Summer",
+      "Meadow",
+      "Tucker",
+      "Forest",
+      "Phoenix",
+      "Ridge",
+      "Thunder",
+      "Mountain"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Labrador-Retriever-On-White-01.jpg"
   },
-  "Lakeland_terrier": {
+  "lakeland-terrier": {
     "size": "Small to Medium",
     "weight_range": "17 lbs (approx.)",
     "height_range": "14-15 inches",
@@ -6646,11 +7314,23 @@ export const breedsData = {
       "Wire Fox Terrier"
     ],
     "common_names": [
-      "Lakeland"
+      "Jolly",
+      "Cheerful",
+      "Duke",
+      "Merry",
+      "Rosie",
+      "Coco",
+      "Scout",
+      "Murphy",
+      "Joyful",
+      "Bounce",
+      "Misty",
+      "Echo",
+      "Quest"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Lakeland-Terrier-standing-stacked-outdoors.jpg"
   },
-  "Leonberg": {
+  "leonberg": {
     "size": "Giant",
     "weight_range": "90-170 lbs (female 90-140, male 110-170)",
     "height_range": "25.5-31.5 inches (female 25.5-29.5, male 28-31.5)",
@@ -6738,11 +7418,22 @@ export const breedsData = {
       "Bernese Mountain Dog"
     ],
     "common_names": [
-      "Leonberger"
+      "Victor",
+      "Crown",
+      "Khan",
+      "Imperial",
+      "Warrior",
+      "Regal",
+      "Major",
+      "Caesar",
+      "Colonel",
+      "Atlas",
+      "Majesty",
+      "Rex"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Leonberger-standing-outdoors-in-profile.jpg"
   },
-  "Lhasa": {
+  "lhasa": {
     "size": "Small",
     "weight_range": "12-18 lbs",
     "height_range": "10-11 inches",
@@ -6826,11 +7517,22 @@ export const breedsData = {
       "Tibetan Terrier"
     ],
     "common_names": [
-      "Lhasa Apso"
+      "Aurora",
+      "Ginger",
+      "Cooper",
+      "Noble",
+      "Murphy",
+      "Bond",
+      "Hunter",
+      "Milo",
+      "Scout",
+      "Honor",
+      "Luna",
+      "Lucy"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Lhasa-Apso-On-White-01.jpg"
   },
-  "Maltese_dog": {
+  "maltese-dog": {
     "size": "Toy",
     "weight_range": "Under 7 lbs (preferred 4-6)",
     "height_range": "7-9 inches",
@@ -6916,11 +7618,24 @@ export const breedsData = {
       "Havanese"
     ],
     "common_names": [
-      "Maltese"
+      "Cupcake",
+      "Peanut",
+      "Angel",
+      "Prince",
+      "Duchess",
+      "Bambi",
+      "Evangeline",
+      "Jellybean",
+      "Cookie",
+      "Button",
+      "Penelope",
+      "Buttercup",
+      "Marshmallow",
+      "Binky"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Maltese-standing-in-three-quarter-view-on-a-white-background.jpg"
   },
-  "Mexican_hairless": {
+  "mexican-hairless": {
     "size": "Toy, Miniature, Standard",
     "weight_range": "10-55 lbs (varies by size)",
     "height_range": "10-14 in (Toy), 14-18 in (Miniature), 18-23 in (Standard)",
@@ -7008,11 +7723,22 @@ export const breedsData = {
       "Peruvian Inca Orchid"
     ],
     "common_names": [
-      "Xoloitzcuintli"
+      "Trust",
+      "Honor",
+      "Luna",
+      "Winston",
+      "Rosie",
+      "Tucker",
+      "Echo",
+      "Faithful",
+      "Ginger",
+      "Chase",
+      "Lily",
+      "Misty"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Xoloitzcuintli-On-White-01.jpg"
   },
-  "Newfoundland": {
+  "newfoundland": {
     "size": "Giant",
     "weight_range": "100-150 lbs (female 100-120, male 130-150)",
     "height_range": "26-28 inches (female 26, male 28)",
@@ -7102,11 +7828,22 @@ export const breedsData = {
       "Leonberger"
     ],
     "common_names": [
-      "Newfie"
+      "Colonel",
+      "Royal",
+      "Diesel",
+      "Victor",
+      "Iron",
+      "Majesty",
+      "Noble",
+      "Major",
+      "Brutus",
+      "Regal",
+      "Ranger",
+      "Rex"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Newfoundland-standing-outdoors.jpg"
   },
-  "Norfolk_terrier": {
+  "norfolk-terrier": {
     "size": "Small",
     "weight_range": "11-12 lbs",
     "height_range": "9-10 inches",
@@ -7191,11 +7928,23 @@ export const breedsData = {
       "Border Terrier"
     ],
     "common_names": [
-      "Norfolk"
+      "Scout",
+      "Coco",
+      "Winston",
+      "Cheerful",
+      "Sunny",
+      "Zippy",
+      "Lucy",
+      "Phoenix",
+      "Sage",
+      "Peppy",
+      "Charlie",
+      "Rain",
+      "Jolly"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Norfolk-Terrier-in-a-scent-work-trial.jpg"
   },
-  "Norwegian_elkhound": {
+  "norwegian-elkhound": {
     "size": "Medium",
     "weight_range": "48-55 lbs (approx.)",
     "height_range": "19.5-20.5 inches",
@@ -7280,11 +8029,23 @@ export const breedsData = {
       "Keeshond"
     ],
     "common_names": [
-      "Elkhound"
+      "Echo",
+      "Ridge",
+      "Summer",
+      "Lola",
+      "Lily",
+      "River",
+      "Valley",
+      "Dash",
+      "Mountain",
+      "Blaze",
+      "Nova",
+      "Abby",
+      "Sky"
     ],
     "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Norwegian-Elkhound-at-the-National-Championship.jpg"
   },
-  "Dachshund": {
+  "dachshund": {
     "size": "Small",
     "weight_range": "Mini: ≤11 lbs; Standard: 16–32 lbs",
     "height_range": "8–9 inches (standard); 5–6 inches (mini)",
@@ -7347,9 +8108,16 @@ export const breedsData = {
       "Norwich Terrier"
     ],
     "common_names": [
-      "Doxie",
-      "Wiener Dog",
-      "Sausage Dog"
+      "Dasher",
+      "Slinky",
+      "Wiener",
+      "Dash",
+      "Oscar",
+      "Heidi",
+      "Fritz",
+      "Roxy",
+      "Peanut",
+      "Max"
     ],
     "adoption_considerations": [
       "Back safety (no stairs/jumping)",
@@ -7359,78 +8127,113 @@ export const breedsData = {
     "cost_range": "Purchase: $800–2,500; Monthly care: $70–150",
     "img_url": "https://images.unsplash.com/photo-1552053831-71594a27632d?w=800&q=80"
   },
-  "Beagle": {
-    "size": "Small-Medium",
-    "weight_range": "20–30 lbs",
-    "height_range": "13–15 inches",
-    "life_span": "10–15 years",
+  "beagle": {
+    "size": "Small to Medium",
+    "weight_range": "Under 20 lbs (13-inch) or 20-30 lbs (15-inch)",
+    "height_range": "Under 13 inches or 13-15 inches",
+    "life_span": "10-15 years",
     "group": "Hound",
     "energy_level": "High",
-    "exercise_needs": "High — 60–90 minutes daily",
+    "exercise_needs": "High - 1 hour+ daily",
     "grooming_needs": "Low",
     "coat_type": "Short, dense double coat",
     "colors": [
-      "Tricolor (black/tan/white)",
-      "Red & white",
-      "Lemon & white",
-      "Blue tick",
-      "Chocolate tri"
+      "Tricolor (Black, Tan, White)",
+      "Red & White",
+      "Lemon & White"
     ],
     "temperament": [
       "Merry",
       "Friendly",
       "Curious",
-      "Vocal",
-      "Scent-driven"
+      "Sociable",
+      "Determined"
     ],
-    "good_with_kids": "Excellent family dog",
-    "good_with_pets": "Good; pack-friendly",
-    "trainability": "Moderate — food-motivated",
-    "barking_tendency": "High — barks/bays/howls",
+    "good_with_kids": "Yes, excellent",
+    "good_with_pets": "Yes, especially other dogs",
+    "trainability": "Moderate - can be stubborn and easily distracted by scents",
+    "barking_tendency": "High (bays and howls)",
     "origin": "England",
-    "bred_for": "Hunting hare/rabbit in packs",
+    "bred_for": "Hunting rabbits in packs (beagling)",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Epilepsy",
+      "Hypothyroidism",
+      "Cherry eye",
+      "Intervertebral disc disease"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "1.5 years",
+    "gender_size_differences": "Minimal differences",
+    "apartment_friendly": true,
+    "space_requirements": "Adaptable, but needs daily outdoor exercise",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "Low - prone to separation anxiety and destructive behavior",
+    "stranger_friendliness": "High",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
     "prey_drive": "High",
     "protective_instincts": "Low",
     "sensitivity_level": "Moderate",
-    "daily_food_amount": "1–2 cups",
-    "calorie_requirements": "700–1,100 calories",
+    "independence_level": "High",
+    "wanderlust_potential": "High",
+    "playfulness": "High",
+    "watch_dog_ability": "High (will alert bark)",
+    "territorial_behavior": "Low",
+    "daily_food_amount": "1-1.5 cups",
+    "calorie_requirements": "650-900 calories",
     "special_nutritional_needs": [
-      "Weight control",
-      "Ear health monitoring"
+      "Weight control formula"
     ],
-    "weight_management": "High — prone to obesity",
+    "weight_management": "High - very prone to obesity",
     "feeding_schedule": "2 meals per day",
-    "food_type_preferences": "Balanced small/medium-breed diet",
-    "treats_guidelines": "Use for training; watch calories",
+    "food_type_preferences": "High-quality kibble",
+    "treats_guidelines": "Use in moderation, as they are very food-motivated",
     "mental_stimulation_needs": "High",
-    "social_needs": "Very High",
+    "social_needs": "High",
     "exercise_preferences": [
-      "Scent games",
       "Long walks",
-      "Group play"
+      "Running in a fenced area",
+      "Scent games"
     ],
-    "professional_grooming_frequency": "Every 8–12 weeks",
+    "professional_grooming_frequency": "Not required",
     "brushing_frequency": "Weekly",
-    "bathing_frequency": "Every 1–2 months",
-    "nail_trimming_frequency": "Every 2–3 weeks",
+    "bathing_frequency": "As needed",
+    "nail_trimming_frequency": "Monthly",
     "water_affinity": "Moderate",
     "similar_breeds": [
-      "Harrier",
-      "American Foxhound",
-      "Basset Hound"
+      "Basset Hound",
+      "Foxhound"
     ],
     "common_names": [
-      "Beagle"
+      "Abby",
+      "Journey",
+      "Star",
+      "Winter",
+      "Echo",
+      "Rain",
+      "Mountain",
+      "Lightning",
+      "Arrow",
+      "Milo",
+      "Phoenix",
+      "Sophie",
+      "Ridge"
     ],
     "adoption_considerations": [
-      "Vocal breed",
-      "Escape artist (nose-led)",
-      "Needs daily mental exercise"
+      "Nose-driven and will follow a scent anywhere",
+      "Can be very loud (howling)",
+      "High risk of obesity if not managed carefully"
     ],
-    "cost_range": "Purchase: $600–1,800; Monthly care: $80–150",
-    "img_url": "https://images.unsplash.com/photo-1525253013412-55c1a69a5738?w=800&q=80"
+    "cost_range": "Purchase: $800-$1500, Monthly: $100-$200",
+    "img_url": "URL_to_image_of_Beagle.jpg"
   },
-  "Poodle": {
+  "poodle": {
     "size": "Toy/Miniature/Standard",
     "weight_range": "Toy: 4–6 lbs; Mini: 10–15 lbs; Standard: 40–70 lbs",
     "height_range": "Toy ≤10 in; Mini >10–15 in; Standard >15 in",
@@ -7495,9 +8298,16 @@ export const breedsData = {
       "Bichon Frise"
     ],
     "common_names": [
-      "Toy Poodle",
-      "Miniature Poodle",
-      "Standard Poodle"
+      "Puddles",
+      "Fluff",
+      "Coco",
+      "Bella",
+      "Pierre",
+      "Lulu",
+      "Chanel",
+      "Fifi",
+      "Gigi",
+      "Oliver"
     ],
     "adoption_considerations": [
       "High grooming cost/time",
@@ -7507,7 +8317,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,000–3,500; Monthly care: $100–250",
     "img_url": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80"
   },
-  "Bulldog": {
+  "bulldog": {
     "size": "Medium",
     "weight_range": "50 lbs (male); 40 lbs (female)",
     "height_range": "14–15 inches",
@@ -7568,8 +8378,16 @@ export const breedsData = {
       "Olde English Bulldogge"
     ],
     "common_names": [
-      "English Bulldog",
-      "Bulldog"
+      "Winston",
+      "Tank",
+      "Brutus",
+      "Bella",
+      "Spike",
+      "Rosie",
+      "Bruiser",
+      "Molly",
+      "Max",
+      "Queen"
     ],
     "adoption_considerations": [
       "Heat intolerance",
@@ -7579,339 +8397,551 @@ export const breedsData = {
     "cost_range": "Purchase: $1,500–4,000; Monthly care: $120–300",
     "img_url": "https://images.unsplash.com/photo-1548199973-7d9ed2b3fd37?w=800&q=80"
   },
-  "Golden Retriever": {
-    "size": "Large",
-    "weight_range": "55–75 lbs",
-    "height_range": "21.5–24 inches",
-    "life_span": "10–12 years",
-    "group": "Sporting",
+  "golden-retriever": {
+    "size": "Medium to Large",
+    "weight_range": "55-75 lbs (25-34 kg)",
+    "height_range": "21.5-24 in (55-61 cm)",
+    "life_span": "10-12 years",
+    "group": "Sporting / Retriever",
     "energy_level": "High",
-    "exercise_needs": "High — 1.5–2+ hours daily",
+    "exercise_needs": "High – daily walks, swimming, retrieving",
     "grooming_needs": "Moderate to High",
-    "coat_type": "Dense water-repellent double coat with feathering",
+    "coat_type": "Dense, water-repellent double coat with feathering",
     "colors": [
-      "Light golden",
       "Golden",
+      "Light golden",
       "Dark golden"
     ],
     "temperament": [
       "Friendly",
-      "Reliable",
-      "Trustworthy",
+      "Trusting",
       "Gentle",
-      "Eager to please"
+      "Intelligent",
+      "Energetic"
     ],
     "good_with_kids": "Excellent",
-    "good_with_pets": "Excellent",
+    "good_with_pets": "Excellent with proper socialization",
     "trainability": "Very High",
     "barking_tendency": "Low to Moderate",
-    "origin": "Scotland",
-    "bred_for": "Retrieving waterfowl and upland game",
+    "origin": "Scotland / England",
+    "bred_for": "Retrieving game, waterfowl",
     "prey_drive": "Moderate",
-    "protective_instincts": "Low to Moderate",
-    "sensitivity_level": "Moderate",
-    "daily_food_amount": "2–3.5 cups",
-    "calorie_requirements": "1,400–2,200 calories",
+    "protective_instincts": "Moderate (friendly guard) ",
+    "sensitivity_level": "High",
+    "daily_food_amount": "3-4 cups",
+    "calorie_requirements": "≈ 1400-2000 kcal",
     "special_nutritional_needs": [
       "Joint support",
-      "Weight control",
-      "Skin/coat health"
+      "Skin & coat nutrients"
     ],
-    "weight_management": "High — food motivated",
-    "feeding_schedule": "2 meals per day",
-    "food_type_preferences": "Large-breed active formula",
-    "treats_guidelines": "Training treats; monitor calories",
+    "weight_management": "Prone to weight gain if inactive",
     "mental_stimulation_needs": "High",
-    "social_needs": "Very High",
-    "exercise_preferences": [
-      "Retrieving games",
-      "Swimming",
-      "Hiking",
-      "Field work"
+    "social_needs": "High",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Elbow dysplasia",
+      "Cancer (especially hemangiosarcoma, lymphoma)",
+      "Heart conditions",
+      "Ear infections"
     ],
-    "professional_grooming_frequency": "Every 8–12 weeks",
-    "brushing_frequency": "2–3 times per week",
-    "bathing_frequency": "Every 1–2 months",
-    "nail_trimming_frequency": "Every 2–3 weeks",
-    "water_affinity": "Very High",
+    "shedding_level": "High",
+    "drool_amount": "Low to Moderate",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Males slightly larger",
+    "apartment_friendly": false,
+    "space_requirements": "Medium to large yard or good walking access",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-6 hours with enrichment",
+    "stranger_friendliness": "Very friendly",
+    "noise_sensitivity": "Low to Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Moderate (if off lead may roam)",
+    "playfulness": "High",
+    "watch_dog_ability": "Low (friendly, not guard)",
+    "territorial_behavior": "Low",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High quality kibble, wet supplement optional",
+    "treats_guidelines": "Lean treats, limit portion",
+    "exercise_preferences": [
+      "Swimming",
+      "Fetch",
+      "Long walks",
+      "Hiking"
+    ],
+    "professional_grooming_frequency": "Every few months",
+    "brushing_frequency": "Several times per week",
+    "bathing_frequency": "Every 6-8 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "High (many love swimming)",
     "similar_breeds": [
       "Labrador Retriever",
       "Flat-Coated Retriever",
-      "Chesapeake Bay Retriever"
+      "Curly-Coated Retriever"
     ],
     "common_names": [
-      "Golden",
-      "Goldie"
+      "Summit",
+      "Toby",
+      "Ocean",
+      "Buddy",
+      "Dash",
+      "Ranger",
+      "River",
+      "Ridge",
+      "Lightning",
+      "Quest",
+      "Hunter",
+      "Oliver",
+      "Thunder",
+      "Storm"
     ],
-    "adoption_considerations": [
-      "High exercise needs",
-      "Shedding and grooming",
-      "Cancer risk in lines"
-    ],
-    "cost_range": "Purchase: $1,000–3,000; Monthly care: $110–220",
-    "img_url": "https://images.unsplash.com/photo-1541364983171-a8ba01e95cfc?w=800&q=80"
+    "adoption_considerations": "Exercise requirements, cancer predisposition, grooming cost",
+    "cost_range": "Moderate to High",
+    "img_url": "https://tse1.mm.bing.net/th/id/OIP.ay_vlnx-F7rhjhXLe-1lQQHaE6?pid=Api&P=0&h=180"
   },
-  "Boxer": {
+  "boxer": {
     "size": "Large",
-    "weight_range": "50–80 lbs",
-    "height_range": "21–25 inches",
-    "life_span": "10–12 years",
+    "weight_range": "55-75 lbs",
+    "height_range": "21.5-25 inches",
+    "life_span": "10-12 years",
     "group": "Working",
-    "energy_level": "Very High",
-    "exercise_needs": "Very High — 2+ hours daily",
+    "energy_level": "High",
+    "exercise_needs": "High - 1-2 hours daily",
     "grooming_needs": "Low",
-    "coat_type": "Short, smooth coat",
+    "coat_type": "Short, smooth, tight-fitting coat",
     "colors": [
       "Fawn",
-      "Brindle",
-      "With white markings"
+      "Brindle"
     ],
     "temperament": [
-      "Fun-loving",
+      "Playful",
+      "Energetic",
       "Bright",
-      "Courageous",
       "Loyal",
-      "Energetic"
+      "Courageous"
     ],
-    "good_with_kids": "Excellent with socialization",
-    "good_with_pets": "Moderate — supervise",
-    "trainability": "High",
-    "barking_tendency": "Low to Moderate",
+    "good_with_kids": "Yes, very good",
+    "good_with_pets": "Good if raised with them",
+    "trainability": "Moderate - intelligent but can be clownish and stubborn",
+    "barking_tendency": "Moderate",
     "origin": "Germany",
-    "bred_for": "Working/guardian, hunting large game",
+    "bred_for": "Bull-baiting, dog fighting, cattle dog, and later police/military work",
+    "common_health_issues": [
+      "Cancer (lymphoma, mast cell tumors)",
+      "Heart conditions (cardiomyopathy, aortic stenosis)",
+      "Bloat (GDV)",
+      "Hip dysplasia",
+      "Allergies"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "Moderate",
+    "hypoallergenic": false,
+    "cold_tolerance": "Low",
+    "heat_tolerance": "Low",
+    "maturity_age": "2-3 years (slow to mature mentally)",
+    "gender_size_differences": "Males are larger and more muscular",
+    "apartment_friendly": true,
+    "space_requirements": "Adaptable to apartments if exercise needs are met",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "Low - does not like to be left alone",
+    "stranger_friendliness": "Moderate - friendly but can be protective",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
     "prey_drive": "Moderate",
     "protective_instincts": "High",
-    "sensitivity_level": "Moderate",
-    "daily_food_amount": "2.5–4 cups",
-    "calorie_requirements": "1,600–2,400 calories",
+    "sensitivity_level": "High",
+    "independence_level": "Low",
+    "wanderlust_potential": "Moderate",
+    "playfulness": "Very High",
+    "watch_dog_ability": "High",
+    "territorial_behavior": "Moderate",
+    "daily_food_amount": "2-4 cups",
+    "calorie_requirements": "1200-1800 calories",
     "special_nutritional_needs": [
-      "Active dog formula",
       "Joint support",
-      "Cardiac health support"
+      "Heart health supplements (e.g., L-carnitine)"
     ],
-    "weight_management": "Moderate",
+    "weight_management": "Maintain a lean body condition to protect joints",
     "feeding_schedule": "2 meals per day",
-    "food_type_preferences": "Large-breed active formula",
-    "treats_guidelines": "Training treats; avoid overfeeding",
-    "mental_stimulation_needs": "Very High",
+    "food_type_preferences": "High-quality, large-breed formula",
+    "treats_guidelines": "Good for training, but monitor calories",
+    "mental_stimulation_needs": "High",
     "social_needs": "Very High",
     "exercise_preferences": [
       "Running",
       "Fetch",
       "Agility",
-      "Obedience games"
+      "Playing with family"
     ],
-    "professional_grooming_frequency": "Every 8–12 weeks",
+    "professional_grooming_frequency": "Not required",
     "brushing_frequency": "Weekly",
-    "bathing_frequency": "Monthly or as needed",
-    "nail_trimming_frequency": "Every 2–3 weeks",
+    "bathing_frequency": "As needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
     "water_affinity": "Moderate",
     "similar_breeds": [
-      "Doberman Pinscher",
-      "Rottweiler",
-      "American Bulldog"
+      "Bulldog",
+      "Bullmastiff",
+      "Great Dane"
     ],
     "common_names": [
-      "Boxer"
+      "Wise",
+      "Colonel",
+      "Diesel",
+      "Faith",
+      "Bright",
+      "Ranger",
+      "Iron",
+      "Loyal",
+      "Rex",
+      "Darwin",
+      "Bond",
+      "Titan",
+      "Devoted"
     ],
     "adoption_considerations": [
-      "Very high exercise needs",
-      "Cardiomyopathy risk",
-      "Strong, exuberant dog"
+      "Prone to several serious health conditions, especially cancer and heart disease",
+      "Does not tolerate extreme heat or cold well",
+      "Remains puppy-like and boisterous for several years"
     ],
-    "cost_range": "Purchase: $800-2,000; Monthly care: $100-200",
-    "img_url": "https://images.unsplash.com/photo-1548199973-7d9ed2b3fd37?w=800&q=80"
+    "cost_range": "Purchase: $1000-$2500, Monthly: $150-$250",
+    "img_url": "URL_to_image_of_Boxer.jpg"
   },
-       "Keeshond": {
-      "size": "Medium",
-      "weight_range": "35-45 lbs",
-      "height_range": "16-19 inches",
-      "life_span": "12-15 years",
-      "group": "Non-Sporting",
-      "energy_level": "Moderate",
-      "exercise_needs": "Moderate - 45-60 minutes daily",
-      "grooming_needs": "High",
-      "coat_type": "Long, thick double coat with dense undercoat",
-      "colors": ["Silver", "Gray", "Black", "Cream"],
-      "temperament": ["Friendly", "Alert", "Outgoing", "Wise", "Affectionate", "Vigilant", "Playful"],
-      "good_with_kids": "Yes - very gentle and friendly",
-      "good_with_pets": "Yes - generally good with other dogs and pets",
-      "trainability": "High - eager to please and intelligent",
-      "barking_tendency": "High - naturally vocal watchdog",
-      "origin": "Netherlands",
-      "bred_for": "Barge guard dog, family companion",
-      "prey_drive": "Low to Moderate",
-      "protective_instincts": "Moderate",
-      "sensitivity_level": "High - gentle training methods recommended",
-      "daily_food_amount": "2-2.5 cups",
-      "calorie_requirements": "900-1200 calories",
-      "special_nutritional_needs": ["Skin and coat health", "Joint support in senior years"],
-      "weight_management": "Moderate - prone to weight gain if overfed",
-      "mental_stimulation_needs": "Moderate",
-      "social_needs": "High",
-      "common_health_issues": ["Hip dysplasia", "Hypothyroidism", "Progressive retinal atrophy (PRA)", "Luxating patella"],
-      "shedding_level": "High - seasonal coat blow twice a year",
-      "drool_amount": "Low",
-      "hypoallergenic": false,
-      "cold_tolerance": "High",
-      "heat_tolerance": "Low to Moderate - sensitive to hot climates",
-      "maturity_age": "2 years",
-      "gender_size_differences": "Males: 18 inches, 40-45 lbs; Females: 17 inches, 35-40 lbs",
-      "apartment_friendly": true,
-      "space_requirements": "Moderate - can adapt to smaller spaces with daily exercise",
-      "novice_owner_friendly": true,
-      "alone_time_tolerance": "4-6 hours maximum",
-      "stranger_friendliness": "High",
-      "noise_sensitivity": "Moderate",
-      "adaptability_level": "High",
-      "car_travel_adaptability": "High",
-      "independence_level": "Moderate",
-      "wanderlust_potential": "Low",
-      "playfulness": "High",
-      "watch_dog_ability": "High - excellent alert dog",
-      "territorial_behavior": "Moderate",
-      "feeding_schedule": "2 meals per day",
-      "food_type_preferences": "High-quality dry kibble with occasional wet or fresh additions",
-      "treats_guidelines": "Use small, healthy treats to avoid excess weight",
-      "exercise_preferences": ["Daily walks", "Playtime with family", "Fetch and games", "Training activities"],
-      "professional_grooming_frequency": "Every 8-10 weeks",
-      "brushing_frequency": "Several times a week; daily during shedding season",
-      "bathing_frequency": "Every 6-8 weeks or as needed",
-      "nail_trimming_frequency": "Every 3-4 weeks",
-      "water_affinity": "Moderate",
-      "similar_breeds": ["Samoyed", "Norwegian Elkhound", "Finnish Spitz"],
-      "common_names": ["Kees", "Dutch Barge Dog"],
-      "adoption_considerations": ["High grooming needs", "Can be vocal", "Requires social interaction", "Thrives in cooler climates"],
-      "cost_range": "Purchase: $1,200-2,500; Monthly care: $100-200",
-      "img_url": "https://imgs.search.brave.com/ewfAwI93NUJmLu0buYkTDaz9EhtEi4p3uYg20wmqUsM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8z/LzMwL0tlZXNob25k/X2JlZWNoLmpwZw"
-    },
-    "Australian Kelpie": {
-      "size": "Medium",
-      "weight_range": "25-45 lbs",
-      "height_range": "17-20 inches",
-      "life_span": "12-15 years",
-      "group": "Herding",
-      "energy_level": "Very High",
-      "exercise_needs": "Very High - 2+ hours daily",
-      "grooming_needs": "Low",
-      "coat_type": "Short, double coat with weather-resistant outer layer",
-      "colors": ["Black", "Red", "Chocolate", "Fawn", "Blue", "Black and Tan", "Red and Tan"],
-      "temperament": ["Energetic", "Intelligent", "Alert", "Loyal", "Hardworking", "Independent", "Responsive"],
-      "good_with_kids": "Yes, especially active older children",
-      "good_with_pets": "Moderate - may herd smaller pets",
-      "trainability": "High - eager to learn, thrives on task-oriented training",
-      "barking_tendency": "Moderate to High",
-      "origin": "Australia",
-      "bred_for": "Herding livestock over large distances",
-      "prey_drive": "Moderate to High",
-      "protective_instincts": "High",
-      "sensitivity_level": "Moderate - responds best to positive training",
-      "daily_food_amount": "2-3 cups",
-      "calorie_requirements": "1000-1400 calories",
-      "special_nutritional_needs": ["Joint maintenance", "Sustained energy for high activity levels"],
-      "weight_management": "High - prone to weight gain if under-exercised",
-      "mental_stimulation_needs": "Very High",
-      "social_needs": "High - needs regular human and canine interaction",
-      "common_health_issues": ["Hip dysplasia", "Progressive retinal atrophy (PRA)", "Collie eye anomaly", "Cryptorchidism"],
-      "shedding_level": "Moderate",
-      "drool_amount": "Low",
-      "hypoallergenic": false,
-      "cold_tolerance": "Moderate",
-      "heat_tolerance": "High - adapted to hot climates",
-      "maturity_age": "1.5-2 years",
-      "gender_size_differences": "Males: 18-20 inches, 40-45 lbs; Females: 17-19 inches, 30-35 lbs",
-      "apartment_friendly": false,
-      "space_requirements": "Large yard or open area",
-      "novice_owner_friendly": false,
-      "alone_time_tolerance": "3-4 hours maximum",
-      "stranger_friendliness": "Moderate - reserved but not aggressive",
-      "noise_sensitivity": "Low",
-      "adaptability_level": "Moderate",
-      "car_travel_adaptability": "High",
-      "independence_level": "High",
-      "wanderlust_potential": "Moderate",
-      "playfulness": "High",
-      "watch_dog_ability": "High - very alert",
-      "territorial_behavior": "Moderate to High",
-      "feeding_schedule": "2 meals per day",
-      "food_type_preferences": "High-quality protein-rich dry kibble",
-      "treats_guidelines": "Use low-calorie treats for motivation during training",
-      "exercise_preferences": ["Running", "Agility training", "Herding practice", "Fetch games"],
-      "professional_grooming_frequency": "Every 3-4 months",
-      "brushing_frequency": "Weekly",
-      "bathing_frequency": "Every 6-8 weeks or when dirty",
-      "nail_trimming_frequency": "Every 3-4 weeks",
-      "water_affinity": "Moderate - may enjoy swimming occasionally",
-      "similar_breeds": ["Border Collie", "Australian Cattle Dog", "Working Kelpie"],
-      "common_names": ["Kelpie", "Australian Sheepdog", "Barb"],
-      "adoption_considerations": ["Requires significant exercise and mental activity", "Can develop destructive behaviors if bored", "Better suited for experienced, active owners", "Strong herding instincts may not suit small children or pets"],
-      "cost_range": "Purchase: $800-2,000; Monthly care: $100-250",
-      "img_url": "https://imgs.search.brave.com/KdW3k2FTKJzrz8iW3SpY5r2hjEbEOusLeAhXugEo0OQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8x/Mi8wMi8xMi8wNy9y/ZWQtY2xvdWQtMjk5/Mjc4MF82NDAuanBn"
-    },
-    "Komondor": {
-      "size": "Large",
-      "weight_range": "80-130 lbs",
-      "height_range": "25.5-31.5 inches",
-      "life_span": "10-12 years",
-      "group": "Working",
-      "energy_level": "Moderate",
-      "exercise_needs": "Moderate - 1 to 1.5 hours daily",
-      "grooming_needs": "Very High",
-      "coat_type": "Long, corded, dense double coat",
-      "colors": ["White"],
-      "temperament": ["Protective", "Calm", "Loyal", "Independent", "Confident", "Courageous"],
-      "good_with_kids": "Yes, when well-socialized",
-      "good_with_pets": "Moderate - can be territorial with other dogs",
-      "trainability": "Moderate - intelligent but independent-minded",
-      "barking_tendency": "Moderate to High",
-      "origin": "Hungary",
-      "bred_for": "Guarding livestock and property",
-      "prey_drive": "Low",
-      "protective_instincts": "Very High",
-      "sensitivity_level": "Moderate",
-      "daily_food_amount": "4-5 cups",
-      "calorie_requirements": "1600-2000 calories",
-      "special_nutritional_needs": ["Joint and bone support", "Slow-feeding to prevent bloat"],
-      "weight_management": "Moderate - prone to obesity if under-exercised",
-      "mental_stimulation_needs": "Moderate",
-      "social_needs": "Moderate - prefers known family members",
-      "common_health_issues": ["Hip dysplasia", "Bloat", "Entropion", "Skin infections due to dense coat"],
-      "shedding_level": "Low - cords trap most shed hairs",
-      "drool_amount": "Low to Moderate",
-      "hypoallergenic": false,
-      "cold_tolerance": "High",
-      "heat_tolerance": "Low - dense coat traps heat",
-      "maturity_age": "2-3 years",
-      "gender_size_differences": "Males: 28-31.5 inches, 100-130 lbs; Females: 25.5-27.5 inches, 80-100 lbs",
-      "apartment_friendly": false,
-      "space_requirements": "Large yard or farmland required",
-      "novice_owner_friendly": false,
-      "alone_time_tolerance": "4-5 hours maximum",
-      "stranger_friendliness": "Low - very suspicious of strangers",
-      "noise_sensitivity": "Low",
-      "adaptability_level": "Low",
-      "car_travel_adaptability": "Moderate",
-      "independence_level": "High",
-      "wanderlust_potential": "Low",
-      "playfulness": "Low to Moderate",
-      "watch_dog_ability": "Excellent",
-      "territorial_behavior": "Very High",
-      "feeding_schedule": "2 meals per day",
-      "food_type_preferences": "High-quality large-breed kibble",
-      "treats_guidelines": "Use moderately; prone to weight gain",
-      "exercise_preferences": ["Leisurely walks", "Guarding and property patrol", "Free movement in fenced areas"],
-      "professional_grooming_frequency": "Every 8-12 weeks for coat maintenance",
-      "brushing_frequency": "Daily separation of cords",
-      "bathing_frequency": "Every 2-3 months with thorough drying",
-      "nail_trimming_frequency": "Every 3-4 weeks",
-      "water_affinity": "Low",
-      "similar_breeds": ["Kuvasz", "Great Pyrenees", "Maremma Sheepdog", "Polish Tatra Sheepdog"],
-      "common_names": ["Hungarian Sheepdog", "Mop Dog", "Kom"],
-      "adoption_considerations": ["Extremely high grooming needs", "Requires strong leadership and early socialization", "Best suited for rural environments", "Protective instincts can cause dominance issues"],
-      "cost_range": "Purchase: $1,200-2,500; Monthly care: $150-300",
-      "img_url": "https://imgs.search.brave.com/4h7UvwwzG321s5kcuOJf4kataYw2RkeOZlfeUOcx0HE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hLXot/YW5pbWFscy5jb20v/bWVkaWEvMjAyNS8w/OS9zaHV0dGVyc3Rv/Y2stMjM0MDgzNzEw/NS1odWdlLWxpY2Vu/c2VkLXNjYWxlZC0x/MDI0eDY4MS5qcGc"
-    },
-    "Kuvasz": {
+  "keeshond": {
+    "size": "Medium",
+    "weight_range": "35-45 lbs",
+    "height_range": "16-19 inches",
+    "life_span": "12-15 years",
+    "group": "Non-Sporting",
+    "energy_level": "Moderate",
+    "exercise_needs": "Moderate - 45-60 minutes daily",
+    "grooming_needs": "High",
+    "coat_type": "Long, thick double coat with dense undercoat",
+    "colors": [
+      "Silver",
+      "Gray",
+      "Black",
+      "Cream"
+    ],
+    "temperament": [
+      "Friendly",
+      "Alert",
+      "Outgoing",
+      "Wise",
+      "Affectionate",
+      "Vigilant",
+      "Playful"
+    ],
+    "good_with_kids": "Yes - very gentle and friendly",
+    "good_with_pets": "Yes - generally good with other dogs and pets",
+    "trainability": "High - eager to please and intelligent",
+    "barking_tendency": "High - naturally vocal watchdog",
+    "origin": "Netherlands",
+    "bred_for": "Barge guard dog, family companion",
+    "prey_drive": "Low to Moderate",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "High - gentle training methods recommended",
+    "daily_food_amount": "2-2.5 cups",
+    "calorie_requirements": "900-1200 calories",
+    "special_nutritional_needs": [
+      "Skin and coat health",
+      "Joint support in senior years"
+    ],
+    "weight_management": "Moderate - prone to weight gain if overfed",
+    "mental_stimulation_needs": "Moderate",
+    "social_needs": "High",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Hypothyroidism",
+      "Progressive retinal atrophy (PRA)",
+      "Luxating patella"
+    ],
+    "shedding_level": "High - seasonal coat blow twice a year",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Low to Moderate - sensitive to hot climates",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Males: 18 inches, 40-45 lbs; Females: 17 inches, 35-40 lbs",
+    "apartment_friendly": true,
+    "space_requirements": "Moderate - can adapt to smaller spaces with daily exercise",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-6 hours maximum",
+    "stranger_friendliness": "High",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Low",
+    "playfulness": "High",
+    "watch_dog_ability": "High - excellent alert dog",
+    "territorial_behavior": "Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality dry kibble with occasional wet or fresh additions",
+    "treats_guidelines": "Use small, healthy treats to avoid excess weight",
+    "exercise_preferences": [
+      "Daily walks",
+      "Playtime with family",
+      "Fetch and games",
+      "Training activities"
+    ],
+    "professional_grooming_frequency": "Every 8-10 weeks",
+    "brushing_frequency": "Several times a week; daily during shedding season",
+    "bathing_frequency": "Every 6-8 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Samoyed",
+      "Norwegian Elkhound",
+      "Finnish Spitz"
+    ],
+    "common_names": [
+      "Toby",
+      "Ginger",
+      "Jack",
+      "Echo",
+      "Faith",
+      "Bella",
+      "Charlie",
+      "Devoted",
+      "Heart",
+      "Summit",
+      "Ranger",
+      "Coco"
+    ],
+    "adoption_considerations": [
+      "High grooming needs",
+      "Can be vocal",
+      "Requires social interaction",
+      "Thrives in cooler climates"
+    ],
+    "cost_range": "Purchase: $1,200-2,500; Monthly care: $100-200",
+    "img_url": "https://tse1.mm.bing.net/th/id/OIP.3KPjHdVsw17V0fcOxb1nLgHaE8?pid=Api&P=0&h=180"
+  },
+  "australian-kelpie": {
+    "size": "Medium",
+    "weight_range": "25-45 lbs",
+    "height_range": "17-20 inches",
+    "life_span": "12-15 years",
+    "group": "Herding",
+    "energy_level": "Very High",
+    "exercise_needs": "Very High - 2+ hours daily",
+    "grooming_needs": "Low",
+    "coat_type": "Short, double coat with weather-resistant outer layer",
+    "colors": [
+      "Black",
+      "Red",
+      "Chocolate",
+      "Fawn",
+      "Blue",
+      "Black and Tan",
+      "Red and Tan"
+    ],
+    "temperament": [
+      "Energetic",
+      "Intelligent",
+      "Alert",
+      "Loyal",
+      "Hardworking",
+      "Independent",
+      "Responsive"
+    ],
+    "good_with_kids": "Yes, especially active older children",
+    "good_with_pets": "Moderate - may herd smaller pets",
+    "trainability": "High - eager to learn, thrives on task-oriented training",
+    "barking_tendency": "Moderate to High",
+    "origin": "Australia",
+    "bred_for": "Herding livestock over large distances",
+    "prey_drive": "Moderate to High",
+    "protective_instincts": "High",
+    "sensitivity_level": "Moderate - responds best to positive training",
+    "daily_food_amount": "2-3 cups",
+    "calorie_requirements": "1000-1400 calories",
+    "special_nutritional_needs": [
+      "Joint maintenance",
+      "Sustained energy for high activity levels"
+    ],
+    "weight_management": "High - prone to weight gain if under-exercised",
+    "mental_stimulation_needs": "Very High",
+    "social_needs": "High - needs regular human and canine interaction",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Progressive retinal atrophy (PRA)",
+      "Collie eye anomaly",
+      "Cryptorchidism"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "High - adapted to hot climates",
+    "maturity_age": "1.5-2 years",
+    "gender_size_differences": "Males: 18-20 inches, 40-45 lbs; Females: 17-19 inches, 30-35 lbs",
+    "apartment_friendly": false,
+    "space_requirements": "Large yard or open area",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "3-4 hours maximum",
+    "stranger_friendliness": "Moderate - reserved but not aggressive",
+    "noise_sensitivity": "Low",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "High",
+    "independence_level": "High",
+    "wanderlust_potential": "Moderate",
+    "playfulness": "High",
+    "watch_dog_ability": "High - very alert",
+    "territorial_behavior": "Moderate to High",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality protein-rich dry kibble",
+    "treats_guidelines": "Use low-calorie treats for motivation during training",
+    "exercise_preferences": [
+      "Running",
+      "Agility training",
+      "Herding practice",
+      "Fetch games"
+    ],
+    "professional_grooming_frequency": "Every 3-4 months",
+    "brushing_frequency": "Weekly",
+    "bathing_frequency": "Every 6-8 weeks or when dirty",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Moderate - may enjoy swimming occasionally",
+    "similar_breeds": [
+      "Border Collie",
+      "Australian Cattle Dog",
+      "Working Kelpie"
+    ],
+    "common_names": [
+      "Kelp",
+      "Outback",
+      "Rusty",
+      "Sage",
+      "Dash",
+      "Skye",
+      "Ranger",
+      "Buddy",
+      "Storm",
+      "Zara"
+    ],
+    "adoption_considerations": [
+      "Requires significant exercise and mental activity",
+      "Can develop destructive behaviors if bored",
+      "Better suited for experienced, active owners",
+      "Strong herding instincts may not suit small children or pets"
+    ],
+    "cost_range": "Purchase: $800-2,000; Monthly care: $100-250",
+    "img_url": "https://tse2.mm.bing.net/th/id/OIP.zg4Sy5ReeMKQN-FpyYQ77AHaHD?pid=Api&P=0&h=180"
+  },
+  "komondor": {
+    "size": "Large",
+    "weight_range": "80-130 lbs",
+    "height_range": "25.5-31.5 inches",
+    "life_span": "10-12 years",
+    "group": "Working",
+    "energy_level": "Moderate",
+    "exercise_needs": "Moderate - 1 to 1.5 hours daily",
+    "grooming_needs": "Very High",
+    "coat_type": "Long, corded, dense double coat",
+    "colors": [
+      "White"
+    ],
+    "temperament": [
+      "Protective",
+      "Calm",
+      "Loyal",
+      "Independent",
+      "Confident",
+      "Courageous"
+    ],
+    "good_with_kids": "Yes, when well-socialized",
+    "good_with_pets": "Moderate - can be territorial with other dogs",
+    "trainability": "Moderate - intelligent but independent-minded",
+    "barking_tendency": "Moderate to High",
+    "origin": "Hungary",
+    "bred_for": "Guarding livestock and property",
+    "prey_drive": "Low",
+    "protective_instincts": "Very High",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "4-5 cups",
+    "calorie_requirements": "1600-2000 calories",
+    "special_nutritional_needs": [
+      "Joint and bone support",
+      "Slow-feeding to prevent bloat"
+    ],
+    "weight_management": "Moderate - prone to obesity if under-exercised",
+    "mental_stimulation_needs": "Moderate",
+    "social_needs": "Moderate - prefers known family members",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Bloat",
+      "Entropion",
+      "Skin infections due to dense coat"
+    ],
+    "shedding_level": "Low - cords trap most shed hairs",
+    "drool_amount": "Low to Moderate",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Low - dense coat traps heat",
+    "maturity_age": "2-3 years",
+    "gender_size_differences": "Males: 28-31.5 inches, 100-130 lbs; Females: 25.5-27.5 inches, 80-100 lbs",
+    "apartment_friendly": false,
+    "space_requirements": "Large yard or farmland required",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "4-5 hours maximum",
+    "stranger_friendliness": "Low - very suspicious of strangers",
+    "noise_sensitivity": "Low",
+    "adaptability_level": "Low",
+    "car_travel_adaptability": "Moderate",
+    "independence_level": "High",
+    "wanderlust_potential": "Low",
+    "playfulness": "Low to Moderate",
+    "watch_dog_ability": "Excellent",
+    "territorial_behavior": "Very High",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality large-breed kibble",
+    "treats_guidelines": "Use moderately; prone to weight gain",
+    "exercise_preferences": [
+      "Leisurely walks",
+      "Guarding and property patrol",
+      "Free movement in fenced areas"
+    ],
+    "professional_grooming_frequency": "Every 8-12 weeks for coat maintenance",
+    "brushing_frequency": "Daily separation of cords",
+    "bathing_frequency": "Every 2-3 months with thorough drying",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Low",
+    "similar_breeds": [
+      "Kuvasz",
+      "Great Pyrenees",
+      "Maremma Sheepdog",
+      "Polish Tatra Sheepdog"
+    ],
+    "common_names": [
+      "Devoted",
+      "Chloe",
+      "Oscar",
+      "Molly",
+      "Forest",
+      "Dash",
+      "Faith",
+      "Constant",
+      "Charlie",
+      "Jack",
+      "Leo",
+      "Sage"
+    ],
+    "adoption_considerations": [
+      "Extremely high grooming needs",
+      "Requires strong leadership and early socialization",
+      "Best suited for rural environments",
+      "Protective instincts can cause dominance issues"
+    ],
+    "cost_range": "Purchase: $1,200-2,500; Monthly care: $150-300",
+    "img_url": "https://www.dailypaws.com/thmb/NOwAoiT825UPRCkrIeebfjS0RFU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/komondor-profile-in-park-245608627-2000-70404ce447a6430fa3ecbe81d8e1da0c.jpg"
+  },
+  "kuvasz": {
     "size": "Large",
     "weight_range": "70-115 lbs",
     "height_range": "26-30 inches",
@@ -7996,8 +9026,18 @@ export const breedsData = {
       "Akbash"
     ],
     "common_names": [
-      "Kuvasz",
-      "Hungarian Kuvasz"
+      "Noble",
+      "Ginger",
+      "Buddy",
+      "Ridge",
+      "Stella",
+      "Aurora",
+      "Trust",
+      "Murphy",
+      "Heart",
+      "Maggie",
+      "Abby",
+      "Nova"
     ],
     "adoption_considerations": [
       "Requires confident, experienced handler",
@@ -8005,9 +9045,9 @@ export const breedsData = {
       "Not suitable for urban living"
     ],
     "cost_range": "Purchase: $1,200-2,500; Monthly care: $120-250",
-    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/7f2e5c51-5b2a-5686-ab4b-b43191b26b51/dd7f1630-3ced-5752-a206-58dfeba60936.jpg"
+    "img_url": "https://tse3.mm.bing.net/th/id/OIP.EY-ujHyIvpFaMpZwSJJfMgHaE8?pid=Api&P=0&h=180"
   },
-  "Alaskan Malamute": {
+  "alaskan-malamute": {
     "size": "Large",
     "weight_range": "75-100+ lbs",
     "height_range": "23-25 inches (females) to 25 inches (males), sometimes larger",
@@ -8100,8 +9140,16 @@ export const breedsData = {
       "Alaskan Husky"
     ],
     "common_names": [
-      "Malamute",
-      "Alaskan Mal"
+      "Luna",
+      "Kodiak",
+      "Blizzard",
+      "Aurora",
+      "Koda",
+      "Nanook",
+      "Misty",
+      "Shadow",
+      "Zeus",
+      "Storm"
     ],
     "adoption_considerations": [
       "Requires experienced owner",
@@ -8110,9 +9158,9 @@ export const breedsData = {
       "Strong-willed and needs consistent training"
     ],
     "cost_range": "Purchase: $1,000-2,500; Monthly care: $150-300",
-    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/8ce394b4-e832-5c26-9a70-054c7a3b1f14/e91e73d4-022b-59db-9713-717a2a198855.jpg"
+    "img_url": "https://tse3.mm.bing.net/th/id/OIP.cPUshvApgI1oN9nVvc5UbQHaGA?pid=Api&P=0&h=180"
   },
-  "Belgian Malinois": {
+  "belgian-malinois": {
     "size": "Medium to Large",
     "weight_range": "40-80 lbs",
     "height_range": "22-26 inches",
@@ -8201,9 +9249,16 @@ export const breedsData = {
       "Belgian Tervuren"
     ],
     "common_names": [
-      "Malinois",
-      "Belgian Mal",
-      "Belgian Shepherd Malinois"
+      "Scout",
+      "Zeus",
+      "Blaze",
+      "Jade",
+      "Ranger",
+      "Koda",
+      "Sable",
+      "Hunter",
+      "Echo",
+      "Titan"
     ],
     "adoption_considerations": [
       "Requires experienced, active owners",
@@ -8212,9 +9267,9 @@ export const breedsData = {
       "Not recommended for first-time dog owners or sedentary households"
     ],
     "cost_range": "Purchase: $1,500-3,000; Monthly care: $150-300",
-    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/65c5f34b-dcdf-5639-bfde-13c7032b2430/2a20e721-11ce-5071-bd98-b2ee778c9cff.jpg"
+    "img_url": "https://tse1.mm.bing.net/th/id/OIP.3bgKHC0CtPSvOsNqHsUusAHaE8?pid=Api&P=0&h=180"
   },
-  "Miniature Pinscher": {
+  "miniature-pinscher": {
     "size": "Small",
     "weight_range": "8-11 lbs",
     "height_range": "10-12.5 inches",
@@ -8274,7 +9329,7 @@ export const breedsData = {
     "gender_size_differences": "Minimal, males slightly larger",
     "apartment_friendly": true,
     "space_requirements": "Small living space suitable with sufficient exercise",
-    "novice_owner_friendly": true ,
+    "novice_owner_friendly": true,
     "alone_time_tolerance": "4-6 hours",
     "stranger_friendliness": "Low to Moderate - wary but not aggressive",
     "noise_sensitivity": "High - prone to barking",
@@ -8304,8 +9359,20 @@ export const breedsData = {
       "Toy Manchester Terrier"
     ],
     "common_names": [
-      "Min Pin",
-      "King of Toys"
+      "Binky",
+      "Prince",
+      "Duchess",
+      "Beatrice",
+      "Peaches",
+      "Muffin",
+      "Button",
+      "Honey",
+      "Precious",
+      "Peanut",
+      "Pip",
+      "Cookie",
+      "Marshmallow",
+      "Sebastian"
     ],
     "adoption_considerations": [
       "Prone to separation anxiety",
@@ -8315,1128 +9382,1245 @@ export const breedsData = {
     "cost_range": "Purchase: $600-1,200; Monthly care: $50-150",
     "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e08f34ce-9d6a-59d1-ae9a-26889433f35d/e91e73d4-022b-59db-9713-717a2a198855.jpg"
   },
-"Miniature Poodle": {
-"size": "Small",
-"weight_range": "10-15 lbs",
-"height_range": "10-15 inches",
-"life_span": "10-18 years",
-"group": "Non-Sporting",
-"energy_level": "Moderate to High",
-"exercise_needs": "Moderate - daily play and walks",
-"grooming_needs": "High - regular professional grooming required",
-"coat_type": "Short, dense, curly and hypoallergenic",
-"colors": [
-"White",
-"Black",
-"Red",
-"Cream",
-"Gray",
-"Apricot",
-"Blue",
-"Brown"
-],
-"temperament": [
-"Intelligent",
-"Loving",
-"Playful",
-"Eager to please",
-"Alert",
-"Sociable",
-"Sensitive"
-],
-"good_with_kids": "Yes, with supervision and socialization",
-"good_with_pets": "Yes, generally compatible with other pets",
-"trainability": "High - very trainable, excels in obedience and agility",
-"barking_tendency": "Moderate",
-"origin": "Germany and France",
-"bred_for": "Companionship and performance",
-"prey_drive": "Low to Moderate",
-"protective_instincts": "Moderate",
-"sensitivity_level": "High - responds best to gentle training",
-"daily_food_amount": "1 to 1.5 cups",
-"calorie_requirements": "350-450 calories",
-"special_nutritional_needs": [
-"Skin and coat health",
-"Dental health support"
-],
-"weight_management": "Moderate - requires balanced diet and exercise",
-"mental_stimulation_needs": "High",
-"social_needs": "High - thrives on human interaction",
-"common_health_issues": [
-"Patellar luxation",
-"Legg-Calvé-Perthes disease",
-"Progressive retinal atrophy (PRA)",
-"Hypothyroidism",
-"Epilepsy"
-],
-"shedding_level": "Low - considered hypoallergenic",
-"drool_amount": "Low",
-"hypoallergenic": true,
-"cold_tolerance": "Moderate",
-"heat_tolerance": "Moderate",
-"maturity_age": "1-2 years",
-"gender_size_differences": "Minimal",
-"apartment_friendly": true,
-"space_requirements": "Small to medium living space suitable",
-"novice_owner_friendly": true ,
-"alone_time_tolerance": "4-6 hours",
-"stranger_friendliness": "Moderate to High",
-"noise_sensitivity": "Moderate",
-"adaptability_level": "High",
-"car_travel_adaptability": "High",
-"independence_level": "Moderate",
-"wanderlust_potential": "Low",
-"playfulness": "High",
-"watch_dog_ability": "Moderate",
-"territorial_behavior": "Low to Moderate",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality small breed kibble",
-"treats_guidelines": "Use sparingly during training",
-"exercise_preferences": [
-"Fetch",
-"Short walks",
-"Interactive play",
-"Agility training"
-],
-"professional_grooming_frequency": "Every 4-6 weeks",
-"brushing_frequency": "Several times a week",
-"bathing_frequency": "Every 3-4 weeks or as needed",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "Moderate - generally enjoys water activities",
-"similar_breeds": [
-"Toy Poodle",
-"Standard Poodle",
-"Bichon Frise",
-"Maltese"
-],
-"common_names": [
-"Mini Poodle",
-"Min Poo"
-],
-"adoption_considerations": [
-"Requires regular grooming and coat maintenance",
-"Needs consistent mental and physical exercise",
-"Sensitive to harsh training methods",
-"Adaptable to many living situations"
-],
-"cost_range": "Purchase: $1,000-2,500; Monthly care: $100-250",
-"img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/a02d3161-e874-5561-80fd-e47518ea0629/e4f46b38-1d16-59d9-87b1-7fc60393b3fb.jpg"
-},
-"Miniature Schnauzer": {
-"size": "Small",
-"weight_range": "11-20 lbs",
-"height_range": "12-14 inches",
-"life_span": "12-15 years",
-"group": "Terrier",
-"energy_level": "Moderate to High",
-"exercise_needs": "Around 1 hour daily",
-"grooming_needs": "Moderate to High - regular grooming for wiry coat",
-"coat_type": "Medium wiry outer coat with thick undercoat",
-"colors": [
-"Black",
-"Black and Silver",
-"Pepper and Salt",
-"White"
-],
-"temperament": [
-"Intelligent",
-"Lively",
-"Alert",
-"Friendly",
-"Devoted",
-"Brave",
-"Playful"
-],
-"good_with_kids": "Yes, good with children",
-"good_with_pets": "Generally good with other pets",
-"trainability": "High - intelligent and eager to please",
-"barking_tendency": "Moderate to High",
-"origin": "Germany",
-"bred_for": "Rat catching and companionship",
-"prey_drive": "Moderate to High",
-"protective_instincts": "Moderate",
-"sensitivity_level": "Moderate",
-"daily_food_amount": "1 to 1.5 cups",
-"calorie_requirements": "350-450 calories",
-"special_nutritional_needs": [
-"Dental health",
-"Joint support"
-],
-"weight_management": "Moderate - prone to obesity without exercise",
-"mental_stimulation_needs": "High",
-"social_needs": "High - thrives on family interaction",
-"common_health_issues": [
-"Patellar luxation",
-"Legg-Calvé-Perthes disease",
-"Progressive retinal atrophy (PRA)",
-"Gall bladder mucoceles",
-"von Willebrand disease"
-],
-"shedding_level": "Low to Moderate",
-"drool_amount": "Low",
-"hypoallergenic": true,
-"cold_tolerance": "Moderate",
-"heat_tolerance": "Moderate",
-"maturity_age": "1-2 years",
-"gender_size_differences": "Minimal",
-"apartment_friendly": true,
-"space_requirements": "Suitable for apartments and small spaces",
-"novice_owner_friendly": true ,
-"alone_time_tolerance": "4-6 hours",
-"stranger_friendliness": "Moderate",
-"noise_sensitivity": "Moderate to High",
-"adaptability_level": "High",
-"car_travel_adaptability": "High",
-"independence_level": "Moderate",
-"wanderlust_potential": "Low to Moderate",
-"playfulness": "High",
-"watch_dog_ability": "Good - alert watchdog",
-"territorial_behavior": "Moderate",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality small breed kibble",
-"treats_guidelines": "Use sparingly, especially during training",
-"exercise_preferences": [
-"Walks",
-"Fetch",
-"Interactive play",
-"Mental games"
-],
-"professional_grooming_frequency": "Every 4-6 weeks",
-"brushing_frequency": "Several times a week",
-"bathing_frequency": "Every 3-4 weeks or as needed",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "Moderate",
-"similar_breeds": [
-"Standard Schnauzer",
-"Giant Schnauzer",
-"Affenpinscher"
-],
-"common_names": [
-"Mini Schnauzer",
-"Miniature Schnauzer"
-],
-"adoption_considerations": [
-"Requires regular grooming",
-"Needs daily mental and physical exercise",
-"May bark excessively without training",
-"Generally good for families and apartments"
-],
-"cost_range": "Purchase: $800-1,500; Monthly care: $80-200",
-"img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/fc8d5b44-8305-5758-8785-9ed3dd028ddb/a17e967a-f0a8-59bf-b9e6-92cc36ad280c.jpg"
-},
-"Otterhound": {
-"size": "Large",
-"weight_range": "80-115 lbs",
-"height_range": "24-27 inches",
-"life_span": "10-13 years",
-"group": "Hound",
-"energy_level": "Moderate",
-"exercise_needs": "Moderate - daily walks and play",
-"grooming_needs": "High - regular grooming to maintain coat",
-"coat_type": "Dense, rough, and waterproof double coat",
-"colors": [
-"Whole colored",
-"Grizzle",
-"Sandy",
-"Red",
-"Wheaten",
-"Blue",
-"Lemon",
-"Badger pied markings"
-],
-"temperament": [
-"Friendly",
-"Affectionate",
-"Playful",
-"Independent",
-"Gentle",
-"Good-natured",
-"Sociable"
-],
-"good_with_kids": "Yes, but size requires supervision during play",
-"good_with_pets": "Generally good with other pets when socialized",
-"trainability": "Moderate - independent nature requires patience",
-"barking_tendency": "Moderate to High - distinct vocalizations",
-"origin": "England",
-"bred_for": "Hunting otters by scent over land and water",
-"prey_drive": "Moderate",
-"protective_instincts": "Moderate",
-"sensitivity_level": "Moderate",
-"daily_food_amount": "4-5 cups",
-"calorie_requirements": "Approximately 1600-2000 calories",
-"special_nutritional_needs": [
-"Joint support",
-"Prevent bloat"
-],
-"weight_management": "Moderate - prone to obesity if inactive",
-"mental_stimulation_needs": "Moderate to High",
-"social_needs": "Moderate",
-"common_health_issues": [
-"Hip dysplasia",
-"Elbow dysplasia",
-"Bloat (gastric dilatation volvulus)",
-"Entropion",
-"Skin infections"
-],
-"shedding_level": "Moderate to High",
-"drool_amount": "Low to Moderate",
-"hypoallergenic": false,
-"cold_tolerance": "High",
-"heat_tolerance": "Low to Moderate",
-"maturity_age": "2-3 years",
-"gender_size_differences": "Males larger: 27 inches, 115 lbs; Females smaller: 24 inches, 80 lbs",
-"apartment_friendly": false,
-"space_requirements": "Large yard or open space needed",
-"novice_owner_friendly": false,
-"alone_time_tolerance": "4-5 hours",
-"stranger_friendliness": "Moderate - generally friendly but independent",
-"noise_sensitivity": "Moderate",
-"adaptability_level": "Low to Moderate",
-"car_travel_adaptability": "Moderate",
-"independence_level": "High",
-"wanderlust_potential": "Moderate",
-"playfulness": "Moderate",
-"watch_dog_ability": "Moderate - not aggressive",
-"territorial_behavior": "Low to Moderate",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality large breed kibble",
-"treats_guidelines": "Use sparingly, avoid overfeeding",
-"exercise_preferences": [
-"Long walks",
-"Water activities",
-"Play sessions"
-],
-"professional_grooming_frequency": "Every 6-8 weeks",
-"brushing_frequency": "Several times a week",
-"bathing_frequency": "Every 6-8 weeks or as needed",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "High - enjoys water and swimming",
-"similar_breeds": [
-"Bloodhound",
-"Grand Griffon Vendéen",
-"Otterhound mixes"
-],
-"common_names": [
-"Otterhound",
-"Otter Hound"
-],
-"adoption_considerations": [
-"Rare breed, with limited availability",
-"Requires patient owner familiar with large, independent dogs",
-"High grooming needs with dense coat",
-"Needs regular exercise and mental stimulation",
-"Prone to bloat, requires feeding precautions"
-],
-"cost_range": "Purchase: $1,200-2,500; Monthly care: $150-300",
-"img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/03db6665-a29c-5235-a682-b8e5cf0dc11f/dd7f1630-3ced-5752-a206-58dfeba60936.jpg"
-},
-"Papillon": {
-"size": "Small",
-"weight_range": "4-10 lbs",
-"height_range": "8-11 inches",
-"life_span": "12-16 years",
-"group": "Toy",
-"energy_level": "High",
-"exercise_needs": "Moderate - daily play and walks",
-"grooming_needs": "Moderate - regular brushing to prevent mats",
-"coat_type": "Long, silky, single coat with no undercoat",
-"colors": [
-"White with patches of black",
-"Red",
-"Orange",
-"Liver",
-"Lemon",
-"Sable",
-"Tricolor"
-],
-"temperament": [
-"Intelligent",
-"Friendly",
-"Alert",
-"Playful",
-"Affectionate",
-"Sociable",
-"Energetic"
-],
-"good_with_kids": "Yes, with supervision due to small size",
-"good_with_pets": "Yes, tends to get along well with other dogs and pets",
-"trainability": "High - very intelligent and eager to please",
-"barking_tendency": "Moderate - good watchdogs but not excessively noisy",
-"origin": "France and Belgium",
-"bred_for": "Companion and agility",
-"prey_drive": "Moderate",
-"protective_instincts": "Moderate",
-"sensitivity_level": "Moderate - responds well to gentle training",
-"daily_food_amount": "1/2 to 1 cup",
-"calorie_requirements": "300-400 calories",
-"special_nutritional_needs": [
-"Dental health",
-"Skin and coat support"
-],
-"weight_management": "Moderate - requires balanced diet",
-"mental_stimulation_needs": "High",
-"social_needs": "High - thrives on interaction",
-"common_health_issues": [
-"Patellar luxation",
-"Progressive retinal atrophy (PRA)",
-"Dental problems",
-"Seizures"
-],
-"shedding_level": "Low - single coat means less shedding",
-"drool_amount": "Low",
-"hypoallergenic": false,
-"cold_tolerance": "Low - sensitive to cold due to single coat",
-"heat_tolerance": "Moderate",
-"maturity_age": "1 year",
-"gender_size_differences": "Minimal",
-"apartment_friendly": true,
-"space_requirements": "Small living spaces suitable",
-"novice_owner_friendly": true ,
-"alone_time_tolerance": "4-6 hours",
-"stranger_friendliness": "Moderate - typically friendly but alert",
-"noise_sensitivity": "Moderate",
-"adaptability_level": "High",
-"car_travel_adaptability": "High",
-"independence_level": "Moderate",
-"wanderlust_potential": "Low",
-"playfulness": "High",
-"watch_dog_ability": "Good",
-"territorial_behavior": "Low to Moderate",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality small breed dry kibble",
-"treats_guidelines": "Used sparingly during training",
-"exercise_preferences": [
-"Leash walking",
-"Indoor/outdoor play",
-"Agility training",
-"Fetch games"
-],
-"professional_grooming_frequency": "Every 6-8 weeks",
-"brushing_frequency": "Several times a week",
-"bathing_frequency": "Every 4-6 weeks or as needed",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "Moderate",
-"similar_breeds": [
-"Phalène (drop-eared Papillon)",
-"Chihuahua",
-"Toy Spaniel varieties"
-],
-"common_names": [
-"Papillon",
-"Continental Toy Spaniel"
-],
-"adoption_considerations": [
-"Needs regular grooming and coat care",
-"Requires socialization to prevent shyness or aggression",
-"Sensitive to cold weather",
-"Needs mental and physical exercise"
-],
-"cost_range": "Purchase: $1,000-2,500; Monthly care: $80-180",
-"img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c051bb20-b996-542b-85f4-12655b4f345b/dd7f1630-3ced-5752-a206-58dfeba60936.jpg"
-},
-"Pug": {
-"size": "Small",
-"weight_range": "14-18 lbs",
-"height_range": "10-13 inches",
-"life_span": "13-15 years",
-"group": "Toy",
-"energy_level": "Moderate",
-"exercise_needs": "Moderate - daily short walks and play sessions",
-"grooming_needs": "Moderate - regular brushing and facial wrinkle cleaning",
-"coat_type": "Short, glossy, smooth coat",
-"colors": [
-"Fawn",
-"Black",
-"Silver",
-"Apricot"
-],
-"temperament": [
-"Affectionate",
-"Playful",
-"Sociable",
-"Loyal",
-"Charming",
-"Comical"
-],
-"good_with_kids": "Yes, generally good with children",
-"good_with_pets": "Yes, usually good with other pets",
-"trainability": "Moderate - intelligent but can be stubborn",
-"barking_tendency": "Moderate",
-"origin": "China",
-"bred_for": "Companion dog",
-"prey_drive": "Low",
-"protective_instincts": "Moderate",
-"sensitivity_level": "Moderate",
-"daily_food_amount": "1 to 1.5 cups",
-"calorie_requirements": "Around 700-900 calories",
-"special_nutritional_needs": [
-"Weight management",
-"Support for respiratory health"
-],
-"weight_management": "High importance - prone to obesity",
-"mental_stimulation_needs": "Moderate",
-"social_needs": "High - enjoys human interaction",
-"common_health_issues": [
-"Brachycephalic airway syndrome",
-"Obesity",
-"Eye problems (dry eye, corneal ulcers)",
-"Pug dog encephalitis",
-"Skin infections"
-],
-"shedding_level": "Moderate to High",
-"drool_amount": "Low",
-"hypoallergenic": false,
-"cold_tolerance": "Low",
-"heat_tolerance": "Low - sensitive to overheating",
-"maturity_age": "9-12 months",
-"gender_size_differences": "Minimal",
-"apartment_friendly": true,
-"space_requirements": "Small living spaces suitable",
-"novice_owner_friendly": true ,
-"alone_time_tolerance": "4-6 hours",
-"stranger_friendliness": "High",
-"noise_sensitivity": "Moderate",
-"adaptability_level": "Moderate",
-"car_travel_adaptability": "Moderate",
-"independence_level": "Low to Moderate",
-"wanderlust_potential": "Low",
-"playfulness": "Moderate",
-"watch_dog_ability": "Low - more of a companion than guard dog",
-"territorial_behavior": "Low",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality small breed kibble",
-"treats_guidelines": "Use sparingly due to obesity risk",
-"exercise_preferences": [
-"Short walks",
-"Indoor play",
-"Gentle games"
-],
-"professional_grooming_frequency": "Every 6-8 weeks",
-"brushing_frequency": "Several times a week",
-"bathing_frequency": "Every 4-6 weeks or as needed",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "Low",
-"similar_breeds": [
-"Bulldog",
-"Brussels Griffon",
-"Cavalier King Charles Spaniel"
-],
-"common_names": [
-"Pug",
-"Mops (Europe)"
-],
-"adoption_considerations": [
-"Watch for breathing and eye problems",
-"Needs careful weight management",
-"Sensitive to heat and cold",
-"Requires regular cleaning of facial wrinkles"
-],
-"cost_range": "Purchase: $800-2,000; Monthly care: $100-250",
-"img_url": "https://www.akc.org/wp-content/uploads/2017/11/Pug-puppy-standing-in-profile-on-a-white-background.jpg"
-},
-"Redbone Coonhound": {
-"size": "Medium to Large",
-"weight_range": "45-70 lbs",
-"height_range": "21-27 inches",
-"life_span": "10-13 years",
-"group": "Hound",
-"energy_level": "High",
-"exercise_needs": "High - daily vigorous exercise and mental stimulation",
-"grooming_needs": "Moderate - weekly brushing and occasional bathing",
-"coat_type": "Short, smooth, coarse, and dense coat",
-"colors": [
-"Rich red",
-"Some white markings possible on chest, feet, or between legs"
-],
-"temperament": [
-"Friendly",
-"Affectionate",
-"Playful",
-"Loyal",
-"Patient",
-"Independent",
-"Alert"
-],
-"good_with_kids": "Yes, generally good with children with supervision",
-"good_with_pets": "Moderate - may chase smaller animals due to prey drive",
-"trainability": "Moderate - intelligent but may show stubbornness; positive reinforcement recommended",
-"barking_tendency": "Moderate to High - distinct loud baying",
-"origin": "United States",
-"bred_for": "Hunting, tracking, and treeing game",
-"prey_drive": "High",
-"protective_instincts": "Moderate",
-"sensitivity_level": "Moderate",
-"daily_food_amount": "4-5 cups",
-"calorie_requirements": "1600-2000 calories",
-"special_nutritional_needs": [
-"Joint health support",
-"Preventing bloat"
-],
-"weight_management": "Moderate - must be active to maintain healthy weight",
-"mental_stimulation_needs": "High",
-"social_needs": "Moderate - enjoys family companionship but can be independent",
-"common_health_issues": [
-"Hip dysplasia",
-"Elbow dysplasia",
-"Entropion",
-"Bloat",
-"Skin infections"
-],
-"shedding_level": "Moderate",
-"drool_amount": "Low to Moderate",
-"hypoallergenic": false,
-"cold_tolerance": "High",
-"heat_tolerance": "Low to Moderate",
-"maturity_age": "2-3 years",
-"gender_size_differences": "Males typically larger and heavier than females",
-"apartment_friendly": false,
-"space_requirements": "Large yard or secure outdoor space needed",
-"novice_owner_friendly": false,
-"alone_time_tolerance": "4-5 hours",
-"stranger_friendliness": "Moderate - generally friendly but can be reserved",
-"noise_sensitivity": "Moderate",
-"adaptability_level": "Low to Moderate",
-"car_travel_adaptability": "Moderate",
-"independence_level": "High",
-"wanderlust_potential": "High - strong prey and scent drive",
-"playfulness": "Moderate",
-"watch_dog_ability": "Good - alert and vocal",
-"territorial_behavior": "Low to Moderate",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality large breed kibble",
-"treats_guidelines": "Use sparingly; high-value treats for training",
-"exercise_preferences": [
-"Long walks",
-"Hiking",
-"Tracking games",
-"Swimming"
-],
-"professional_grooming_frequency": "Every 6-8 weeks",
-"brushing_frequency": "Weekly",
-"bathing_frequency": "As needed",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "High - strong swimmer",
-"similar_breeds": [
-"Treeing Walker Coonhound",
-"Black and Tan Coonhound",
-"Bluetick Coonhound"
-],
-"common_names": [
-"Redbone"
-],
-"adoption_considerations": [
-"Requires experienced owner due to high energy and strong prey drive",
-"Needs secure outdoor space and leash control",
-"Early socialization and obedience training important",
-"Not suitable for small pets due to prey drive"
-],
-"cost_range": "Purchase: $800-1,500; Monthly care: $100-250",
-"img_url": "https://www.akc.org/wp-content/uploads/2017/11/Redbone-Coonhound.jpg"
-},
-"Schipperke": {
-"size": "Small",
-"weight_range": "6.6-19.8 lbs (3-9 kg)",
-"height_range": "12-13.2 inches (31-33.6 cm)",
-"life_span": "12-16 years",
-"group": "Non-Sporting / Spitz family",
-"energy_level": "High",
-"exercise_needs": "Moderate - daily walks and play",
-"grooming_needs": "Moderate - weekly brushing; shedding twice a year",
-"coat_type": "Double coat - dense soft undercoat with harsher outer coat; long ruff around neck and 'culottes' on hind legs",
-"colors": [
-"Black",
-"Blonde",
-"Cream",
-"Rare liver-red"
-],
-"temperament": [
-"Curious",
-"Lively",
-"Intense",
-"Mischievous",
-"Alert",
-"Confident",
-"Loyal",
-"Protective"
-],
-"good_with_kids": "Yes, good with gentle children",
-"good_with_pets": "Can be dog aggressive; needs early socialization",
-"trainability": "Moderate to High - intelligent but stubborn; benefits from positive reinforcement",
-"barking_tendency": "High - good watchdog but prone to excessive barking",
-"origin": "Belgium",
-"bred_for": "Barge dog, vermin hunter, watchdog",
-"prey_drive": "High - chases rodents, birds, reptiles",
-"protective_instincts": "High",
-"sensitivity_level": "Moderate to High - responds best to gentle training",
-"daily_food_amount": "Approximately 1 to 2 cups",
-"calorie_requirements": "450-600 calories",
-"special_nutritional_needs": [
-"Skin and coat health"
-],
-"weight_management": "Moderate - maintain healthy weight with exercise",
-"mental_stimulation_needs": "High",
-"social_needs": "High - thrives on human companionship",
-"common_health_issues": [
-"Patellar luxation",
-"Legg-Calvé-Perthes disease",
-"Hypothyroidism"
-],
-"shedding_level": "Moderate - twice yearly heavy shedding",
-"drool_amount": "Low",
-"hypoallergenic": false,
-"cold_tolerance": "Moderate",
-"heat_tolerance": "Moderate",
-"maturity_age": "1-2 years",
-"gender_size_differences": "Minimal",
-"apartment_friendly": true,
-"space_requirements": "Small living spaces suitable with regular exercise",
-"novice_owner_friendly": "No - requires experienced owner due to prey drive and training needs",
-"alone_time_tolerance": "4-6 hours",
-"stranger_friendliness": "Low - reserved and wary",
-"noise_sensitivity": "High",
-"adaptability_level": "Moderate",
-"car_travel_adaptability": "High",
-"independence_level": "Moderate to High",
-"wanderlust_potential": "High - strong prey drive",
-"playfulness": "High",
-"watch_dog_ability": "Excellent - very alert",
-"territorial_behavior": "Moderate",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality small breed kibble",
-"treats_guidelines": "Use sparingly for training",
-"exercise_preferences": [
-"Walks",
-"Fetch",
-"Interactive play",
-"Agility"
-],
-"professional_grooming_frequency": "Every 6-8 weeks",
-"brushing_frequency": "Weekly; more during shedding seasons",
-"bathing_frequency": "Monthly or as needed",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "Low to Moderate",
-"similar_breeds": [
-"Pomeranian",
-"Miniature Spitz",
-"Keeshond"
-],
-"common_names": [
-"Schipperke",
-"Belgian Barge Dog",
-"Little Captain"
-],
-"adoption_considerations": [
-"Requires early socialization to manage prey drive and dog aggression",
-"Needs consistent, positive training due to stubborn nature",
-"Prone to excessive barking if bored",
-"Not suitable for novice owners"
-],
-"cost_range": "Purchase: $900-1,800; Monthly care: $80-150",
-"img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/98b0a32a-b00b-50db-8fed-f99fcafa23a8/cb932402-352e-5471-a4a6-863caf9c9557.jpg"
-},
-"Silky Terrier": {
-"size": "Small",
-"weight_range": "8-10 lbs",
-"height_range": "9-10 inches",
-"life_span": "13-15 years",
-"group": "Toy",
-"energy_level": "High",
-"exercise_needs": "At least 1 hour daily",
-"grooming_needs": "High - needs brushing at least twice a week and regular professional grooming",
-"coat_type": "Long, straight, silky, and shiny coat",
-"colors": [
-"Blue and tan",
-"Silver and tan"
-],
-"temperament": [
-"Affectionate",
-"Energetic",
-"Alert",
-"Loyal",
-"Playful",
-"Intelligent",
-"Bold"
-],
-"good_with_kids": "Good with children if properly socialized",
-"good_with_pets": "Good with proper socialization; may chase small animals due to prey drive",
-"trainability": "High - intelligent and eager to please but can be stubborn",
-"barking_tendency": "Moderate to High - alert barker",
-"origin": "Australia",
-"bred_for": "Companion and vermin hunting",
-"prey_drive": "High",
-"protective_instincts": "Moderate",
-"sensitivity_level": "Moderate - responds well to positive reinforcement",
-"daily_food_amount": "1/2 to 1 cup",
-"calorie_requirements": "Approx. 300-400 calories",
-"special_nutritional_needs": [
-"Skin and coat health"
-],
-"weight_management": "Moderate - watch diet to prevent obesity",
-"mental_stimulation_needs": "High",
-"social_needs": "High - requires interaction and attention",
-"common_health_issues": [
-"Dental issues",
-"Luxating patella",
-"Collapsing trachea"
-],
-"shedding_level": "Low",
-"drool_amount": "Low",
-"hypoallergenic": false,
-"cold_tolerance": "Low to Moderate",
-"heat_tolerance": "Moderate",
-"maturity_age": "1-2 years",
-"gender_size_differences": "Minimal",
-"apartment_friendly": "Yes, but needs exercise",
-"space_requirements": "Suitable for small homes or apartments",
-"novice_owner_friendly": "Yes, with consistent training",
-"alone_time_tolerance": "4-6 hours",
-"stranger_friendliness": "Moderate - alert but friendly",
-"noise_sensitivity": "Moderate to High",
-"adaptability_level": "High",
-"car_travel_adaptability": "High",
-"independence_level": "Moderate",
-"wanderlust_potential": "Moderate - high prey drive",
-"playfulness": "High",
-"watch_dog_ability": "Good - alert watchdog",
-"territorial_behavior": "Low to Moderate",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality small breed kibble",
-"treats_guidelines": "Use sparingly during training",
-"exercise_preferences": [
-"Long walks",
-"Agility",
-"Interactive play"
-],
-"professional_grooming_frequency": "Every 6-8 weeks",
-"brushing_frequency": "Twice a week minimum",
-"bathing_frequency": "As needed, typically every 4-6 weeks",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "Moderate",
-"similar_breeds": [
-"Yorkshire Terrier",
-"Australian Terrier",
-"Cairn Terrier"
-],
-"common_names": [
-"Silky Terrier",
-"Australian Silky Terrier"
-],
-"adoption_considerations": [
-"Requires regular grooming upkeep",
-"Needs regular exercise and mental stimulation",
-"May bark excessively without training",
-"High prey drive - leash or fenced yard necessary"
-],
-"cost_range": "Purchase: $1,000-2,500; Monthly care: $100-250",
-"img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/bac75b59-a328-5c7a-8fac-c1df8b47dcda/e91e73d4-022b-59db-9713-717a2a198855.jpg"
-},
-"Soft Coated Wheaten Terrier": {
-"size": "Medium",
-"weight_range": "30-40 lbs",
-"height_range": "17-19 inches",
-"life_span": "12-15 years",
-"group": "Terrier",
-"energy_level": "Moderate to High",
-"exercise_needs": "Moderate - about 1 hour daily",
-"grooming_needs": "High - requires regular brushing and professional grooming to prevent mats",
-"coat_type": "Soft, silky, wavy coat with a distinguished beard, low shedding",
-"colors": [
-"Wheaten (golden beige)",
-"Sandy",
-"Red",
-"Brown",
-"Mahogany"
-],
-"temperament": [
-"Friendly",
-"Outgoing",
-"Affectionate",
-"Playful",
-"Loyal",
-"Intelligent",
-"Energetic"
-],
-"good_with_kids": "Yes, friendly and usually good with children",
-"good_with_pets": "Generally good when socialized; may chase small animals due to prey drive",
-"trainability": "Moderate - intelligent but can be strong-willed, responds best to positive reinforcement",
-"barking_tendency": "Moderate to High - good watchdog but generally friendly",
-"origin": "Ireland",
-"bred_for": "Farm dog, versatile working dog",
-"prey_drive": "Moderate to High",
-"protective_instincts": "Moderate",
-"sensitivity_level": "Moderate - responds better to gentle training",
-"daily_food_amount": "3-4 cups",
-"calorie_requirements": "Approx. 1300-1600 calories",
-"special_nutritional_needs": [
-"Skin and coat health",
-"Joint support"
-],
-"weight_management": "Moderate - requires proper diet and exercise",
-"mental_stimulation_needs": "High",
-"social_needs": "High - thrives on companionship and interaction",
-"common_health_issues": [
-"Hip dysplasia",
-"Elbow dysplasia",
-"Eye problems",
-"Skin allergies"
-],
-"shedding_level": "Low - low shedding coat that requires regular grooming",
-"drool_amount": "Low",
-"hypoallergenic": "Yes - low shed coat",
-"cold_tolerance": "Moderate",
-"heat_tolerance": "Moderate",
-"maturity_age": "2-3 years",
-"gender_size_differences": "Males larger and heavier than females",
-"apartment_friendly": "Moderate - can adapt with enough exercise",
-"space_requirements": "Medium living space with regular exercise",
-"novice_owner_friendly": "Moderate - benefits from experienced owner for training",
-"alone_time_tolerance": "4-6 hours",
-"stranger_friendliness": "Moderate - alert but friendly",
-"noise_sensitivity": "Moderate to High",
-"adaptability_level": "Moderate",
-"car_travel_adaptability": "High",
-"independence_level": "Moderate",
-"wanderlust_potential": "Moderate - may wander if not supervised",
-"playfulness": "High",
-"watch_dog_ability": "Good - alert watchdog",
-"territorial_behavior": "Moderate",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality medium breed kibble",
-"treats_guidelines": "Use sparingly for training",
-"exercise_preferences": [
-"Daily walks",
-"Interactive play",
-"Agility training",
-"Nose work"
-],
-"professional_grooming_frequency": "Every 6-8 weeks",
-"brushing_frequency": "Several times a week",
-"bathing_frequency": "Every 4-6 weeks or as needed",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "Moderate",
-"similar_breeds": [
-"Irish Terrier",
-"Kerry Blue Terrier",
-"Airedale Terrier"
-],
-"common_names": [
-"Wheaten Terrier",
-"Soft Coated Wheaten Terrier"
-],
-"adoption_considerations": [
-"Needs regular grooming and maintenance",
-"Requires consistent training and socialization",
-"Prone to separation anxiety if left alone too long",
-"Moderate exercise and mental stimulation needs"
-],
-"cost_range": "Purchase: $1,200-2,500; Monthly care: $100-200",
-"img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/edf2efb4-f2df-58d7-b1f2-7486af2de461/9442ca41-8237-5acb-ac1f-6e7b0e4a3787.jpg"
-},
-"Standard Poodle": {
-"size": "Medium to Large",
-"weight_range": "40-70 lbs",
-"height_range": "15-24 inches",
-"life_span": "12-15 years",
-"group": "Non-Sporting",
-"energy_level": "High",
-"exercise_needs": "High - 1 to 2 hours daily including walks, swimming, and play",
-"grooming_needs": "High - regular grooming and clipping required",
-"coat_type": "Curly, dense, and hypoallergenic coat",
-"colors": [
-"Black",
-"White",
-"Apricot",
-"Gray",
-"Silver",
-"Brown",
-"Cafe au lait"
-],
-"temperament": [
-"Intelligent",
-"Active",
-"Loyal",
-"Trainable",
-"Friendly",
-"Alert",
-"Energetic"
-],
-"good_with_kids": "Yes, good with families and children",
-"good_with_pets": "Yes, generally good with other pets",
-"trainability": "Very High - one of the most trainable breeds",
-"barking_tendency": "Moderate",
-"origin": "Germany, standardized in France",
-"bred_for": "Water retrieval and hunting",
-"prey_drive": "Moderate",
-"protective_instincts": "Moderate",
-"sensitivity_level": "Moderate",
-"daily_food_amount": "3-4 cups",
-"calorie_requirements": "1200-1600 calories",
-"special_nutritional_needs": [
-"Joint support",
-"Skin and coat health"
-],
-"weight_management": "Moderate - maintain healthy weight with exercise",
-"mental_stimulation_needs": "High",
-"social_needs": "High - thrives on human interaction and activity",
-"common_health_issues": [
-"Hip dysplasia",
-"Addison's disease",
-"Sebaceous adenitis",
-"Progressive retinal atrophy (PRA)",
-"Bloat"
-],
-"shedding_level": "Low - hypoallergenic coat",
-"drool_amount": "Low",
-"hypoallergenic": true,
-"cold_tolerance": "Moderate",
-"heat_tolerance": "Moderate to Low - can overheat",
-"maturity_age": "2-3 years",
-"gender_size_differences": "Males typically larger and heavier",
-"apartment_friendly": "Possible with sufficient exercise",
-"space_requirements": "Medium to large living space preferred",
-"novice_owner_friendly": "Moderate - requires regular grooming and exercise",
-"alone_time_tolerance": "4-5 hours",
-"stranger_friendliness": "Moderate to High",
-"noise_sensitivity": "Moderate",
-"adaptability_level": "Moderate",
-"car_travel_adaptability": "High",
-"independence_level": "Moderate",
-"wanderlust_potential": "Moderate",
-"playfulness": "High",
-"watch_dog_ability": "Moderate",
-"territorial_behavior": "Low to Moderate",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality large breed kibble",
-"treats_guidelines": "Use sparingly for training",
-"exercise_preferences": [
-"Walking",
-"Running",
-"Swimming",
-"Agility and obedience training"
-],
-"professional_grooming_frequency": "Every 4-6 weeks",
-"brushing_frequency": "Several times per week",
-"bathing_frequency": "Every 4-6 weeks or as needed",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "High - natural swimmers",
-"similar_breeds": [
-"Miniature Poodle",
-"Toy Poodle",
-"Portuguese Water Dog"
-],
-"common_names": [
-"Standard Poodle",
-"Poodle"
-],
-"adoption_considerations": [
-"Requires significant grooming",
-"Needs regular mental and physical exercise",
-"Sensitive to heat",
-"Prone to certain hereditary health issues"
-],
-"cost_range": "Purchase: $1,200-3,000; Monthly care: $150-300",
-"img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/6133ec65-9a50-5a72-ae09-e9e301ab8810/19ee77a4-3d8a-5cdf-9e7c-c4c584196deb.jpg"
-},
-"Standard Schnauzer": {
-"size": "Medium",
-"weight_range": "30-45 lbs",
-"height_range": "17.5-19.5 inches",
-"life_span": "13 years average",
-"group": "Working",
-"energy_level": "High",
-"exercise_needs": "At least 30 minutes to 1 hour daily",
-"grooming_needs": "High - regular grooming with stripping or clipping",
-"coat_type": "Dense, wiry, harsh outer coat with soft undercoat",
-"colors": [
-"Black",
-"Salt and pepper"
-],
-"temperament": [
-"Intelligent",
-"Loyal",
-"Energetic",
-"Alert",
-"Protective",
-"Independent",
-"Playful"
-],
-"good_with_kids": "Generally good with children when socialized",
-"good_with_pets": "Can be aggressive to other dogs without socialization",
-"trainability": "High - intelligent but can be stubborn",
-"barking_tendency": "Moderate to High",
-"origin": "Germany",
-"bred_for": "Rat catching, watchdog, and farm work",
-"prey_drive": "Moderate to High",
-"protective_instincts": "High",
-"sensitivity_level": "Moderate - responds to firm, consistent training",
-"daily_food_amount": "2-3 cups",
-"calorie_requirements": "900-1200 calories",
-"special_nutritional_needs": [
-"Joint support",
-"Skin and coat health"
-],
-"weight_management": "Moderate - needs exercise to maintain healthy weight",
-"mental_stimulation_needs": "High",
-"social_needs": "High - thrives on companionship",
-"common_health_issues": [
-"Hip dysplasia",
-"Eye problems",
-"Skin allergies"
-],
-"shedding_level": "Low to Moderate",
-"drool_amount": "Low",
-"hypoallergenic": "Yes",
-"cold_tolerance": "Moderate",
-"heat_tolerance": "Moderate",
-"maturity_age": "2 years",
-"gender_size_differences": "Minimal",
-"apartment_friendly": "Possible with sufficient exercise",
-"space_requirements": "Medium to large space preferred",
-"novice_owner_friendly": "Moderate - benefits from experienced owner",
-"alone_time_tolerance": "4-6 hours",
-"stranger_friendliness": "Low to Moderate - alert and wary",
-"noise_sensitivity": "Moderate to High",
-"adaptability_level": "Moderate",
-"car_travel_adaptability": "High",
-"independence_level": "Moderate",
-"wanderlust_potential": "Moderate - may wander if bored",
-"playfulness": "High",
-"watch_dog_ability": "Excellent",
-"territorial_behavior": "High",
-"feeding_schedule": "2 meals per day",
-"food_type_preferences": "High-quality medium breed kibble",
-"treats_guidelines": "Use sparingly during training",
-"exercise_preferences": [
-"Walks",
-"Fetch",
-"Agility",
-"Mental games"
-],
-"professional_grooming_frequency": "Every 4-6 weeks",
-"brushing_frequency": "Several times per week",
-"bathing_frequency": "Every 4-6 weeks or as needed",
-"nail_trimming_frequency": "Every 3-4 weeks",
-"water_affinity": "Moderate",
-"similar_breeds": [
-"Miniature Schnauzer",
-"Giant Schnauzer",
-"Scottish Terrier"
-],
-"common_names": [
-"Standard Schnauzer",
-"Mittelschnauzer"
-],
-"adoption_considerations": [
-"Requires mental and physical stimulation",
-"Needs early socialization for good behavior",
-"Regular grooming necessary",
-"Can be territorial and vocal",
-"Best suited for experienced dog owners"
-],
-"cost_range": "Purchase: $800-1,800; Monthly care: $100-200",
-"img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/bb12446e-db98-5e82-b7b3-474fdc9f3504/dd7f1630-3ced-5752-a206-58dfeba60936.jpg"
-},
-  "Toy Poodle": {
+  "miniature-poodle": {
+    "size": "Small",
+    "weight_range": "10-15 lbs",
+    "height_range": "10-15 inches",
+    "life_span": "10-18 years",
+    "group": "Non-Sporting",
+    "energy_level": "Moderate to High",
+    "exercise_needs": "Moderate - daily play and walks",
+    "grooming_needs": "High - regular professional grooming required",
+    "coat_type": "Short, dense, curly and hypoallergenic",
+    "colors": [
+      "White",
+      "Black",
+      "Red",
+      "Cream",
+      "Gray",
+      "Apricot",
+      "Blue",
+      "Brown"
+    ],
+    "temperament": [
+      "Intelligent",
+      "Loving",
+      "Playful",
+      "Eager to please",
+      "Alert",
+      "Sociable",
+      "Sensitive"
+    ],
+    "good_with_kids": "Yes, with supervision and socialization",
+    "good_with_pets": "Yes, generally compatible with other pets",
+    "trainability": "High - very trainable, excels in obedience and agility",
+    "barking_tendency": "Moderate",
+    "origin": "Germany and France",
+    "bred_for": "Companionship and performance",
+    "prey_drive": "Low to Moderate",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "High - responds best to gentle training",
+    "daily_food_amount": "1 to 1.5 cups",
+    "calorie_requirements": "350-450 calories",
+    "special_nutritional_needs": [
+      "Skin and coat health",
+      "Dental health support"
+    ],
+    "weight_management": "Moderate - requires balanced diet and exercise",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High - thrives on human interaction",
+    "common_health_issues": [
+      "Patellar luxation",
+      "Legg-Calvé-Perthes disease",
+      "Progressive retinal atrophy (PRA)",
+      "Hypothyroidism",
+      "Epilepsy"
+    ],
+    "shedding_level": "Low - considered hypoallergenic",
+    "drool_amount": "Low",
+    "hypoallergenic": true,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "1-2 years",
+    "gender_size_differences": "Minimal",
+    "apartment_friendly": true,
+    "space_requirements": "Small to medium living space suitable",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-6 hours",
+    "stranger_friendliness": "Moderate to High",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Low",
+    "playfulness": "High",
+    "watch_dog_ability": "Moderate",
+    "territorial_behavior": "Low to Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality small breed kibble",
+    "treats_guidelines": "Use sparingly during training",
+    "exercise_preferences": [
+      "Fetch",
+      "Short walks",
+      "Interactive play",
+      "Agility training"
+    ],
+    "professional_grooming_frequency": "Every 4-6 weeks",
+    "brushing_frequency": "Several times a week",
+    "bathing_frequency": "Every 3-4 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Moderate - generally enjoys water activities",
+    "similar_breeds": [
+      "Toy Poodle",
+      "Standard Poodle",
+      "Bichon Frise",
+      "Maltese"
+    ],
+    "common_names": [
+      "Princess",
+      "Cupcake",
+      "Angel",
+      "Arabella",
+      "Alexander",
+      "Tiny",
+      "Maximilian",
+      "Peanut",
+      "Snuggles",
+      "Buttercup",
+      "Cookie",
+      "Baby",
+      "Cherry",
+      "Muffin"
+    ],
+    "adoption_considerations": [
+      "Requires regular grooming and coat maintenance",
+      "Needs consistent mental and physical exercise",
+      "Sensitive to harsh training methods",
+      "Adaptable to many living situations"
+    ],
+    "cost_range": "Purchase: $1,000-2,500; Monthly care: $100-250",
+    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/a02d3161-e874-5561-80fd-e47518ea0629/e4f46b38-1d16-59d9-87b1-7fc60393b3fb.jpg"
+  },
+  "miniature-schnauzer": {
+    "size": "Small",
+    "weight_range": "11-20 lbs",
+    "height_range": "12-14 inches",
+    "life_span": "12-15 years",
+    "group": "Terrier",
+    "energy_level": "Moderate to High",
+    "exercise_needs": "Around 1 hour daily",
+    "grooming_needs": "Moderate to High - regular grooming for wiry coat",
+    "coat_type": "Medium wiry outer coat with thick undercoat",
+    "colors": [
+      "Black",
+      "Black and Silver",
+      "Pepper and Salt",
+      "White"
+    ],
+    "temperament": [
+      "Intelligent",
+      "Lively",
+      "Alert",
+      "Friendly",
+      "Devoted",
+      "Brave",
+      "Playful"
+    ],
+    "good_with_kids": "Yes, good with children",
+    "good_with_pets": "Generally good with other pets",
+    "trainability": "High - intelligent and eager to please",
+    "barking_tendency": "Moderate to High",
+    "origin": "Germany",
+    "bred_for": "Rat catching and companionship",
+    "prey_drive": "Moderate to High",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "1 to 1.5 cups",
+    "calorie_requirements": "350-450 calories",
+    "special_nutritional_needs": [
+      "Dental health",
+      "Joint support"
+    ],
+    "weight_management": "Moderate - prone to obesity without exercise",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High - thrives on family interaction",
+    "common_health_issues": [
+      "Patellar luxation",
+      "Legg-Calvé-Perthes disease",
+      "Progressive retinal atrophy (PRA)",
+      "Gall bladder mucoceles",
+      "von Willebrand disease"
+    ],
+    "shedding_level": "Low to Moderate",
+    "drool_amount": "Low",
+    "hypoallergenic": true,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "1-2 years",
+    "gender_size_differences": "Minimal",
+    "apartment_friendly": true,
+    "space_requirements": "Suitable for apartments and small spaces",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-6 hours",
+    "stranger_friendliness": "Moderate",
+    "noise_sensitivity": "Moderate to High",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Low to Moderate",
+    "playfulness": "High",
+    "watch_dog_ability": "Good - alert watchdog",
+    "territorial_behavior": "Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality small breed kibble",
+    "treats_guidelines": "Use sparingly, especially during training",
+    "exercise_preferences": [
+      "Walks",
+      "Fetch",
+      "Interactive play",
+      "Mental games"
+    ],
+    "professional_grooming_frequency": "Every 4-6 weeks",
+    "brushing_frequency": "Several times a week",
+    "bathing_frequency": "Every 3-4 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Standard Schnauzer",
+      "Giant Schnauzer",
+      "Affenpinscher"
+    ],
+    "common_names": [
+      "Button",
+      "Cherry",
+      "Anastasia",
+      "Beatrice",
+      "Snuggles",
+      "Princess",
+      "Bambi",
+      "Baby",
+      "Tiny",
+      "Bubbles",
+      "Sugar",
+      "Penelope",
+      "Peaches",
+      "Binky"
+    ],
+    "adoption_considerations": [
+      "Requires regular grooming",
+      "Needs daily mental and physical exercise",
+      "May bark excessively without training",
+      "Generally good for families and apartments"
+    ],
+    "cost_range": "Purchase: $800-1,500; Monthly care: $80-200",
+    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/fc8d5b44-8305-5758-8785-9ed3dd028ddb/a17e967a-f0a8-59bf-b9e6-92cc36ad280c.jpg"
+  },
+  "otterhound": {
+    "size": "Large",
+    "weight_range": "80-115 lbs",
+    "height_range": "24-27 inches",
+    "life_span": "10-13 years",
+    "group": "Hound",
+    "energy_level": "Moderate",
+    "exercise_needs": "Moderate - daily walks and play",
+    "grooming_needs": "High - regular grooming to maintain coat",
+    "coat_type": "Dense, rough, and waterproof double coat",
+    "colors": [
+      "Whole colored",
+      "Grizzle",
+      "Sandy",
+      "Red",
+      "Wheaten",
+      "Blue",
+      "Lemon",
+      "Badger pied markings"
+    ],
+    "temperament": [
+      "Friendly",
+      "Affectionate",
+      "Playful",
+      "Independent",
+      "Gentle",
+      "Good-natured",
+      "Sociable"
+    ],
+    "good_with_kids": "Yes, but size requires supervision during play",
+    "good_with_pets": "Generally good with other pets when socialized",
+    "trainability": "Moderate - independent nature requires patience",
+    "barking_tendency": "Moderate to High - distinct vocalizations",
+    "origin": "England",
+    "bred_for": "Hunting otters by scent over land and water",
+    "prey_drive": "Moderate",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "4-5 cups",
+    "calorie_requirements": "Approximately 1600-2000 calories",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Prevent bloat"
+    ],
+    "weight_management": "Moderate - prone to obesity if inactive",
+    "mental_stimulation_needs": "Moderate to High",
+    "social_needs": "Moderate",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Elbow dysplasia",
+      "Bloat (gastric dilatation volvulus)",
+      "Entropion",
+      "Skin infections"
+    ],
+    "shedding_level": "Moderate to High",
+    "drool_amount": "Low to Moderate",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Low to Moderate",
+    "maturity_age": "2-3 years",
+    "gender_size_differences": "Males larger: 27 inches, 115 lbs; Females smaller: 24 inches, 80 lbs",
+    "apartment_friendly": false,
+    "space_requirements": "Large yard or open space needed",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "4-5 hours",
+    "stranger_friendliness": "Moderate - generally friendly but independent",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Low to Moderate",
+    "car_travel_adaptability": "Moderate",
+    "independence_level": "High",
+    "wanderlust_potential": "Moderate",
+    "playfulness": "Moderate",
+    "watch_dog_ability": "Moderate - not aggressive",
+    "territorial_behavior": "Low to Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality large breed kibble",
+    "treats_guidelines": "Use sparingly, avoid overfeeding",
+    "exercise_preferences": [
+      "Long walks",
+      "Water activities",
+      "Play sessions"
+    ],
+    "professional_grooming_frequency": "Every 6-8 weeks",
+    "brushing_frequency": "Several times a week",
+    "bathing_frequency": "Every 6-8 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "High - enjoys water and swimming",
+    "similar_breeds": [
+      "Bloodhound",
+      "Grand Griffon Vendéen",
+      "Otterhound mixes"
+    ],
+    "common_names": [
+      "Spring",
+      "Aurora",
+      "Sky",
+      "Ocean",
+      "Zoe",
+      "Journey",
+      "Ridge",
+      "Snow",
+      "Canyon",
+      "Echo",
+      "Tucker",
+      "Willow",
+      "Rosie",
+      "Storm"
+    ],
+    "adoption_considerations": [
+      "Rare breed, with limited availability",
+      "Requires patient owner familiar with large, independent dogs",
+      "High grooming needs with dense coat",
+      "Needs regular exercise and mental stimulation",
+      "Prone to bloat, requires feeding precautions"
+    ],
+    "cost_range": "Purchase: $1,200-2,500; Monthly care: $150-300",
+    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/03db6665-a29c-5235-a682-b8e5cf0dc11f/dd7f1630-3ced-5752-a206-58dfeba60936.jpg"
+  },
+  "papillon": {
+    "size": "Small",
+    "weight_range": "4-10 lbs",
+    "height_range": "8-11 inches",
+    "life_span": "12-16 years",
+    "group": "Toy",
+    "energy_level": "High",
+    "exercise_needs": "Moderate - daily play and walks",
+    "grooming_needs": "Moderate - regular brushing to prevent mats",
+    "coat_type": "Long, silky, single coat with no undercoat",
+    "colors": [
+      "White with patches of black",
+      "Red",
+      "Orange",
+      "Liver",
+      "Lemon",
+      "Sable",
+      "Tricolor"
+    ],
+    "temperament": [
+      "Intelligent",
+      "Friendly",
+      "Alert",
+      "Playful",
+      "Affectionate",
+      "Sociable",
+      "Energetic"
+    ],
+    "good_with_kids": "Yes, with supervision due to small size",
+    "good_with_pets": "Yes, tends to get along well with other dogs and pets",
+    "trainability": "High - very intelligent and eager to please",
+    "barking_tendency": "Moderate - good watchdogs but not excessively noisy",
+    "origin": "France and Belgium",
+    "bred_for": "Companion and agility",
+    "prey_drive": "Moderate",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "Moderate - responds well to gentle training",
+    "daily_food_amount": "1/2 to 1 cup",
+    "calorie_requirements": "300-400 calories",
+    "special_nutritional_needs": [
+      "Dental health",
+      "Skin and coat support"
+    ],
+    "weight_management": "Moderate - requires balanced diet",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High - thrives on interaction",
+    "common_health_issues": [
+      "Patellar luxation",
+      "Progressive retinal atrophy (PRA)",
+      "Dental problems",
+      "Seizures"
+    ],
+    "shedding_level": "Low - single coat means less shedding",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "Low - sensitive to cold due to single coat",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "1 year",
+    "gender_size_differences": "Minimal",
+    "apartment_friendly": true,
+    "space_requirements": "Small living spaces suitable",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-6 hours",
+    "stranger_friendliness": "Moderate - typically friendly but alert",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Low",
+    "playfulness": "High",
+    "watch_dog_ability": "Good",
+    "territorial_behavior": "Low to Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality small breed dry kibble",
+    "treats_guidelines": "Used sparingly during training",
+    "exercise_preferences": [
+      "Leash walking",
+      "Indoor/outdoor play",
+      "Agility training",
+      "Fetch games"
+    ],
+    "professional_grooming_frequency": "Every 6-8 weeks",
+    "brushing_frequency": "Several times a week",
+    "bathing_frequency": "Every 4-6 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Phalène (drop-eared Papillon)",
+      "Chihuahua",
+      "Toy Spaniel varieties"
+    ],
+    "common_names": [
+      "Baby",
+      "Snuggles",
+      "Bubbles",
+      "Binky",
+      "Tiny",
+      "Sophia",
+      "Cookie",
+      "Princess",
+      "Precious",
+      "Peanut",
+      "Pixie",
+      "Peaches",
+      "Duke",
+      "Evangeline"
+    ],
+    "adoption_considerations": [
+      "Needs regular grooming and coat care",
+      "Requires socialization to prevent shyness or aggression",
+      "Sensitive to cold weather",
+      "Needs mental and physical exercise"
+    ],
+    "cost_range": "Purchase: $1,000-2,500; Monthly care: $80-180",
+    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c051bb20-b996-542b-85f4-12655b4f345b/dd7f1630-3ced-5752-a206-58dfeba60936.jpg"
+  },
+  "pug": {
+    "size": "Small",
+    "weight_range": "14-18 lbs",
+    "height_range": "10-13 inches",
+    "life_span": "13-15 years",
+    "group": "Toy",
+    "energy_level": "Moderate",
+    "exercise_needs": "Moderate - daily short walks and play sessions",
+    "grooming_needs": "Moderate - regular brushing and facial wrinkle cleaning",
+    "coat_type": "Short, glossy, smooth coat",
+    "colors": [
+      "Fawn",
+      "Black",
+      "Silver",
+      "Apricot"
+    ],
+    "temperament": [
+      "Affectionate",
+      "Playful",
+      "Sociable",
+      "Loyal",
+      "Charming",
+      "Comical"
+    ],
+    "good_with_kids": "Yes, generally good with children",
+    "good_with_pets": "Yes, usually good with other pets",
+    "trainability": "Moderate - intelligent but can be stubborn",
+    "barking_tendency": "Moderate",
+    "origin": "China",
+    "bred_for": "Companion dog",
+    "prey_drive": "Low",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "1 to 1.5 cups",
+    "calorie_requirements": "Around 700-900 calories",
+    "special_nutritional_needs": [
+      "Weight management",
+      "Support for respiratory health"
+    ],
+    "weight_management": "High importance - prone to obesity",
+    "mental_stimulation_needs": "Moderate",
+    "social_needs": "High - enjoys human interaction",
+    "common_health_issues": [
+      "Brachycephalic airway syndrome",
+      "Obesity",
+      "Eye problems (dry eye, corneal ulcers)",
+      "Pug dog encephalitis",
+      "Skin infections"
+    ],
+    "shedding_level": "Moderate to High",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "Low",
+    "heat_tolerance": "Low - sensitive to overheating",
+    "maturity_age": "9-12 months",
+    "gender_size_differences": "Minimal",
+    "apartment_friendly": true,
+    "space_requirements": "Small living spaces suitable",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-6 hours",
+    "stranger_friendliness": "High",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "Moderate",
+    "independence_level": "Low to Moderate",
+    "wanderlust_potential": "Low",
+    "playfulness": "Moderate",
+    "watch_dog_ability": "Low - more of a companion than guard dog",
+    "territorial_behavior": "Low",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality small breed kibble",
+    "treats_guidelines": "Use sparingly due to obesity risk",
+    "exercise_preferences": [
+      "Short walks",
+      "Indoor play",
+      "Gentle games"
+    ],
+    "professional_grooming_frequency": "Every 6-8 weeks",
+    "brushing_frequency": "Several times a week",
+    "bathing_frequency": "Every 4-6 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Low",
+    "similar_breeds": [
+      "Bulldog",
+      "Brussels Griffon",
+      "Cavalier King Charles Spaniel"
+    ],
+    "common_names": [
+      "Duke",
+      "Summit",
+      "Murphy",
+      "Winston",
+      "Rocky",
+      "Quest",
+      "Sophie",
+      "Steady",
+      "Penny",
+      "Faith",
+      "Storm",
+      "Constant"
+    ],
+    "adoption_considerations": [
+      "Watch for breathing and eye problems",
+      "Needs careful weight management",
+      "Sensitive to heat and cold",
+      "Requires regular cleaning of facial wrinkles"
+    ],
+    "cost_range": "Purchase: $800-2,000; Monthly care: $100-250",
+    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Pug-puppy-standing-in-profile-on-a-white-background.jpg"
+  },
+  "redbone-coonhound": {
+    "size": "Medium to Large",
+    "weight_range": "45-70 lbs",
+    "height_range": "21-27 inches",
+    "life_span": "10-13 years",
+    "group": "Hound",
+    "energy_level": "High",
+    "exercise_needs": "High - daily vigorous exercise and mental stimulation",
+    "grooming_needs": "Moderate - weekly brushing and occasional bathing",
+    "coat_type": "Short, smooth, coarse, and dense coat",
+    "colors": [
+      "Rich red",
+      "Some white markings possible on chest, feet, or between legs"
+    ],
+    "temperament": [
+      "Friendly",
+      "Affectionate",
+      "Playful",
+      "Loyal",
+      "Patient",
+      "Independent",
+      "Alert"
+    ],
+    "good_with_kids": "Yes, generally good with children with supervision",
+    "good_with_pets": "Moderate - may chase smaller animals due to prey drive",
+    "trainability": "Moderate - intelligent but may show stubbornness; positive reinforcement recommended",
+    "barking_tendency": "Moderate to High - distinct loud baying",
+    "origin": "United States",
+    "bred_for": "Hunting, tracking, and treeing game",
+    "prey_drive": "High",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "4-5 cups",
+    "calorie_requirements": "1600-2000 calories",
+    "special_nutritional_needs": [
+      "Joint health support",
+      "Preventing bloat"
+    ],
+    "weight_management": "Moderate - must be active to maintain healthy weight",
+    "mental_stimulation_needs": "High",
+    "social_needs": "Moderate - enjoys family companionship but can be independent",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Elbow dysplasia",
+      "Entropion",
+      "Bloat",
+      "Skin infections"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "Low to Moderate",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Low to Moderate",
+    "maturity_age": "2-3 years",
+    "gender_size_differences": "Males typically larger and heavier than females",
+    "apartment_friendly": false,
+    "space_requirements": "Large yard or secure outdoor space needed",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "4-5 hours",
+    "stranger_friendliness": "Moderate - generally friendly but can be reserved",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Low to Moderate",
+    "car_travel_adaptability": "Moderate",
+    "independence_level": "High",
+    "wanderlust_potential": "High - strong prey and scent drive",
+    "playfulness": "Moderate",
+    "watch_dog_ability": "Good - alert and vocal",
+    "territorial_behavior": "Low to Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality large breed kibble",
+    "treats_guidelines": "Use sparingly; high-value treats for training",
+    "exercise_preferences": [
+      "Long walks",
+      "Hiking",
+      "Tracking games",
+      "Swimming"
+    ],
+    "professional_grooming_frequency": "Every 6-8 weeks",
+    "brushing_frequency": "Weekly",
+    "bathing_frequency": "As needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "High - strong swimmer",
+    "similar_breeds": [
+      "Treeing Walker Coonhound",
+      "Black and Tan Coonhound",
+      "Bluetick Coonhound"
+    ],
+    "common_names": [
+      "Red",
+      "Hunter",
+      "Ranger",
+      "Scarlet",
+      "River",
+      "Rusty",
+      "Bella",
+      "Chase",
+      "Rory",
+      "Storm"
+    ],
+    "adoption_considerations": [
+      "Requires experienced owner due to high energy and strong prey drive",
+      "Needs secure outdoor space and leash control",
+      "Early socialization and obedience training important",
+      "Not suitable for small pets due to prey drive"
+    ],
+    "cost_range": "Purchase: $800-1,500; Monthly care: $100-250",
+    "img_url": "https://www.akc.org/wp-content/uploads/2017/11/Redbone-Coonhound.jpg"
+  },
+  "schipperke": {
+    "size": "Small",
+    "weight_range": "6.6-19.8 lbs (3-9 kg)",
+    "height_range": "12-13.2 inches (31-33.6 cm)",
+    "life_span": "12-16 years",
+    "group": "Non-Sporting / Spitz family",
+    "energy_level": "High",
+    "exercise_needs": "Moderate - daily walks and play",
+    "grooming_needs": "Moderate - weekly brushing; shedding twice a year",
+    "coat_type": "Double coat - dense soft undercoat with harsher outer coat; long ruff around neck and 'culottes' on hind legs",
+    "colors": [
+      "Black",
+      "Blonde",
+      "Cream",
+      "Rare liver-red"
+    ],
+    "temperament": [
+      "Curious",
+      "Lively",
+      "Intense",
+      "Mischievous",
+      "Alert",
+      "Confident",
+      "Loyal",
+      "Protective"
+    ],
+    "good_with_kids": "Yes, good with gentle children",
+    "good_with_pets": "Can be dog aggressive; needs early socialization",
+    "trainability": "Moderate to High - intelligent but stubborn; benefits from positive reinforcement",
+    "barking_tendency": "High - good watchdog but prone to excessive barking",
+    "origin": "Belgium",
+    "bred_for": "Barge dog, vermin hunter, watchdog",
+    "prey_drive": "High - chases rodents, birds, reptiles",
+    "protective_instincts": "High",
+    "sensitivity_level": "Moderate to High - responds best to gentle training",
+    "daily_food_amount": "Approximately 1 to 2 cups",
+    "calorie_requirements": "450-600 calories",
+    "special_nutritional_needs": [
+      "Skin and coat health"
+    ],
+    "weight_management": "Moderate - maintain healthy weight with exercise",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High - thrives on human companionship",
+    "common_health_issues": [
+      "Patellar luxation",
+      "Legg-Calvé-Perthes disease",
+      "Hypothyroidism"
+    ],
+    "shedding_level": "Moderate - twice yearly heavy shedding",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "1-2 years",
+    "gender_size_differences": "Minimal",
+    "apartment_friendly": true,
+    "space_requirements": "Small living spaces suitable with regular exercise",
+    "novice_owner_friendly": "No - requires experienced owner due to prey drive and training needs",
+    "alone_time_tolerance": "4-6 hours",
+    "stranger_friendliness": "Low - reserved and wary",
+    "noise_sensitivity": "High",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate to High",
+    "wanderlust_potential": "High - strong prey drive",
+    "playfulness": "High",
+    "watch_dog_ability": "Excellent - very alert",
+    "territorial_behavior": "Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality small breed kibble",
+    "treats_guidelines": "Use sparingly for training",
+    "exercise_preferences": [
+      "Walks",
+      "Fetch",
+      "Interactive play",
+      "Agility"
+    ],
+    "professional_grooming_frequency": "Every 6-8 weeks",
+    "brushing_frequency": "Weekly; more during shedding seasons",
+    "bathing_frequency": "Monthly or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Low to Moderate",
+    "similar_breeds": [
+      "Pomeranian",
+      "Miniature Spitz",
+      "Keeshond"
+    ],
+    "common_names": [
+      "Penny",
+      "Sadie",
+      "Duke",
+      "Arrow",
+      "Noble",
+      "Devoted",
+      "Lola",
+      "Rosie",
+      "Max",
+      "Phoenix",
+      "Ranger",
+      "Loyal"
+    ],
+    "adoption_considerations": [
+      "Requires early socialization to manage prey drive and dog aggression",
+      "Needs consistent, positive training due to stubborn nature",
+      "Prone to excessive barking if bored",
+      "Not suitable for novice owners"
+    ],
+    "cost_range": "Purchase: $900-1,800; Monthly care: $80-150",
+    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/98b0a32a-b00b-50db-8fed-f99fcafa23a8/cb932402-352e-5471-a4a6-863caf9c9557.jpg"
+  },
+  "silky-terrier": {
+    "size": "Small",
+    "weight_range": "8-10 lbs",
+    "height_range": "9-10 inches",
+    "life_span": "13-15 years",
+    "group": "Toy",
+    "energy_level": "High",
+    "exercise_needs": "At least 1 hour daily",
+    "grooming_needs": "High - needs brushing at least twice a week and regular professional grooming",
+    "coat_type": "Long, straight, silky, and shiny coat",
+    "colors": [
+      "Blue and tan",
+      "Silver and tan"
+    ],
+    "temperament": [
+      "Affectionate",
+      "Energetic",
+      "Alert",
+      "Loyal",
+      "Playful",
+      "Intelligent",
+      "Bold"
+    ],
+    "good_with_kids": "Good with children if properly socialized",
+    "good_with_pets": "Good with proper socialization; may chase small animals due to prey drive",
+    "trainability": "High - intelligent and eager to please but can be stubborn",
+    "barking_tendency": "Moderate to High - alert barker",
+    "origin": "Australia",
+    "bred_for": "Companion and vermin hunting",
+    "prey_drive": "High",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "Moderate - responds well to positive reinforcement",
+    "daily_food_amount": "1/2 to 1 cup",
+    "calorie_requirements": "Approx. 300-400 calories",
+    "special_nutritional_needs": [
+      "Skin and coat health"
+    ],
+    "weight_management": "Moderate - watch diet to prevent obesity",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High - requires interaction and attention",
+    "common_health_issues": [
+      "Dental issues",
+      "Luxating patella",
+      "Collapsing trachea"
+    ],
+    "shedding_level": "Low",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "Low to Moderate",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "1-2 years",
+    "gender_size_differences": "Minimal",
+    "apartment_friendly": "Yes, but needs exercise",
+    "space_requirements": "Suitable for small homes or apartments",
+    "novice_owner_friendly": "Yes, with consistent training",
+    "alone_time_tolerance": "4-6 hours",
+    "stranger_friendliness": "Moderate - alert but friendly",
+    "noise_sensitivity": "Moderate to High",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Moderate - high prey drive",
+    "playfulness": "High",
+    "watch_dog_ability": "Good - alert watchdog",
+    "territorial_behavior": "Low to Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality small breed kibble",
+    "treats_guidelines": "Use sparingly during training",
+    "exercise_preferences": [
+      "Long walks",
+      "Agility",
+      "Interactive play"
+    ],
+    "professional_grooming_frequency": "Every 6-8 weeks",
+    "brushing_frequency": "Twice a week minimum",
+    "bathing_frequency": "As needed, typically every 4-6 weeks",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Yorkshire Terrier",
+      "Australian Terrier",
+      "Cairn Terrier"
+    ],
+    "common_names": [
+      "Winston",
+      "Merry",
+      "Cheerful",
+      "Willow",
+      "Frisky",
+      "Lola",
+      "Peppy",
+      "Echo",
+      "Ruby",
+      "Arrow",
+      "Zippy",
+      "Thunder",
+      "Sophie"
+    ],
+    "adoption_considerations": [
+      "Requires regular grooming upkeep",
+      "Needs regular exercise and mental stimulation",
+      "May bark excessively without training",
+      "High prey drive - leash or fenced yard necessary"
+    ],
+    "cost_range": "Purchase: $1,000-2,500; Monthly care: $100-250",
+    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/bac75b59-a328-5c7a-8fac-c1df8b47dcda/e91e73d4-022b-59db-9713-717a2a198855.jpg"
+  },
+  "soft-coated-wheaten-terrier": {
+    "size": "Medium",
+    "weight_range": "30-40 lbs",
+    "height_range": "17-19 inches",
+    "life_span": "12-15 years",
+    "group": "Terrier",
+    "energy_level": "Moderate to High",
+    "exercise_needs": "Moderate - about 1 hour daily",
+    "grooming_needs": "High - requires regular brushing and professional grooming to prevent mats",
+    "coat_type": "Soft, silky, wavy coat with a distinguished beard, low shedding",
+    "colors": [
+      "Wheaten (golden beige)",
+      "Sandy",
+      "Red",
+      "Brown",
+      "Mahogany"
+    ],
+    "temperament": [
+      "Friendly",
+      "Outgoing",
+      "Affectionate",
+      "Playful",
+      "Loyal",
+      "Intelligent",
+      "Energetic"
+    ],
+    "good_with_kids": "Yes, friendly and usually good with children",
+    "good_with_pets": "Generally good when socialized; may chase small animals due to prey drive",
+    "trainability": "Moderate - intelligent but can be strong-willed, responds best to positive reinforcement",
+    "barking_tendency": "Moderate to High - good watchdog but generally friendly",
+    "origin": "Ireland",
+    "bred_for": "Farm dog, versatile working dog",
+    "prey_drive": "Moderate to High",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "Moderate - responds better to gentle training",
+    "daily_food_amount": "3-4 cups",
+    "calorie_requirements": "Approx. 1300-1600 calories",
+    "special_nutritional_needs": [
+      "Skin and coat health",
+      "Joint support"
+    ],
+    "weight_management": "Moderate - requires proper diet and exercise",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High - thrives on companionship and interaction",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Elbow dysplasia",
+      "Eye problems",
+      "Skin allergies"
+    ],
+    "shedding_level": "Low - low shedding coat that requires regular grooming",
+    "drool_amount": "Low",
+    "hypoallergenic": "Yes - low shed coat",
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2-3 years",
+    "gender_size_differences": "Males larger and heavier than females",
+    "apartment_friendly": "Moderate - can adapt with enough exercise",
+    "space_requirements": "Medium living space with regular exercise",
+    "novice_owner_friendly": "Moderate - benefits from experienced owner for training",
+    "alone_time_tolerance": "4-6 hours",
+    "stranger_friendliness": "Moderate - alert but friendly",
+    "noise_sensitivity": "Moderate to High",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Moderate - may wander if not supervised",
+    "playfulness": "High",
+    "watch_dog_ability": "Good - alert watchdog",
+    "territorial_behavior": "Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality medium breed kibble",
+    "treats_guidelines": "Use sparingly for training",
+    "exercise_preferences": [
+      "Daily walks",
+      "Interactive play",
+      "Agility training",
+      "Nose work"
+    ],
+    "professional_grooming_frequency": "Every 6-8 weeks",
+    "brushing_frequency": "Several times a week",
+    "bathing_frequency": "Every 4-6 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Irish Terrier",
+      "Kerry Blue Terrier",
+      "Airedale Terrier"
+    ],
+    "common_names": [
+      "Sparky",
+      "Chase",
+      "Frisky",
+      "Oliver",
+      "Lucy",
+      "Merry",
+      "Jolly",
+      "Sky",
+      "Ranger",
+      "Bear",
+      "Charlie",
+      "Forest",
+      "Zippy"
+    ],
+    "adoption_considerations": [
+      "Needs regular grooming and maintenance",
+      "Requires consistent training and socialization",
+      "Prone to separation anxiety if left alone too long",
+      "Moderate exercise and mental stimulation needs"
+    ],
+    "cost_range": "Purchase: $1,200-2,500; Monthly care: $100-200",
+    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/edf2efb4-f2df-58d7-b1f2-7486af2de461/9442ca41-8237-5acb-ac1f-6e7b0e4a3787.jpg"
+  },
+  "standard-poodle": {
+    "size": "Medium to Large",
+    "weight_range": "40-70 lbs",
+    "height_range": "15-24 inches",
+    "life_span": "12-15 years",
+    "group": "Non-Sporting",
+    "energy_level": "High",
+    "exercise_needs": "High - 1 to 2 hours daily including walks, swimming, and play",
+    "grooming_needs": "High - regular grooming and clipping required",
+    "coat_type": "Curly, dense, and hypoallergenic coat",
+    "colors": [
+      "Black",
+      "White",
+      "Apricot",
+      "Gray",
+      "Silver",
+      "Brown",
+      "Cafe au lait"
+    ],
+    "temperament": [
+      "Intelligent",
+      "Active",
+      "Loyal",
+      "Trainable",
+      "Friendly",
+      "Alert",
+      "Energetic"
+    ],
+    "good_with_kids": "Yes, good with families and children",
+    "good_with_pets": "Yes, generally good with other pets",
+    "trainability": "Very High - one of the most trainable breeds",
+    "barking_tendency": "Moderate",
+    "origin": "Germany, standardized in France",
+    "bred_for": "Water retrieval and hunting",
+    "prey_drive": "Moderate",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "3-4 cups",
+    "calorie_requirements": "1200-1600 calories",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Skin and coat health"
+    ],
+    "weight_management": "Moderate - maintain healthy weight with exercise",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High - thrives on human interaction and activity",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Addison's disease",
+      "Sebaceous adenitis",
+      "Progressive retinal atrophy (PRA)",
+      "Bloat"
+    ],
+    "shedding_level": "Low - hypoallergenic coat",
+    "drool_amount": "Low",
+    "hypoallergenic": true,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Moderate to Low - can overheat",
+    "maturity_age": "2-3 years",
+    "gender_size_differences": "Males typically larger and heavier",
+    "apartment_friendly": "Possible with sufficient exercise",
+    "space_requirements": "Medium to large living space preferred",
+    "novice_owner_friendly": "Moderate - requires regular grooming and exercise",
+    "alone_time_tolerance": "4-5 hours",
+    "stranger_friendliness": "Moderate to High",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Moderate",
+    "playfulness": "High",
+    "watch_dog_ability": "Moderate",
+    "territorial_behavior": "Low to Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality large breed kibble",
+    "treats_guidelines": "Use sparingly for training",
+    "exercise_preferences": [
+      "Walking",
+      "Running",
+      "Swimming",
+      "Agility and obedience training"
+    ],
+    "professional_grooming_frequency": "Every 4-6 weeks",
+    "brushing_frequency": "Several times per week",
+    "bathing_frequency": "Every 4-6 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "High - natural swimmers",
+    "similar_breeds": [
+      "Miniature Poodle",
+      "Toy Poodle",
+      "Portuguese Water Dog"
+    ],
+    "common_names": [
+      "Theodore",
+      "Grace",
+      "Penelope",
+      "Noble",
+      "Beatrice",
+      "Anastasia",
+      "Arabella",
+      "Royal",
+      "Prince",
+      "Queen",
+      "Cordelia"
+    ],
+    "adoption_considerations": [
+      "Requires significant grooming",
+      "Needs regular mental and physical exercise",
+      "Sensitive to heat",
+      "Prone to certain hereditary health issues"
+    ],
+    "cost_range": "Purchase: $1,200-3,000; Monthly care: $150-300",
+    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/6133ec65-9a50-5a72-ae09-e9e301ab8810/19ee77a4-3d8a-5cdf-9e7c-c4c584196deb.jpg"
+  },
+  "standard-schnauzer": {
+    "size": "Medium",
+    "weight_range": "30-45 lbs",
+    "height_range": "17.5-19.5 inches",
+    "life_span": "13 years average",
+    "group": "Working",
+    "energy_level": "High",
+    "exercise_needs": "At least 30 minutes to 1 hour daily",
+    "grooming_needs": "High - regular grooming with stripping or clipping",
+    "coat_type": "Dense, wiry, harsh outer coat with soft undercoat",
+    "colors": [
+      "Black",
+      "Salt and pepper"
+    ],
+    "temperament": [
+      "Intelligent",
+      "Loyal",
+      "Energetic",
+      "Alert",
+      "Protective",
+      "Independent",
+      "Playful"
+    ],
+    "good_with_kids": "Generally good with children when socialized",
+    "good_with_pets": "Can be aggressive to other dogs without socialization",
+    "trainability": "High - intelligent but can be stubborn",
+    "barking_tendency": "Moderate to High",
+    "origin": "Germany",
+    "bred_for": "Rat catching, watchdog, and farm work",
+    "prey_drive": "Moderate to High",
+    "protective_instincts": "High",
+    "sensitivity_level": "Moderate - responds to firm, consistent training",
+    "daily_food_amount": "2-3 cups",
+    "calorie_requirements": "900-1200 calories",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Skin and coat health"
+    ],
+    "weight_management": "Moderate - needs exercise to maintain healthy weight",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High - thrives on companionship",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Eye problems",
+      "Skin allergies"
+    ],
+    "shedding_level": "Low to Moderate",
+    "drool_amount": "Low",
+    "hypoallergenic": "Yes",
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Minimal",
+    "apartment_friendly": "Possible with sufficient exercise",
+    "space_requirements": "Medium to large space preferred",
+    "novice_owner_friendly": "Moderate - benefits from experienced owner",
+    "alone_time_tolerance": "4-6 hours",
+    "stranger_friendliness": "Low to Moderate - alert and wary",
+    "noise_sensitivity": "Moderate to High",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Moderate - may wander if bored",
+    "playfulness": "High",
+    "watch_dog_ability": "Excellent",
+    "territorial_behavior": "High",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality medium breed kibble",
+    "treats_guidelines": "Use sparingly during training",
+    "exercise_preferences": [
+      "Walks",
+      "Fetch",
+      "Agility",
+      "Mental games"
+    ],
+    "professional_grooming_frequency": "Every 4-6 weeks",
+    "brushing_frequency": "Several times per week",
+    "bathing_frequency": "Every 4-6 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Miniature Schnauzer",
+      "Giant Schnauzer",
+      "Scottish Terrier"
+    ],
+    "common_names": [
+      "Ginger",
+      "Heart",
+      "Trust",
+      "Jack",
+      "Charlie",
+      "Devoted",
+      "Rain",
+      "Toby",
+      "Coco",
+      "Oscar",
+      "Sky",
+      "Hunter"
+    ],
+    "adoption_considerations": [
+      "Requires mental and physical stimulation",
+      "Needs early socialization for good behavior",
+      "Regular grooming necessary",
+      "Can be territorial and vocal",
+      "Best suited for experienced dog owners"
+    ],
+    "cost_range": "Purchase: $800-1,800; Monthly care: $100-200",
+    "img_url": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/bb12446e-db98-5e82-b7b3-474fdc9f3504/dd7f1630-3ced-5752-a206-58dfeba60936.jpg"
+  },
+  "toy-poodle": {
     "size": "Small",
     "weight_range": "4-6 lbs",
     "height_range": "9-10 inches",
@@ -9533,7 +10717,20 @@ export const breedsData = {
       "Yorkshire Terrier"
     ],
     "common_names": [
-      "Toy Poodle"
+      "Buttercup",
+      "Sebastian",
+      "Sugar",
+      "Victoria",
+      "Theodore",
+      "Binky",
+      "Precious",
+      "Muffin",
+      "Jellybean",
+      "Cookie",
+      "Sweetie",
+      "Duke",
+      "Baby",
+      "Bambi"
     ],
     "adoption_considerations": [
       "Requires daily grooming",
@@ -9544,7 +10741,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,200-2,500; Monthly care: $80-200",
     "img_url": " https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/3e5aad6a-ef87-509b-884c-6ff6d9788086/01108858-7bce-56fd-90b3-f7369c59e66f.jpg "
   },
-  "English Toy Terrier": {
+  "english-toy-terrier": {
     "size": "Small",
     "weight_range": "6-8 lbs (2.7–3.6 kg)",
     "height_range": "10–12 inches (25–30 cm)",
@@ -9628,8 +10825,16 @@ export const breedsData = {
       "Toy Fox Terrier"
     ],
     "common_names": [
-      "English Toy Terrier",
-      "Black & Tan Terrier"
+      "Tiny",
+      "Toy",
+      "Pixie",
+      "Bella",
+      "Jinx",
+      "Milo",
+      "Coco",
+      "Dex",
+      "Lulu",
+      "Pip"
     ],
     "adoption_considerations": [
       "Needs socialization",
@@ -9639,7 +10844,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,200–2,000; Monthly care: $60–120",
     "img_url": " https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/9d17e517-754b-53f5-bcc1-e4b2fbd32de4/242529a2-ce9f-5620-ab4a-e20b93e8ae57.jpg "
   },
-  "Vizsla": {
+  "vizsla": {
     "size": "Medium",
     "weight_range": "45-65 lbs",
     "height_range": "21-24 inches",
@@ -9726,8 +10931,18 @@ export const breedsData = {
       "Hungarian Wirehaired Vizsla"
     ],
     "common_names": [
-      "Hungarian Vizsla",
-      "Vizsla"
+      "Bella",
+      "Trust",
+      "Cooper",
+      "Charlie",
+      "Summit",
+      "Molly",
+      "Devoted",
+      "Canyon",
+      "Jack",
+      "Honor",
+      "Ruby",
+      "Star"
     ],
     "adoption_considerations": [
       "Needs active, engaged owner",
@@ -9738,7 +10953,7 @@ export const breedsData = {
     "cost_range": "Purchase: $1,200-2,000; Monthly care: $100-250",
     "img_url": " https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/bbf80147-b941-51c6-9bb7-714faac6e5d7/dd7f1630-3ced-5752-a206-58dfeba60936.jpg "
   },
-  "Whippet": {
+  "whippet": {
     "size": "Medium",
     "weight_range": "18-48 lbs",
     "height_range": "18-22 inches",
@@ -9831,7 +11046,18 @@ export const breedsData = {
       "Saluki"
     ],
     "common_names": [
-      "Whippet"
+      "Charlie",
+      "Chloe",
+      "Faith",
+      "Winston",
+      "Sky",
+      "Constant",
+      "Misty",
+      "Murphy",
+      "Zoe",
+      "Faithful",
+      "Phoenix",
+      "Rosie"
     ],
     "adoption_considerations": [
       "Needs safe, enclosed space to run",
@@ -9842,7 +11068,7 @@ export const breedsData = {
     "cost_range": "Purchase: $800-1,500; Monthly care: $70-150",
     "img_url": " https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/77d47585-a755-5307-9349-3764e00ca424/dd7f1630-3ced-5752-a206-58dfeba60936.jpg "
   },
-  "Wire Fox Terrier": {
+  "wire-fox-terrier": {
     "size": "Small",
     "weight_range": "15-19 lbs",
     "height_range": "13-15.5 inches",
@@ -9928,8 +11154,16 @@ export const breedsData = {
       "Parson Russell Terrier"
     ],
     "common_names": [
-      "Wire Fox Terrier",
-      "Wirehair Foxy"
+      "Fox",
+      "Wire",
+      "Rusty",
+      "Sparky",
+      "Scout",
+      "Rex",
+      "Jinx",
+      "Ziggy",
+      "Toby",
+      "Pepper"
     ],
     "adoption_considerations": [
       "Need outlet for high energy",
@@ -9939,7 +11173,2185 @@ export const breedsData = {
     ],
     "cost_range": "Purchase: $800-1,800; Monthly care: $80-150",
     "img_url": " https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/38d5e2c9-1050-5a86-bd47-83dc93581f8e/cb932402-352e-5471-a4a6-863caf9c9557.jpg "
+  },
+  "yorkshire-terrier": {
+    "size": "Toy",
+    "weight_range": "4-7 lbs",
+    "height_range": "7-8 inches",
+    "life_span": "11-15 years",
+    "group": "Toy",
+    "energy_level": "High",
+    "exercise_needs": "Moderate - 30 minutes daily",
+    "grooming_needs": "High",
+    "coat_type": "Long, silky, fine-textured single coat",
+    "colors": [
+      "Blue & Tan",
+      "Blue & Gold",
+      "Black & Tan",
+      "Black & Gold"
+    ],
+    "temperament": [
+      "Bold",
+      "Intelligent",
+      "Confident",
+      "Independent",
+      "Courageous"
+    ],
+    "good_with_kids": "Better with older children",
+    "good_with_pets": "Yes, with proper socialization",
+    "trainability": "Moderate - can be stubborn",
+    "barking_tendency": "High",
+    "origin": "England",
+    "bred_for": "Hunting rats in mines and mills",
+    "common_health_issues": [
+      "Patellar luxation",
+      "Tracheal collapse",
+      "Portosystemic shunt",
+      "Hypoglycemia",
+      "Dental issues"
+    ],
+    "shedding_level": "Low",
+    "drool_amount": "Low",
+    "hypoallergenic": true,
+    "cold_tolerance": "Low",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "1 year",
+    "gender_size_differences": "Minimal differences",
+    "apartment_friendly": true,
+    "space_requirements": "Well-suited for apartment living",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "Low - up to 4-6 hours",
+    "stranger_friendliness": "Moderate - can be wary",
+    "noise_sensitivity": "High",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "High",
+    "prey_drive": "High",
+    "protective_instincts": "High",
+    "sensitivity_level": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Low",
+    "playfulness": "High",
+    "watch_dog_ability": "High",
+    "territorial_behavior": "Moderate",
+    "daily_food_amount": "0.25-0.5 cups",
+    "calorie_requirements": "150-200 calories",
+    "special_nutritional_needs": [
+      "Small-breed formula",
+      "Dental health support"
+    ],
+    "weight_management": "Prone to weight gain if overfed",
+    "feeding_schedule": "2-3 small meals per day",
+    "food_type_preferences": "High-quality dry kibble for small breeds",
+    "treats_guidelines": "Use sparingly to prevent obesity",
+    "mental_stimulation_needs": "Moderate",
+    "social_needs": "High",
+    "exercise_preferences": [
+      "Short walks",
+      "Indoor play"
+    ],
+    "professional_grooming_frequency": "Every 4-6 weeks",
+    "brushing_frequency": "Daily",
+    "bathing_frequency": "Every 2-4 weeks",
+    "nail_trimming_frequency": "Monthly",
+    "water_affinity": "Low",
+    "similar_breeds": [
+      "Silky Terrier",
+      "Biewer Terrier"
+    ],
+    "common_names": [
+      "Milo",
+      "Jack",
+      "Leo",
+      "Bounce",
+      "Zippy",
+      "Quest",
+      "Sunny",
+      "Lola",
+      "Ridge",
+      "Aurora",
+      "Cheerful",
+      "Jolly",
+      "Phoenix"
+    ],
+    "adoption_considerations": [
+      "Requires significant grooming commitment",
+      "Fragile and not suitable for homes with very young children",
+      "Can be difficult to house-train"
+    ],
+    "cost_range": "Purchase: $1500-$3000, Monthly: $100-$200",
+    "img_url": "URL_to_image_of_Yorkshire_Terrier.jpg"
+  },
+  "affenpinscher": {
+    "size": "Toy",
+    "weight_range": "7-10 lbs",
+    "height_range": "9-11.5 inches",
+    "life_span": "12-15 years",
+    "group": "Toy",
+    "energy_level": "Moderate",
+    "exercise_needs": "Moderate - 30 minutes daily",
+    "grooming_needs": "Moderate",
+    "coat_type": "Dense, harsh, wiry coat",
+    "colors": [
+      "Black",
+      "Gray",
+      "Silver",
+      "Red",
+      "Black & Tan",
+      "Belge"
+    ],
+    "temperament": [
+      "Confident",
+      "Funny",
+      "Fearless",
+      "Curious",
+      "Loyal"
+    ],
+    "good_with_kids": "Better with older children",
+    "good_with_pets": "Good with other dogs and pets if raised with them",
+    "trainability": "Moderate - intelligent but stubborn",
+    "barking_tendency": "Moderate",
+    "origin": "Germany",
+    "bred_for": "Ridding kitchens and stables of rodents",
+    "common_health_issues": [
+      "Patellar luxation",
+      "Heart murmurs",
+      "Hip dysplasia",
+      "Vision problems"
+    ],
+    "shedding_level": "Low",
+    "drool_amount": "Low",
+    "hypoallergenic": true,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Low",
+    "maturity_age": "10-12 months",
+    "gender_size_differences": "Minimal differences",
+    "apartment_friendly": true,
+    "space_requirements": "Excellent for apartment living",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "Low - prone to separation anxiety",
+    "stranger_friendliness": "Moderate - can be suspicious at first",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "Moderate",
+    "prey_drive": "High",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Moderate",
+    "playfulness": "High",
+    "watch_dog_ability": "High",
+    "territorial_behavior": "Moderate",
+    "daily_food_amount": "0.25-0.5 cups",
+    "calorie_requirements": "200-300 calories",
+    "special_nutritional_needs": [
+      "Small-breed formula"
+    ],
+    "weight_management": "Monitor food intake to prevent obesity",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality dry or wet food",
+    "treats_guidelines": "In moderation for training purposes",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High",
+    "exercise_preferences": [
+      "Brisk walks",
+      "Indoor games"
+    ],
+    "professional_grooming_frequency": "Every 4-6 months (hand-stripping)",
+    "brushing_frequency": "2-3 times per week",
+    "bathing_frequency": "As needed",
+    "nail_trimming_frequency": "Monthly",
+    "water_affinity": "Low",
+    "similar_breeds": [
+      "Brussels Griffon",
+      "Miniature Schnauzer"
+    ],
+    "common_names": [
+      "Button",
+      "Theodore",
+      "Cherry",
+      "Pixie",
+      "Sugar",
+      "Evangeline",
+      "Muffin",
+      "Pip",
+      "Tiny",
+      "Sweetie",
+      "Buttercup",
+      "Penelope",
+      "Jellybean",
+      "Princess"
+    ],
+    "adoption_considerations": [
+      "Not ideal for families with toddlers due to size",
+      "Can be difficult to housebreak",
+      "Bold personality in a small body"
+    ],
+    "cost_range": "Purchase: $1800-$2500, Monthly: $100-$150",
+    "img_url": "URL_to_image_of_Affenpinscher.jpg"
+  },
+  "basenji": {
+    "size": "Medium",
+    "weight_range": "22-24 lbs",
+    "height_range": "16-17 inches",
+    "life_span": "13-14 years",
+    "group": "Hound",
+    "energy_level": "High",
+    "exercise_needs": "High - 1 hour+ daily",
+    "grooming_needs": "Low",
+    "coat_type": "Short, fine coat",
+    "colors": [
+      "Black & White",
+      "Red & White",
+      "Tricolor",
+      "Brindle & White"
+    ],
+    "temperament": [
+      "Intelligent",
+      "Independent",
+      "Curious",
+      "Affectionate",
+      "Alert"
+    ],
+    "good_with_kids": "Yes, with proper socialization",
+    "good_with_pets": "Can have high prey drive with smaller animals",
+    "trainability": "Difficult - highly independent",
+    "barking_tendency": "Low (is 'barkless' but yodels)",
+    "origin": "Central Africa",
+    "bred_for": "Hunting small game by sight and scent",
+    "common_health_issues": [
+      "Fanconi syndrome",
+      "Progressive retinal atrophy (PRA)",
+      "Hip dysplasia",
+      "Hypothyroidism"
+    ],
+    "shedding_level": "Low",
+    "drool_amount": "Low",
+    "hypoallergenic": true,
+    "cold_tolerance": "Low",
+    "heat_tolerance": "High",
+    "maturity_age": "1-2 years",
+    "gender_size_differences": "Males slightly larger than females",
+    "apartment_friendly": false,
+    "space_requirements": "Requires a securely fenced yard",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "Moderate - can be destructive if bored",
+    "stranger_friendliness": "Low - reserved with strangers",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "Moderate",
+    "prey_drive": "High",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "High",
+    "independence_level": "High",
+    "wanderlust_potential": "High",
+    "playfulness": "High",
+    "watch_dog_ability": "High",
+    "territorial_behavior": "Moderate",
+    "daily_food_amount": "1-1.5 cups",
+    "calorie_requirements": "700-900 calories",
+    "special_nutritional_needs": [
+      "High-energy formula"
+    ],
+    "weight_management": "Generally lean, but monitor for weight gain",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality protein-rich kibble",
+    "treats_guidelines": "Excellent motivator for training",
+    "mental_stimulation_needs": "High",
+    "social_needs": "Moderate",
+    "exercise_preferences": [
+      "Running",
+      "Agility",
+      "Lure coursing"
+    ],
+    "professional_grooming_frequency": "Rarely needed",
+    "brushing_frequency": "Weekly",
+    "bathing_frequency": "Infrequently, as they self-groom like cats",
+    "nail_trimming_frequency": "Monthly",
+    "water_affinity": "Low - generally dislike water",
+    "similar_breeds": [
+      "Ibizan Hound",
+      "Pharaoh Hound"
+    ],
+    "common_names": [
+      "Blaze",
+      "Rocky",
+      "Stella",
+      "Faithful",
+      "Oliver",
+      "Trust",
+      "True",
+      "Rain",
+      "Jack",
+      "Star",
+      "Lily",
+      "Milo"
+    ],
+    "adoption_considerations": [
+      "Notoriously difficult to train",
+      "High prey drive and escape artists",
+      "Unique 'yodel' instead of a bark"
+    ],
+    "cost_range": "Purchase: $1200-$2000, Monthly: $100-$150",
+    "img_url": "URL_to_image_of_Basenji.jpg"
+  },
+  "basset-hound": {
+    "size": "Medium",
+    "weight_range": "40-65 lbs",
+    "height_range": "Up to 15 inches",
+    "life_span": "12-13 years",
+    "group": "Hound",
+    "energy_level": "Low",
+    "exercise_needs": "Moderate - 30-60 minutes daily walk",
+    "grooming_needs": "Moderate",
+    "coat_type": "Short, smooth, dense coat",
+    "colors": [
+      "Tricolor (Black, White, Tan)",
+      "Red & White",
+      "Lemon & White"
+    ],
+    "temperament": [
+      "Charming",
+      "Patient",
+      "Low-key",
+      "Sociable",
+      "Stubborn"
+    ],
+    "good_with_kids": "Yes, very good",
+    "good_with_pets": "Yes, generally good with other animals",
+    "trainability": "Difficult - very independent and scent-driven",
+    "barking_tendency": "High (deep, baying bark)",
+    "origin": "France/Great Britain",
+    "bred_for": "Trailing rabbits and deer by scent",
+    "common_health_issues": [
+      "Ear infections",
+      "Bloat (GDV)",
+      "Hip and elbow dysplasia",
+      "Intervertebral disc disease",
+      "Glaucoma"
+    ],
+    "shedding_level": "High",
+    "drool_amount": "High",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Low",
+    "maturity_age": "1.5-2 years",
+    "gender_size_differences": "Males are typically heavier",
+    "apartment_friendly": true,
+    "space_requirements": "Adaptable to apartments, but a yard is beneficial",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "Moderate - can suffer from separation anxiety",
+    "stranger_friendliness": "High",
+    "noise_sensitivity": "Low",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "prey_drive": "High",
+    "protective_instincts": "Low",
+    "sensitivity_level": "Moderate",
+    "independence_level": "High",
+    "wanderlust_potential": "High",
+    "playfulness": "Moderate",
+    "watch_dog_ability": "Moderate (will bark at strangers)",
+    "territorial_behavior": "Low",
+    "daily_food_amount": "1.5-2.5 cups",
+    "calorie_requirements": "900-1300 calories",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Weight control formula"
+    ],
+    "weight_management": "High - prone to obesity",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality kibble formulated for medium breeds",
+    "treats_guidelines": "Limit treats due to obesity risk",
+    "mental_stimulation_needs": "Moderate",
+    "social_needs": "High",
+    "exercise_preferences": [
+      "Long, slow walks",
+      "Scent work"
+    ],
+    "professional_grooming_frequency": "Not required",
+    "brushing_frequency": "Weekly",
+    "bathing_frequency": "Monthly or as needed",
+    "nail_trimming_frequency": "Every 2-3 weeks",
+    "water_affinity": "Low",
+    "similar_breeds": [
+      "Bloodhound",
+      "Beagle"
+    ],
+    "common_names": [
+      "Droopy",
+      "Woody",
+      "Bessie",
+      "Snoopy",
+      "Molly",
+      "Otis",
+      "Sadie",
+      "Buddy",
+      "Hugo",
+      "Lola"
+    ],
+    "adoption_considerations": [
+      "Prone to significant drooling and shedding",
+      "Requires regular ear cleaning",
+      "Can be very vocal with a loud, deep bay"
+    ],
+    "cost_range": "Purchase: $1000-$2000, Monthly: $150-$250",
+    "img_url": "URL_to_image_of_Basset_Hound.jpg"
+  },
+  "black-and-tan-coonhound": {
+    "size": "Large",
+    "weight_range": "65-110 lbs",
+    "height_range": "23-27 inches",
+    "life_span": "10-12 years",
+    "group": "Hound",
+    "energy_level": "Moderate",
+    "exercise_needs": "High - 1 hour+ daily",
+    "grooming_needs": "Low",
+    "coat_type": "Short, dense coat",
+    "colors": [
+      "Black & Tan"
+    ],
+    "temperament": [
+      "Easygoing",
+      "Friendly",
+      "Mellow",
+      "Determined",
+      "Brave"
+    ],
+    "good_with_kids": "Yes, generally good",
+    "good_with_pets": "Good with dogs; can have prey drive for smaller pets",
+    "trainability": "Moderate - independent and scent-driven",
+    "barking_tendency": "High (loud, baying bark)",
+    "origin": "United States",
+    "bred_for": "Trailing and treeing raccoons",
+    "common_health_issues": [
+      "Hip and elbow dysplasia",
+      "Bloat (GDV)",
+      "Ear infections",
+      "Hypothyroidism",
+      "Eye problems (ectropion, entropion)"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "High",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Males are noticeably larger than females",
+    "apartment_friendly": false,
+    "space_requirements": "Needs a home with a large, securely fenced yard",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "Moderate",
+    "stranger_friendliness": "Moderate - can be reserved",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "Moderate",
+    "prey_drive": "High",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "Moderate",
+    "independence_level": "High",
+    "wanderlust_potential": "High",
+    "playfulness": "Moderate",
+    "watch_dog_ability": "High",
+    "territorial_behavior": "Moderate",
+    "daily_food_amount": "3-5 cups",
+    "calorie_requirements": "1500-2200 calories",
+    "special_nutritional_needs": [
+      "Large-breed puppy formula",
+      "Joint support supplements"
+    ],
+    "weight_management": "Moderate - monitor for obesity",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality large-breed dog food",
+    "treats_guidelines": "Use for training, but don't overfeed",
+    "mental_stimulation_needs": "Moderate",
+    "social_needs": "Moderate",
+    "exercise_preferences": [
+      "Long walks on leash",
+      "Hiking",
+      "Scent work"
+    ],
+    "professional_grooming_frequency": "Not required",
+    "brushing_frequency": "Weekly",
+    "bathing_frequency": "As needed",
+    "nail_trimming_frequency": "Monthly",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Bloodhound",
+      "Bluetick Coonhound",
+      "Redbone Coonhound"
+    ],
+    "common_names": [
+      "Valley",
+      "Forest",
+      "Willow",
+      "Zoe",
+      "Blaze",
+      "Lightning",
+      "Storm",
+      "Thunder",
+      "Rocky",
+      "Chase",
+      "Breeze",
+      "Oscar",
+      "Aurora",
+      "Ranger"
+    ],
+    "adoption_considerations": [
+      "Loud, booming bay can be an issue for neighbors",
+      "High drool and shedding levels",
+      "Needs secure fencing as they will follow a scent"
+    ],
+    "cost_range": "Purchase: $600-$1200, Monthly: $150-$250",
+    "img_url": "URL_to_image_of_Black_and_Tan_Coonhound.jpg"
+  },
+  "bloodhound": {
+    "size": "Large",
+    "weight_range": "80-110 lbs",
+    "height_range": "23-27 inches",
+    "life_span": "10-12 years",
+    "group": "Hound",
+    "energy_level": "Moderate",
+    "exercise_needs": "High - 1 hour+ of daily walks",
+    "grooming_needs": "Moderate",
+    "coat_type": "Short, smooth coat with loose, wrinkled skin",
+    "colors": [
+      "Black & Tan",
+      "Liver & Tan",
+      "Red"
+    ],
+    "temperament": [
+      "Gentle",
+      "Affectionate",
+      "Even-tempered",
+      "Stubborn",
+      "Inquisitive"
+    ],
+    "good_with_kids": "Yes, famously good with children",
+    "good_with_pets": "Yes, generally good with other animals",
+    "trainability": "Difficult - extremely independent and single-minded on a trail",
+    "barking_tendency": "High (booming bay or howl)",
+    "origin": "Belgium/France",
+    "bred_for": "Trailing large game and people",
+    "common_health_issues": [
+      "Bloat (GDV)",
+      "Hip and elbow dysplasia",
+      "Ear infections",
+      "Skin-fold dermatitis",
+      "Eye problems (entropion, ectropion)"
+    ],
+    "shedding_level": "High",
+    "drool_amount": "High",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Low",
+    "maturity_age": "2-3 years",
+    "gender_size_differences": "Males are significantly larger and heavier",
+    "apartment_friendly": false,
+    "space_requirements": "Requires a large home with a very secure, tall fence",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "Moderate",
+    "stranger_friendliness": "High",
+    "noise_sensitivity": "Low",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "Moderate",
+    "prey_drive": "High",
+    "protective_instincts": "Low",
+    "sensitivity_level": "Moderate",
+    "independence_level": "High",
+    "wanderlust_potential": "Very High",
+    "playfulness": "Moderate",
+    "watch_dog_ability": "Moderate (will bay at newcomers)",
+    "territorial_behavior": "Low",
+    "daily_food_amount": "4-6 cups",
+    "calorie_requirements": "1800-2500 calories",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Food formulated to prevent bloat"
+    ],
+    "weight_management": "High - prone to obesity",
+    "feeding_schedule": "2-3 small meals per day to reduce bloat risk",
+    "food_type_preferences": "High-quality, large-breed food",
+    "treats_guidelines": " sparingly due to high risk of obesity",
+    "mental_stimulation_needs": "High (especially scent work)",
+    "social_needs": "High",
+    "exercise_preferences": [
+      "Long walks on leash",
+      "Tracking/trailing activities"
+    ],
+    "professional_grooming_frequency": "Not required",
+    "brushing_frequency": "Weekly",
+    "bathing_frequency": "As needed (can have a strong 'houndy' odor)",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Low",
+    "similar_breeds": [
+      "Basset Hound",
+      "Coonhounds"
+    ],
+    "common_names": [
+      "Valley",
+      "Canyon",
+      "Winter",
+      "Hunter",
+      "Storm",
+      "Star",
+      "Bella",
+      "Aurora",
+      "Ridge",
+      "Summit",
+      "Ocean",
+      "Murphy",
+      "Rocky"
+    ],
+    "adoption_considerations": [
+      "Extreme drooling is a hallmark of the breed",
+      "Requires daily cleaning of facial wrinkles and ears",
+      "Will follow a scent relentlessly; cannot be trusted off-leash"
+    ],
+    "cost_range": "Purchase: $1000-$1800, Monthly: $200-$300",
+    "img_url": "URL_to_image_of_Bloodhound.jpg"
+  },
+  "bluetick-coonhound": {
+    "size": "Large",
+    "weight_range": "45-80 lbs",
+    "height_range": "21-27 inches",
+    "life_span": "11-12 years",
+    "group": "Hound",
+    "energy_level": "High",
+    "exercise_needs": "Very High - 1.5+ hours daily",
+    "grooming_needs": "Low",
+    "coat_type": "Short, smooth, glossy coat",
+    "colors": [
+      "Blue ticked",
+      "Blue ticked with tan markings"
+    ],
+    "temperament": [
+      "Smart",
+      "Devoted",
+      "Tenacious",
+      "Friendly",
+      "Vocal"
+    ],
+    "good_with_kids": "Yes, with socialization",
+    "good_with_pets": "Good with dogs, high prey drive towards smaller animals",
+    "trainability": "Moderate - intelligent but can be stubborn",
+    "barking_tendency": "Very High (loud, bawling bay)",
+    "origin": "United States",
+    "bred_for": "Hunting raccoons and other game",
+    "common_health_issues": [
+      "Bloat (GDV)",
+      "Hip dysplasia",
+      "Ear infections",
+      "Cataracts"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "Moderate",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "High",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Males are typically larger",
+    "apartment_friendly": false,
+    "space_requirements": "Best suited for a rural home with lots of space",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "Low - can become destructive and noisy",
+    "stranger_friendliness": "Moderate - friendly but may be reserved initially",
+    "noise_sensitivity": "Low",
+    "adaptability_level": "Low",
+    "car_travel_adaptability": "High",
+    "prey_drive": "Very High",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "Moderate",
+    "independence_level": "High",
+    "wanderlust_potential": "Very High",
+    "playfulness": "High",
+    "watch_dog_ability": "High",
+    "territorial_behavior": "Moderate",
+    "daily_food_amount": "2.5-3.5 cups",
+    "calorie_requirements": "1200-1800 calories",
+    "special_nutritional_needs": [
+      "High-energy or working dog formula"
+    ],
+    "weight_management": "Monitor to prevent obesity in less active dogs",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality, protein-rich kibble",
+    "treats_guidelines": "Use as a high-value reward for training",
+    "mental_stimulation_needs": "High",
+    "social_needs": "Moderate",
+    "exercise_preferences": [
+      "Running",
+      "Hiking",
+      "Hunting",
+      "Scent work"
+    ],
+    "professional_grooming_frequency": "Not required",
+    "brushing_frequency": "Weekly",
+    "bathing_frequency": "As needed",
+    "nail_trimming_frequency": "Monthly",
+    "water_affinity": "High",
+    "similar_breeds": [
+      "American English Coonhound",
+      "Treeing Walker Coonhound"
+    ],
+    "common_names": [
+      "Blue",
+      "Tick",
+      "Scout",
+      "River",
+      "Echo",
+      "Chase",
+      "Rusty",
+      "Luna",
+      "Falcon",
+      "Sky"
+    ],
+    "adoption_considerations": [
+      "Extremely vocal; not suitable for close neighbors",
+      "Needs a 'job' or intensive exercise to be happy",
+      "Cannot be trusted off-leash due to high prey drive"
+    ],
+    "cost_range": "Purchase: $500-$1000, Monthly: $150-$250",
+    "img_url": "URL_to_image_of_Bluetick_Coonhound.jpg"
+  },
+  "borzoi": {
+    "size": "Giant",
+    "weight_range": "60-105 lbs",
+    "height_range": "26-32 inches",
+    "life_span": "9-14 years",
+    "group": "Hound",
+    "energy_level": "Moderate (sprints, not stamina)",
+    "exercise_needs": "Moderate - 30-45 minutes daily, needs room to run",
+    "grooming_needs": "Moderate",
+    "coat_type": "Long, silky coat, can be flat, wavy, or curly",
+    "colors": [
+      "Any color or combination of colors"
+    ],
+    "temperament": [
+      "Affectionate",
+      "Regal",
+      "Loyal",
+      "Independent",
+      "Quiet"
+    ],
+    "good_with_kids": "Yes, if raised with them",
+    "good_with_pets": "High prey drive; not safe with cats or small animals",
+    "trainability": "Difficult - independent and sensitive",
+    "barking_tendency": "Low",
+    "origin": "Russia",
+    "bred_for": "Hunting wolves and other game by sight (sighthound)",
+    "common_health_issues": [
+      "Bloat (GDV)",
+      "Osteosarcoma (bone cancer)",
+      "Heart problems (cardiomyopathy)",
+      "Hypothyroidism"
+    ],
+    "shedding_level": "High (seasonal)",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Low",
+    "maturity_age": "2-3 years",
+    "gender_size_differences": "Males are significantly larger and more substantial",
+    "apartment_friendly": true,
+    "space_requirements": "Adaptable to apartments if given daily opportunity to run in a safe, fenced area",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "High",
+    "stranger_friendliness": "Low - aloof with strangers",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "High",
+    "prey_drive": "Very High",
+    "protective_instincts": "Low",
+    "sensitivity_level": "Very High",
+    "independence_level": "High",
+    "wanderlust_potential": "High",
+    "playfulness": "Moderate",
+    "watch_dog_ability": "Low",
+    "territorial_behavior": "Low",
+    "daily_food_amount": "3-5 cups",
+    "calorie_requirements": "1600-2400 calories",
+    "special_nutritional_needs": [
+      "Large/Giant breed formula",
+      "Sensitive to anesthesia"
+    ],
+    "weight_management": "Naturally lean; obesity is rare but should be avoided",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality giant-breed kibble",
+    "treats_guidelines": "Use sparingly",
+    "mental_stimulation_needs": "Low",
+    "social_needs": "Moderate",
+    "exercise_preferences": [
+      "Sprinting in a large, fenced area",
+      "Lure coursing",
+      "Leisurely walks"
+    ],
+    "professional_grooming_frequency": "Occasionally",
+    "brushing_frequency": "2-3 times per week",
+    "bathing_frequency": "As needed",
+    "nail_trimming_frequency": "Monthly",
+    "water_affinity": "Low",
+    "similar_breeds": [
+      "Afghan Hound",
+      "Greyhound",
+      "Saluki"
+    ],
+    "common_names": [
+      "Majesty",
+      "Beatrice",
+      "Maximilian",
+      "Evangeline",
+      "Penelope",
+      "Theodore",
+      "Alexander",
+      "Duke",
+      "Princess",
+      "Crown",
+      "Imperial"
+    ],
+    "adoption_considerations": [
+      "Extremely high prey drive; must never be off-leash in an unfenced area",
+      "Very sensitive to harsh training methods",
+      "A quiet 'couch potato' indoors, but needs explosive exercise"
+    ],
+    "cost_range": "Purchase: $1500-$3000, Monthly: $200-$300",
+    "img_url": "URL_to_image_of_Borzoi.jpg"
+  },
+  "briard": {
+    "size": "Large",
+    "weight_range": "55-100 lbs",
+    "height_range": "22-27 inches",
+    "life_span": "10-12 years",
+    "group": "Herding",
+    "energy_level": "High",
+    "exercise_needs": "High - 1-2 hours daily",
+    "grooming_needs": "Very High",
+    "coat_type": "Long, coarse, shaggy double coat",
+    "colors": [
+      "Black",
+      "Fawn",
+      "Gray"
+    ],
+    "temperament": [
+      "Loyal",
+      "Intelligent",
+      "Brave",
+      "Protective",
+      "Spirited"
+    ],
+    "good_with_kids": "Yes, very protective of family children",
+    "good_with_pets": "Good if raised together, can be dominant with other dogs",
+    "trainability": "Moderate - intelligent but needs a confident leader",
+    "barking_tendency": "Moderate",
+    "origin": "France",
+    "bred_for": "Herding and guarding sheep",
+    "common_health_issues": [
+      "Bloat (GDV)",
+      "Hip dysplasia",
+      "Congenital stationary night blindness (CSNB)",
+      "Cancer"
+    ],
+    "shedding_level": "Low",
+    "drool_amount": "Low",
+    "hypoallergenic": true,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Low",
+    "maturity_age": "2-3 years",
+    "gender_size_differences": "Males are noticeably larger than females",
+    "apartment_friendly": false,
+    "space_requirements": "Needs a home with a large, fenced yard",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "Low",
+    "stranger_friendliness": "Low - wary of strangers",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "Moderate",
+    "prey_drive": "Moderate",
+    "protective_instincts": "High",
+    "sensitivity_level": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Moderate",
+    "playfulness": "High",
+    "watch_dog_ability": "High",
+    "territorial_behavior": "High",
+    "daily_food_amount": "3-5 cups",
+    "calorie_requirements": "1600-2400 calories",
+    "special_nutritional_needs": [
+      "Large-breed formula",
+      "Coat and skin supplements"
+    ],
+    "weight_management": "Monitor weight to avoid stress on joints",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High-quality dog food for active, large breeds",
+    "treats_guidelines": "Useful for training reinforcement",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High",
+    "exercise_preferences": [
+      "Herding activities",
+      "Agility",
+      "Hiking",
+      "Jogging"
+    ],
+    "professional_grooming_frequency": "Every 6-8 weeks",
+    "brushing_frequency": "Several times per week to daily",
+    "bathing_frequency": "As needed (takes a long time to dry)",
+    "nail_trimming_frequency": "Monthly",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Old English Sheepdog",
+      "Bouvier des Flandres"
+    ],
+    "common_names": [
+      "Misty",
+      "Murphy",
+      "Noble",
+      "Charlie",
+      "Faithful",
+      "Lucky",
+      "Rosie",
+      "Loyal",
+      "Quest",
+      "Ruby",
+      "Summit",
+      "Molly"
+    ],
+    "adoption_considerations": [
+      "Requires an immense grooming commitment to prevent matting",
+      "Strong guarding and herding instincts require early, consistent training and socialization",
+      "Can be suspicious of strangers and other animals"
+    ],
+    "cost_range": "Purchase: $1500-$2500, Monthly: $200-$300",
+    "img_url": "URL_to_image_of_Briard.jpg"
+  },
+  "bull-mastiff": {
+    "size": "Very Large / Giant",
+    "weight_range": "100-130 lbs (45-59 kg)",
+    "height_range": "24-27 in (61-69 cm)",
+    "life_span": "8-10 years",
+    "group": "Working / Mastiff type",
+    "energy_level": "Moderate",
+    "exercise_needs": "Moderate – daily walks and controlled play",
+    "grooming_needs": "Low to Moderate",
+    "coat_type": "Short, dense, single coat with weather resistance",
+    "colors": [
+      "Fawn",
+      "Red",
+      "Brindle"
+    ],
+    "temperament": [
+      "Loyal",
+      "Calm",
+      "Protective",
+      "Affectionate",
+      "Docile"
+    ],
+    "good_with_kids": "Yes, with supervision",
+    "good_with_pets": "Moderate – proper early socialization needed",
+    "trainability": "Moderate to High",
+    "barking_tendency": "Moderate (alert, but not overly vocal)",
+    "origin": "England",
+    "bred_for": "Estate and gamekeeper guard duty / deterrent to poachers",
+    "prey_drive": "Moderate",
+    "protective_instincts": "High",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "4-6 cups",
+    "calorie_requirements": "≈ 3500-4500 kcal (adult, depends on size/activity)",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Weight control when older"
+    ],
+    "weight_management": "Prone to gain weight if under-exercised",
+    "mental_stimulation_needs": "Moderate to High",
+    "social_needs": "Moderate",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Elbow dysplasia",
+      "Bloat / gastric torsion",
+      "Cancer (e.g. lymphoma, mast cell tumors)",
+      "Eye problems (entropion, ectropion)"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "High",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Low to Moderate",
+    "maturity_age": "2-3 years",
+    "gender_size_differences": "Males generally larger / heavier",
+    "apartment_friendly": false,
+    "space_requirements": "Large home with yard or frequent outdoor access",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "3-4 hours (with enrichment)",
+    "stranger_friendliness": "Reserved / wary until introduced",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Moderate (with training)",
+    "car_travel_adaptability": "Moderate (may pant / drool)",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Low (if well fenced, contained)",
+    "playfulness": "Moderate",
+    "watch_dog_ability": "High",
+    "territorial_behavior": "Moderate to High",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High quality dry kibble, possibly supplemented",
+    "treats_guidelines": "Low fat, <10 % of diet",
+    "exercise_preferences": [
+      "Leashed walks",
+      "Controlled play",
+      "Gentle yard activity"
+    ],
+    "professional_grooming_frequency": "Occasional",
+    "brushing_frequency": "Once per week",
+    "bathing_frequency": "Monthly or as needed",
+    "nail_trimming_frequency": "Every 4-6 weeks",
+    "water_affinity": "Moderate (some may enjoy water)",
+    "similar_breeds": [
+      "English Mastiff",
+      "Neapolitan Mastiff",
+      "Great Dane"
+    ],
+    "common_names": [
+      "Imperial",
+      "Victor",
+      "Champion",
+      "Iron",
+      "Sovereign",
+      "Khan",
+      "Colonel",
+      "Queen",
+      "Tank",
+      "King",
+      "Chief",
+      "Rex"
+    ],
+    "adoption_considerations": "Size, drooling, health costs, training requirements",
+    "cost_range": "High purchase + high monthly care",
+    "img_url": ""
+  },
+  "cairn": {
+    "size": "Small to Medium",
+    "weight_range": "13-18 lbs (6-8 kg)",
+    "height_range": "9-10 in (23-25 cm)",
+    "life_span": "12-15 years",
+    "group": "Terrier",
+    "energy_level": "High",
+    "exercise_needs": "Moderate to High – daily walks/play",
+    "grooming_needs": "Moderate",
+    "coat_type": "Double coat – harsh outer coat, soft undercoat",
+    "colors": [
+      "Cream",
+      "Wheaten",
+      "Red",
+      "Gray",
+      "Black"
+    ],
+    "temperament": [
+      "Alert",
+      "Spirited",
+      "Independent",
+      "Friendly",
+      "Confident"
+    ],
+    "good_with_kids": "Moderate to Good (with supervision)",
+    "good_with_pets": "May chase smaller animals (high prey drive)",
+    "trainability": "Moderate (some stubbornness)",
+    "barking_tendency": "High (vigilant barkers)",
+    "origin": "Scotland",
+    "bred_for": "Vermin hunting (among cairns / rocks)",
+    "prey_drive": "High",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "High",
+    "daily_food_amount": "¾ – 1½ cups",
+    "calorie_requirements": "≈ 400-600 kcal",
+    "special_nutritional_needs": [
+      "Dental care",
+      "Joint support with age"
+    ],
+    "weight_management": "Easily overweight if overfed",
+    "mental_stimulation_needs": "High",
+    "social_needs": "Moderate",
+    "common_health_issues": [
+      "Legg-Calvé-Perthes disease",
+      "Patellar luxation",
+      "Lens luxation / cataracts",
+      "Hypothyroidism",
+      "Allergies"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "1.5-2 years",
+    "gender_size_differences": "Males slightly larger",
+    "apartment_friendly": true,
+    "space_requirements": "Moderate – daily walks needed",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-6 hours (with enrichment)",
+    "stranger_friendliness": "Friendly but alert",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate to High",
+    "wanderlust_potential": "Moderate (may explore when off-leash)",
+    "playfulness": "High",
+    "watch_dog_ability": "Moderate (vocal alert)",
+    "territorial_behavior": "Low to Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "Quality kibble, wet food optional",
+    "treats_guidelines": "Small lean treats, limit quantity",
+    "exercise_preferences": [
+      "Walks",
+      "Chasing games",
+      "Puzzle toys"
+    ],
+    "professional_grooming_frequency": "Occasional trimming",
+    "brushing_frequency": "2-3 times per week",
+    "bathing_frequency": "Every few months or when dirty",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Low to Moderate",
+    "similar_breeds": [
+      "Scottish Terrier",
+      "West Highland White Terrier",
+      "Norfolk Terrier"
+    ],
+    "common_names": [
+      "Rocky",
+      "Canyon",
+      "Constant",
+      "Luna",
+      "Devoted",
+      "Chloe",
+      "Buddy",
+      "Hunter",
+      "Honor",
+      "Charlie",
+      "Oliver",
+      "Arrow"
+    ],
+    "adoption_considerations": "Prey drive, mental stimulation needs",
+    "cost_range": "Moderate",
+    "img_url": ""
+  },
+  "chow": {
+    "size": "Medium to Large",
+    "weight_range": "45-70 lbs (20-32 kg)",
+    "height_range": "17-20 in (43-51 cm)",
+    "life_span": "9-12 years",
+    "group": "Non-Sporting / Spitz type",
+    "energy_level": "Moderate",
+    "exercise_needs": "Moderate – daily walks and play",
+    "grooming_needs": "High",
+    "coat_type": "Thick double coat – dense undercoat and coarse outer coat",
+    "colors": [
+      "Red",
+      "Black",
+      "Cream",
+      "Blue",
+      "Cinnamon",
+      "Chocolate",
+      "White"
+    ],
+    "temperament": [
+      "Independent",
+      "Reserved",
+      "Loyal",
+      "Stubborn",
+      "Quiet"
+    ],
+    "good_with_kids": "Good with respectful children, supervision needed",
+    "good_with_pets": "May be dominant or aloof, early socialization essential",
+    "trainability": "Moderate to Low (stubborn streak)",
+    "barking_tendency": "Low to Moderate",
+    "origin": "China",
+    "bred_for": "Guarding, utility, sled / draft in some areas",
+    "prey_drive": "Moderate",
+    "protective_instincts": "Moderate to High",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "2-3 cups",
+    "calorie_requirements": "≈ 1200-1600 kcal",
+    "special_nutritional_needs": [
+      "Weight control",
+      "Skin/coat support"
+    ],
+    "weight_management": "Prone to obesity if sedentary",
+    "mental_stimulation_needs": "Moderate",
+    "social_needs": "Low to Moderate",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Entropion / ectropion (eye issues)",
+      "Allergies / skin problems",
+      "Hypothyroidism",
+      "Elbow dysplasia"
+    ],
+    "shedding_level": "High",
+    "drool_amount": "Low to Moderate",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Low (sensitive to heat)",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Males slightly larger",
+    "apartment_friendly": true,
+    "space_requirements": "Medium space, access to outdoor area helpful",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "4-6 hours (with enrichment)",
+    "stranger_friendliness": "Reserved / aloof until introduced",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "Moderate (can get anxious or pant)",
+    "independence_level": "High",
+    "wanderlust_potential": "Low",
+    "playfulness": "Moderate",
+    "watch_dog_ability": "Moderate",
+    "territorial_behavior": "Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High quality kibble / species-appropriate mix",
+    "treats_guidelines": "Low fat treats, controlled portion",
+    "exercise_preferences": [
+      "Walks",
+      "Leashed exploration",
+      "Shade/rest breaks"
+    ],
+    "professional_grooming_frequency": "Seasonal trimming / coat maintenance",
+    "brushing_frequency": "Several times per week",
+    "bathing_frequency": "Monthly or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "Low (not strong swimmers generally)",
+    "similar_breeds": [
+      "Akita",
+      "Keeshond",
+      "Chow Chow"
+    ],
+    "common_names": [
+      "Murphy",
+      "Faithful",
+      "Noble",
+      "Milo",
+      "Nova",
+      "Leo",
+      "Winston",
+      "Echo",
+      "Thunder",
+      "Bond",
+      "Stella",
+      "Max"
+    ],
+    "adoption_considerations": "Grooming, heat sensitivity, strong temperament",
+    "cost_range": "Moderate to High",
+    "img_url": "https://tse1.mm.bing.net/th/id/OIP.BEHnqOtTusPVSEXPzF5bowHaHa?pid=Api&P=0&h=180"
+  },
+  "clumber-spaniel": {
+    "size": "Large",
+    "weight_range": "55-85 lbs (25-38 kg)",
+    "height_range": "17-20 in (43-51 cm)",
+    "life_span": "10-12 years",
+    "group": "Sporting / Spaniel",
+    "energy_level": "Moderate",
+    "exercise_needs": "Moderate – daily walks and field play",
+    "grooming_needs": "Moderate to High",
+    "coat_type": "Dense, straight, flat coat with feathering",
+    "colors": [
+      "White with lemon, brown, or orange markings"
+    ],
+    "temperament": [
+      "Gentle",
+      "Affectionate",
+      "Docile",
+      "Loyal",
+      "Patient"
+    ],
+    "good_with_kids": "Yes (gentle nature)",
+    "good_with_pets": "Generally good with other dogs",
+    "trainability": "Moderate to High",
+    "barking_tendency": "Low to Moderate",
+    "origin": "England",
+    "bred_for": "Flushing game / bird hunting",
+    "prey_drive": "Moderate",
+    "protective_instincts": "Low",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "3-4 cups",
+    "calorie_requirements": "≈ 1400-1800 kcal",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Ear care"
+    ],
+    "weight_management": "Can gain weight if inactive",
+    "mental_stimulation_needs": "Moderate",
+    "social_needs": "Moderate",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Ear infections",
+      "Eye problems (entropion)",
+      "Intervertebral disc disease"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Males slightly larger",
+    "apartment_friendly": true,
+    "space_requirements": "Yard or good walking space",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-5 hours",
+    "stranger_friendliness": "Friendly, social",
+    "noise_sensitivity": "Low to Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Low",
+    "playfulness": "Moderate",
+    "watch_dog_ability": "Low",
+    "territorial_behavior": "Low",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High quality kibble, occasional wet food",
+    "treats_guidelines": "Healthy low-calorie treats",
+    "exercise_preferences": [
+      "Walks",
+      "Field work",
+      "Retrieving games"
+    ],
+    "professional_grooming_frequency": "Seasonal trimming",
+    "brushing_frequency": "2-3 times per week",
+    "bathing_frequency": "Every few weeks or as needed",
+    "nail_trimming_frequency": "Every 4-6 weeks",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "English Springer Spaniel",
+      "Sussex Spaniel",
+      "Boykin Spaniel"
+    ],
+    "common_names": [
+      "Clumby",
+      "Span",
+      "Willow",
+      "Sadie",
+      "Buddy",
+      "Sunny",
+      "Lily",
+      "Scout",
+      "Snow",
+      "Belle"
+    ],
+    "adoption_considerations": "Grooming, moderate exercise needs, ear care",
+    "cost_range": "Moderate",
+    "img_url": "https://images.ctfassets.net/scac5p2hkp4h/2DdV29vEH2ba0DtdPjEEuD/a3ae8644f227557f3b40373779a54d56/ClumberSpaniel-FF.jpg"
+  },
+  "cocker-spaniel": {
+    "size": "Medium",
+    "weight_range": "20-30 lbs (9-14 kg)",
+    "height_range": "13-16 in (33-41 cm)",
+    "life_span": "12-15 years",
+    "group": "Sporting / Spaniel",
+    "energy_level": "High",
+    "exercise_needs": "High – daily walks, play, field work",
+    "grooming_needs": "High",
+    "coat_type": "Silky, medium length coat with feathering",
+    "colors": [
+      "Black",
+      "Buff",
+      "Golden",
+      "Parti-color",
+      "Blue roan",
+      "Red"
+    ],
+    "temperament": [
+      "Affectionate",
+      "Friendly",
+      "Playful",
+      "Gentle",
+      "Trusting"
+    ],
+    "good_with_kids": "Yes (very family friendly)",
+    "good_with_pets": "Usually good with other pets",
+    "trainability": "High",
+    "barking_tendency": "Moderate",
+    "origin": "England / U.S. (as gun dog)",
+    "bred_for": "Flushing and retrieving birds",
+    "prey_drive": "Moderate to High",
+    "protective_instincts": "Low",
+    "sensitivity_level": "High",
+    "daily_food_amount": "1.5-2.5 cups",
+    "calorie_requirements": "≈ 900-1400 kcal",
+    "special_nutritional_needs": [
+      "Ear health",
+      "Skin / coat support"
+    ],
+    "weight_management": "Prone to obesity if overfed",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High",
+    "common_health_issues": [
+      "Ear infections",
+      "Progressive retinal atrophy (PRA)",
+      "Hip dysplasia",
+      "Luxating patella",
+      "Skin allergies"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "1.5-2 years",
+    "gender_size_differences": "Females slightly smaller",
+    "apartment_friendly": true,
+    "space_requirements": "Moderate",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-6 hours with enrichment",
+    "stranger_friendliness": "High",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "independence_level": "Low to Moderate",
+    "wanderlust_potential": "Low to Moderate",
+    "playfulness": "High",
+    "watch_dog_ability": "Low to Moderate",
+    "territorial_behavior": "Low",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "Quality kibble, occasional wet food",
+    "treats_guidelines": "Lean treats, limit portion",
+    "exercise_preferences": [
+      "Walks",
+      "Fetch",
+      "Swimming"
+    ],
+    "professional_grooming_frequency": "Every 2-3 months",
+    "brushing_frequency": "Daily to several times per week",
+    "bathing_frequency": "Every 4-6 weeks or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "High (many enjoy water)",
+    "similar_breeds": [
+      "English Cocker Spaniel",
+      "Springer Spaniel"
+    ],
+    "common_names": [
+      "Sophie",
+      "Breeze",
+      "Summit",
+      "Lucky",
+      "Phoenix",
+      "River",
+      "Lightning",
+      "Snow",
+      "Ocean",
+      "Canyon",
+      "Scout",
+      "Sky",
+      "Aurora",
+      "Rosie"
+    ],
+    "adoption_considerations": "Grooming, ear care, active lifestyle",
+    "cost_range": "Moderate",
+    "img_url": "https://tse3.mm.bing.net/th/id/OIP.N3SsKYz6_HoZVmQP9ss9wAHaEA?pid=Api&P=0&h=180"
+  },
+  "collie": {
+    "size": "Medium to Large",
+    "weight_range": "50-75 lbs (22-34 kg)",
+    "height_range": "22-26 in (56-66 cm)",
+    "life_span": "10-14 years",
+    "group": "Herding / Sheepdog",
+    "energy_level": "High",
+    "exercise_needs": "High – long walks, herding, play",
+    "grooming_needs": "High",
+    "coat_type": "Double coat – long outer coat with dense undercoat",
+    "colors": [
+      "Sable & white",
+      "Tricolor",
+      "Blue merle",
+      "Lemon & white"
+    ],
+    "temperament": [
+      "Intelligent",
+      "Sensitive",
+      "Loyal",
+      "Gentle",
+      "Protective"
+    ],
+    "good_with_kids": "Yes (excellent family dog)",
+    "good_with_pets": "Generally good with other animals",
+    "trainability": "High",
+    "barking_tendency": "Moderate (alert but moderate)",
+    "origin": "Scotland / England",
+    "bred_for": "Herding sheep and livestock",
+    "prey_drive": "Moderate",
+    "protective_instincts": "Moderate",
+    "sensitivity_level": "High",
+    "daily_food_amount": "3-4 cups",
+    "calorie_requirements": "≈ 1400-2000 kcal",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Skin / coat supplements"
+    ],
+    "weight_management": "Can gain weight if inactive",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High",
+    "common_health_issues": [
+      "Collie Eye Anomaly (CEA)",
+      "Progressive retinal atrophy (PRA)",
+      "Hip dysplasia",
+      "Dermatomyositis",
+      "Epilepsy"
+    ],
+    "shedding_level": "High",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Males somewhat larger",
+    "apartment_friendly": false,
+    "space_requirements": "Large yard or open area",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-5 hours (with enrichment)",
+    "stranger_friendliness": "Friendly but reserved initially",
+    "noise_sensitivity": "High",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "High",
+    "independence_level": "Low to Moderate",
+    "wanderlust_potential": "Moderate",
+    "playfulness": "High",
+    "watch_dog_ability": "Moderate",
+    "territorial_behavior": "Low to Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High quality kibble, supplements optional",
+    "treats_guidelines": "Healthy treats, portion control",
+    "exercise_preferences": [
+      "Herding games",
+      "Agility",
+      "Running / fetch"
+    ],
+    "professional_grooming_frequency": "Every few months",
+    "brushing_frequency": "Several times per week",
+    "bathing_frequency": "Every 6-8 weeks or as needed",
+    "nail_trimming_frequency": "Every 4-6 weeks",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Border Collie",
+      "Shetland Sheepdog",
+      "Australian Shepherd"
+    ],
+    "common_names": [
+      "Noble",
+      "Storm",
+      "Honor",
+      "Phoenix",
+      "Quick",
+      "Faith",
+      "Sage",
+      "Einstein",
+      "Aristotle",
+      "Clever",
+      "Bond",
+      "Arrow"
+    ],
+    "adoption_considerations": "Grooming, health testing, mental & physical activity",
+    "cost_range": "Moderate",
+    "img_url": "https://wallpapercrafter.com/desktop/23674-border-collie-dog-lies-spotted-4k.jpg"
+  },
+  "curly-coated-retriever": {
+    "size": "Large",
+    "weight_range": "60-95 lbs (27-43 kg)",
+    "height_range": "23-27 in (58-69 cm)",
+    "life_span": "10-12 years",
+    "group": "Sporting / Retriever",
+    "energy_level": "High",
+    "exercise_needs": "High – daily long walks, retrieving, swimming",
+    "grooming_needs": "Moderate",
+    "coat_type": "Tight, curly outer coat with a short undercoat (water-resistant)",
+    "colors": [
+      "Black",
+      "Liver"
+    ],
+    "temperament": [
+      "Confident",
+      "Active",
+      "Proud",
+      "Independent",
+      "Intelligent"
+    ],
+    "good_with_kids": "Generally yes",
+    "good_with_pets": "Good with other dogs",
+    "trainability": "High",
+    "barking_tendency": "Low to Moderate",
+    "origin": "England",
+    "bred_for": "Retrieving game, especially in water",
+    "prey_drive": "Moderate to High",
+    "protective_instincts": "Low",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "3-4 cups",
+    "calorie_requirements": "≈ 1400-2000 kcal",
+    "special_nutritional_needs": [
+      "Skin / coat support",
+      "Joint health"
+    ],
+    "weight_management": "Lean build, but must avoid overfeeding",
+    "mental_stimulation_needs": "High",
+    "social_needs": "Moderate to High",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Gastric torsion (bloat)",
+      "Cancer",
+      "Eye disorders"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Males slightly larger",
+    "apartment_friendly": false,
+    "space_requirements": "Large yard or open area",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-5 hours",
+    "stranger_friendliness": "Friendly",
+    "noise_sensitivity": "Low to Moderate",
+    "adaptability_level": "Moderate",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Moderate",
+    "playfulness": "High",
+    "watch_dog_ability": "Low",
+    "territorial_behavior": "Low",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High quality kibble, occasional wet food",
+    "treats_guidelines": "Lean treats, control quantity",
+    "exercise_preferences": [
+      "Swimming",
+      "Fetch / retrieving",
+      "Long walks"
+    ],
+    "professional_grooming_frequency": "Seasonal trimming",
+    "brushing_frequency": "Weekly",
+    "bathing_frequency": "Monthly or as needed",
+    "nail_trimming_frequency": "Every 4-6 weeks",
+    "water_affinity": "High (strong swimmers)",
+    "similar_breeds": [
+      "Flat-Coated Retriever",
+      "Golden Retriever",
+      "Labrador Retriever"
+    ],
+    "common_names": [
+      "Chase",
+      "Jake",
+      "Ridge",
+      "Journey",
+      "Aurora",
+      "Toby",
+      "Storm",
+      "Sky",
+      "Spring",
+      "Sophie",
+      "Willow",
+      "Meadow",
+      "Star",
+      "River"
+    ],
+    "adoption_considerations": "Exercise and swimming access, health monitoring",
+    "cost_range": "Moderate to High",
+    "img_url": "https://tse2.mm.bing.net/th/id/OIP.1Wgz6fmH9QuRJDDiHBKr_wHaE8?pid=Api&P=0&h=180"
+  },
+  "dhole": {
+    "size": "Medium to Large (wild canid, not domestic breed)",
+    "weight_range": "25-44 lbs (11-20 kg)",
+    "height_range": "18-26 in (46-66 cm)",
+    "life_span": "10-14 years (in wild or captivity)",
+    "group": "Wild canid / Asiatic wild dog",
+    "energy_level": "Very High",
+    "exercise_needs": "Very High – free ranging and hunting",
+    "grooming_needs": "Low (natural wild grooming)",
+    "coat_type": "Short, dense coat",
+    "colors": [
+      "Reddish",
+      "Rust",
+      "Brown",
+      "White markings"
+    ],
+    "temperament": [
+      "Highly social (pack)",
+      "Wild / feral",
+      "Independent",
+      "Alert",
+      "Predatory"
+    ],
+    "good_with_kids": "Not applicable / not suitable as domestic pet",
+    "good_with_pets": "Not suitable",
+    "trainability": "Minimal (wild species)",
+    "barking_tendency": "Vocalizations (howls, yips)",
+    "origin": "Asia",
+    "bred_for": "Natural wild evolution and pack hunting",
+    "prey_drive": "Very High",
+    "protective_instincts": "High within pack",
+    "sensitivity_level": "High",
+    "daily_food_amount": "Varies (dependent on prey)",
+    "calorie_requirements": "High (carnivorous diet)",
+    "special_nutritional_needs": [
+      "Raw meat / prey diet",
+      "High protein"
+    ],
+    "weight_management": "Fluctuates with hunting success",
+    "mental_stimulation_needs": "Very High",
+    "social_needs": "Very High (pack structure)",
+    "common_health_issues": [
+      "Parasitic diseases",
+      "Infectious disease susceptibility",
+      "Trauma or injury"
+    ],
+    "shedding_level": "Moderate seasonal",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate to High",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Pack / wild variance",
+    "apartment_friendly": false,
+    "space_requirements": "Huge territories",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "N/A",
+    "stranger_friendliness": "None (wild behavior)",
+    "noise_sensitivity": "High",
+    "adaptability_level": "Moderate (wild niche)",
+    "car_travel_adaptability": "Low",
+    "independence_level": "Low (pack dependent)",
+    "wanderlust_potential": "Very High",
+    "playfulness": "Moderate to High (within pack)",
+    "watch_dog_ability": "Not applicable",
+    "territorial_behavior": "High",
+    "feeding_schedule": "Feast / fast cycles",
+    "food_type_preferences": "Raw prey / carnivorous",
+    "treats_guidelines": "N/A",
+    "exercise_preferences": [
+      "Hunting",
+      "Long distance travel"
+    ],
+    "professional_grooming_frequency": "N/A",
+    "brushing_frequency": "Natural",
+    "bathing_frequency": "Natural in environment",
+    "nail_trimming_frequency": "Natural wear",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "African wild dog",
+      "Gray wolf",
+      "Dingo"
+    ],
+    "common_names": [
+      "Thunder",
+      "Bella",
+      "Bond",
+      "Noble",
+      "Rocky",
+      "Misty",
+      "Chloe",
+      "Phoenix",
+      "Oscar",
+      "Abby",
+      "Bear",
+      "Trust"
+    ],
+    "adoption_considerations": "Not domesticated, unsuitable as pet",
+    "cost_range": "Not applicable",
+    "img_url": "https://tse4.mm.bing.net/th/id/OIP.T6tM2_5a4HIL1mnjQtRJVAHaE2?pid=Api&P=0&h=180"
+  },
+  "dingo": {
+    "size": "Medium",
+    "weight_range": "29-44 lbs (13-20 kg)",
+    "height_range": "19-24 in (48-61 cm)",
+    "life_span": "10-13 years (in captivity / favorable environment)",
+    "group": "Wild / Pariah dog",
+    "energy_level": "High",
+    "exercise_needs": "High – roaming, hunting behavior",
+    "grooming_needs": "Low",
+    "coat_type": "Short, dense coat",
+    "colors": [
+      "Yellow / tan",
+      "Ginger",
+      "Black & tan",
+      "Cream"
+    ],
+    "temperament": [
+      "Independent",
+      "Alert",
+      "Cautious",
+      "Intelligent"
+    ],
+    "good_with_kids": "Not appropriate as a domestic pet",
+    "good_with_pets": "Wild instincts present",
+    "trainability": "Limited compared to domestic breeds",
+    "barking_tendency": "Low (howls more common)",
+    "origin": "Australia",
+    "bred_for": "Natural wild evolution / survival",
+    "prey_drive": "High",
+    "protective_instincts": "Low (territorial wild ranges)",
+    "sensitivity_level": "High",
+    "daily_food_amount": "Variable (prey-based)",
+    "calorie_requirements": "High",
+    "special_nutritional_needs": [
+      "High protein",
+      "Raw diet / prey-based"
+    ],
+    "weight_management": "Fluctuates with availability",
+    "mental_stimulation_needs": "Very High",
+    "social_needs": "Moderate to High (pack / group structure)",
+    "common_health_issues": [
+      "Parasites",
+      "Infectious diseases",
+      "Injuries"
+    ],
+    "shedding_level": "Moderate seasonal",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "Moderate",
+    "heat_tolerance": "High (adapted to warm climates)",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Females somewhat smaller",
+    "apartment_friendly": false,
+    "space_requirements": "Large territory / wild range",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "N/A",
+    "stranger_friendliness": "Wild / wary",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Moderate in captive environments",
+    "car_travel_adaptability": "Moderate to low",
+    "independence_level": "High",
+    "wanderlust_potential": "Very High",
+    "playfulness": "Moderate to High",
+    "watch_dog_ability": "N/A",
+    "territorial_behavior": "High",
+    "feeding_schedule": "Feast / famine cycles",
+    "food_type_preferences": "Carnivorous prey diet",
+    "treats_guidelines": "N/A",
+    "exercise_preferences": [
+      "Roaming",
+      "Hunting"
+    ],
+    "professional_grooming_frequency": "N/A",
+    "brushing_frequency": "Natural",
+    "bathing_frequency": "Rain / water exposure",
+    "nail_trimming_frequency": "Natural wear",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Dhole",
+      "African wild dog",
+      "Coyotes / wild canids"
+    ],
+    "common_names": [
+      "Heart",
+      "Lily",
+      "Arrow",
+      "Steady",
+      "Lucky",
+      "Rosie",
+      "Penny",
+      "Sophie",
+      "True",
+      "Phoenix",
+      "Murphy",
+      "Dash"
+    ],
+    "adoption_considerations": "Wild nature, legal constraints, unsuitable as house pet",
+    "cost_range": "Not applicable",
+    "img_url": "https://tse2.mm.bing.net/th/id/OIP.QWB-CMEfMz6HiDrCd5ey0wHaE8?pid=Api&P=0&h=180"
+  },
+  "flat-coated-retriever": {
+    "size": "Large",
+    "weight_range": "60-80 lbs (27-36 kg)",
+    "height_range": "22-24.5 in (56-62 cm)",
+    "life_span": "8-10 years (often shorter due to cancer) ",
+    "group": "Sporting / Retriever",
+    "energy_level": "High",
+    "exercise_needs": "High – daily walks, retrieving, swimming",
+    "grooming_needs": "Moderate to High",
+    "coat_type": "Dense, medium length flat coat with slight feathering",
+    "colors": [
+      "Black",
+      "Liver (dark brown)"
+    ],
+    "temperament": [
+      "Friendly",
+      "Energetic",
+      "Outgoing",
+      "Cheerful",
+      "Playful"
+    ],
+    "good_with_kids": "Yes (very good family dogs)",
+    "good_with_pets": "Very good with other dogs",
+    "trainability": "High",
+    "barking_tendency": "Low to Moderate",
+    "origin": "England",
+    "bred_for": "Retrieving waterfowl and game",
+    "prey_drive": "Moderate to High",
+    "protective_instincts": "Low",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "3-4 cups",
+    "calorie_requirements": "≈ 1400-2000 kcal",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Antioxidants"
+    ],
+    "weight_management": "Lean build, but watch overfeeding",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High",
+    "common_health_issues": [
+      "Cancer (especially bone, hemangiosarcoma)",
+      "Hip dysplasia",
+      "Gastric torsion (bloat)"
+    ],
+    "shedding_level": "Moderate",
+    "drool_amount": "Low",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Males slightly larger",
+    "apartment_friendly": false,
+    "space_requirements": "Yard or open area",
+    "novice_owner_friendly": true,
+    "alone_time_tolerance": "4-5 hours",
+    "stranger_friendliness": "Very friendly",
+    "noise_sensitivity": "Low to Moderate",
+    "adaptability_level": "High",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Moderate",
+    "playfulness": "High",
+    "watch_dog_ability": "Low (friendly nature)",
+    "territorial_behavior": "Low",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "Quality kibble, possible wet food supplement",
+    "treats_guidelines": "Lean treats, avoid overfeeding",
+    "exercise_preferences": [
+      "Swimming",
+      "Fetch / retrieving",
+      "Long walks"
+    ],
+    "professional_grooming_frequency": "Seasonal trimming",
+    "brushing_frequency": "2-3 times per week",
+    "bathing_frequency": "Monthly or as needed",
+    "nail_trimming_frequency": "Every 3-4 weeks",
+    "water_affinity": "High (strong swimmers)",
+    "similar_breeds": [
+      "Golden Retriever",
+      "Curly-Coated Retriever",
+      "Labrador Retriever"
+    ],
+    "common_names": [
+      "River",
+      "Winter",
+      "Lucky",
+      "Thunder",
+      "Ridge",
+      "Chloe",
+      "Phoenix",
+      "Snow",
+      "Storm",
+      "Rain",
+      "Winston",
+      "Chase"
+    ],
+    "adoption_considerations": "Exercise needs, cancer risk, social needs",
+    "cost_range": "Moderate to High",
+    "img_url": "https://www.101dogbreeds.com/wp-content/uploads/2018/08/Flat-Coated-Retrievers.jpg"
+  },
+  "giant-schnauzer": {
+    "size": "Large to Giant",
+    "weight_range": "60-100 lbs (27-45 kg)",
+    "height_range": "23.5-27.5 in (60-70 cm)",
+    "life_span": "10-12 years",
+    "group": "Working / Utility",
+    "energy_level": "High",
+    "exercise_needs": "High – long walks, work or tasks, mental challenge",
+    "grooming_needs": "Moderate to High",
+    "coat_type": "Hard, wiry outer coat with dense undercoat, with beard and furnishings",
+    "colors": [
+      "Salt & pepper",
+      "Black"
+    ],
+    "temperament": [
+      "Loyal",
+      "Intelligent",
+      "Alert",
+      "Protective",
+      "Confident"
+    ],
+    "good_with_kids": "Yes, with socialization",
+    "good_with_pets": "Generally good with proper introduction",
+    "trainability": "High (obedience, protection work)",
+    "barking_tendency": "Moderate (alert breed)",
+    "origin": "Germany",
+    "bred_for": "Guarding, police, farm utility",
+    "prey_drive": "Moderate",
+    "protective_instincts": "High",
+    "sensitivity_level": "Moderate",
+    "daily_food_amount": "3-4 cups",
+    "calorie_requirements": "≈ 1400-2000 kcal",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Skin care"
+    ],
+    "weight_management": "Need to monitor weight if less active",
+    "mental_stimulation_needs": "High",
+    "social_needs": "Moderate to High",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Elbow dysplasia",
+      "Cancer",
+      "Autoimmune diseases",
+      "Eye problems"
+    ],
+    "shedding_level": "Moderate (wired coat sheds less outer but undercoat)",
+    "drool_amount": "Low to Moderate",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2-3 years",
+    "gender_size_differences": "Males larger than females",
+    "apartment_friendly": true,
+    "space_requirements": "Large home or yard ideal",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "4-5 hours with enrichment",
+    "stranger_friendliness": "Reserved / cautious until socialized",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "High with consistent training",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Low to Moderate",
+    "playfulness": "Moderate to High",
+    "watch_dog_ability": "High",
+    "territorial_behavior": "Moderate to High",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High protein quality kibble",
+    "treats_guidelines": "Lean, low sugar, controlled quantity",
+    "exercise_preferences": [
+      "Agility",
+      "Guard tasks",
+      "Long walks",
+      "Obedience work"
+    ],
+    "professional_grooming_frequency": "Every 2-3 months (clip & trim)",
+    "brushing_frequency": "Several times per week",
+    "bathing_frequency": "Every few months or as needed",
+    "nail_trimming_frequency": "Every 4-6 weeks",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Standard Schnauzer",
+      "Doberman",
+      "Rottweiler"
+    ],
+    "common_names": [
+      "Warrior",
+      "Diesel",
+      "Crown",
+      "Major",
+      "Brutus",
+      "Iron",
+      "Rex",
+      "Steel",
+      "Queen",
+      "Ranger",
+      "King",
+      "Regal"
+    ],
+    "adoption_considerations": "Training demands, exercise, health testing",
+    "cost_range": "Moderate to High",
+    "img_url": "https://www.k9rl.com/wp-content/uploads/2016/07/Giant-Schnauzer-dog-breed.jpg"
+  },
+  "groenendael": {
+    "size": "Medium to Large",
+    "weight_range": "55-75 lbs (25-34 kg) approx",
+    "height_range": "24-26 in (60-66 cm) for males, 22-24 in for females",
+    "life_span": "12-14 years",
+    "group": "Herding / Belgian Shepherd",
+    "energy_level": "High",
+    "exercise_needs": "High – > 2 hours of activity daily",
+    "grooming_needs": "Moderate to High (long coat) ",
+    "coat_type": "Long double coat — straight outer coat with dense undercoat",
+    "colors": [
+      "Solid black"
+    ],
+    "temperament": [
+      "Intelligent",
+      "Alert",
+      "Loyal",
+      "Protective",
+      "Active"
+    ],
+    "good_with_kids": "Good with socialization",
+    "good_with_pets": "Generally good with proper introduction",
+    "trainability": "High",
+    "barking_tendency": "Moderate to High (alert, vocal) ",
+    "origin": "Belgium",
+    "bred_for": "Herding, guard, working farm tasks",
+    "prey_drive": "Moderate",
+    "protective_instincts": "Moderate to High",
+    "sensitivity_level": "Moderate to High",
+    "daily_food_amount": "3-4 cups (active dog) ",
+    "calorie_requirements": "≈ 1400-2000 kcal",
+    "special_nutritional_needs": [
+      "Joint support",
+      "Skin / coat nutrients"
+    ],
+    "weight_management": "Lean, but watch overfeeding",
+    "mental_stimulation_needs": "High",
+    "social_needs": "High",
+    "common_health_issues": [
+      "Hip dysplasia",
+      "Elbow dysplasia",
+      "Eye disorders",
+      "Epilepsy",
+      "Cataracts"
+    ],
+    "shedding_level": "High (seasonal heavy shedding) ",
+    "drool_amount": "Low to Moderate",
+    "hypoallergenic": false,
+    "cold_tolerance": "High",
+    "heat_tolerance": "Moderate",
+    "maturity_age": "2 years",
+    "gender_size_differences": "Males slightly larger and heavier",
+    "apartment_friendly": true,
+    "space_requirements": "Room to run, yard preferred",
+    "novice_owner_friendly": false,
+    "alone_time_tolerance": "4-5 hours with enrichment",
+    "stranger_friendliness": "Alert / cautious until socialized",
+    "noise_sensitivity": "Moderate",
+    "adaptability_level": "Moderate to High (if structure provided)",
+    "car_travel_adaptability": "High",
+    "independence_level": "Moderate",
+    "wanderlust_potential": "Moderate",
+    "playfulness": "High",
+    "watch_dog_ability": "High",
+    "territorial_behavior": "Moderate",
+    "feeding_schedule": "2 meals per day",
+    "food_type_preferences": "High quality kibble, possible supplements",
+    "treats_guidelines": "Lean treats, controlled portions",
+    "exercise_preferences": [
+      "Herding work",
+      "Agility",
+      "Running / long walks"
+    ],
+    "professional_grooming_frequency": "Every few months (coat trimming) ",
+    "brushing_frequency": "Several times per week",
+    "bathing_frequency": "Every few months or as needed",
+    "nail_trimming_frequency": "Every 4-6 weeks",
+    "water_affinity": "Moderate",
+    "similar_breeds": [
+      "Belgian Malinois",
+      "Belgian Tervueren",
+      "German Shepherd"
+    ],
+    "common_names": [
+      "Dash",
+      "Tucker",
+      "Duke",
+      "Max",
+      "Canyon",
+      "Milo",
+      "Lola",
+      "Constant",
+      "Star",
+      "Loyal",
+      "Jake",
+      "Bond"
+    ],
+    "adoption_considerations": "High energy & mental needs, grooming, training",
+    "cost_range": "Moderate to High",
+    "img_url": "https://tse2.mm.bing.net/th/id/OIP.j2RRWcgZxBkvnYn3QXmUmQHaE8?pid=Api&P=0&h=180"
   }
-};
-
+}
 export default breedsData;

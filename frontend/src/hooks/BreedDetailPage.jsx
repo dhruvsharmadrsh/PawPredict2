@@ -2,66 +2,70 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { breedsData } from '../data/breedsData';
-import { 
-  fetchBreedImages, 
-  normalizeBreedName 
-} from '../utils/breedImageHelper';
-import VideoContent from './VideoContent';
+import { fetchBreedImage } from '../utils/breedImageHelper';
 
 const BreedDetailPage = () => {
   const { breedName } = useParams();
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState('overview');
   const [isFavorite, setIsFavorite] = useState(false);
+  const [breedImage, setBreedImage] = useState('');
+  const [imageLoading, setImageLoading] = useState(true);
   const [mediaImages, setMediaImages] = useState([]);
   const [mediaLoading, setMediaLoading] = useState(false);
 
-  // Find actual breed name from data
+  // Comprehensive breed name normalization function
+  const normalizeBreedName = (name) => {
+    return name
+      .toLowerCase()
+      .trim()
+      .replace(/\s+/g, '-')           // spaces to hyphens
+      .replace(/_+/g, '-')            // underscores to hyphens
+      .replace(/--+/g, '-')           // multiple hyphens to single
+      .replace(/[^a-z0-9-]/g, '')     // remove special characters except hyphens
+      .replace(/^-+|-+$/g, '');       // remove leading/trailing hyphens
+  };
+
+  // Convert URL param back to breed name with flexible matching
   const actualBreedName = Object.keys(breedsData).find(
     (name) => normalizeBreedName(name) === breedName
   );
 
-  // Get breed data safely with all default values
-  const getBreedData = () => {
-    if (!actualBreedName || !breedsData[actualBreedName]) {
-      return null;
-    }
-
-    const breed = breedsData[actualBreedName];
-    
-    // Return breed with safe defaults for all arrays
-    return {
-      ...breed,
-      temperament: breed.temperament || [],
-      colors: breed.colors || [],
-      exercise_preferences: breed.exercise_preferences || [],
-      common_health_issues: breed.common_health_issues || [],
-      special_nutritional_needs: breed.special_nutritional_needs || [],
-      adoption_considerations: breed.adoption_considerations || [],
-      similar_breeds: breed.similar_breeds || [],
+  // Fetch breed image from Dog CEO API
+  useEffect(() => {
+    const loadImage = async () => {
+      if (!actualBreedName) return;
+      
+      setImageLoading(true);
+      const imageUrl = await fetchBreedImage(actualBreedName);
+      setBreedImage(imageUrl);
+      setImageLoading(false);
     };
-  };
 
-  const breed = getBreedData();
+    loadImage();
+  }, [actualBreedName]);
 
-  // Generate placeholder image
-  const getPlaceholderImage = (breedName) => {
-    const colors = ['6366f1', '8b5cf6', 'a855f7', '06b6d4', '10b981'];
-    const colorIndex = breedName.length % colors.length;
-    const color = colors[colorIndex];
-    const encodedName = encodeURIComponent(breedName.substring(0, 20));
-    return `https://via.placeholder.com/1200x600/${color}/ffffff?text=${encodedName}`;
-  };
-
-  // Fetch multiple images for Media tab only
+  // Fetch multiple images for Media tab
   useEffect(() => {
     const loadMediaImages = async () => {
       if (!actualBreedName) return;
       
       setMediaLoading(true);
-      const images = await fetchBreedImages(actualBreedName, 12);
-      setMediaImages(images);
-      setMediaLoading(false);
+      const breedKey = normalizeBreedName(actualBreedName);
+      const apiBreedName = breedKey.split('-').reverse().join('/');
+      
+      try {
+        const response = await fetch(`https://dog.ceo/api/breed/${apiBreedName}/images/random/12`);
+        const data = await response.json();
+        
+        if (data.status === 'success') {
+          setMediaImages(data.message);
+        }
+      } catch (error) {
+        console.error('Error fetching media images:', error);
+      } finally {
+        setMediaLoading(false);
+      }
     };
 
     if (activeTab === 'media') {
@@ -69,47 +73,7 @@ const BreedDetailPage = () => {
     }
   }, [actualBreedName, activeTab]);
 
-  // Check for favorite status from localStorage
-  useEffect(() => {
-    if (actualBreedName) {
-      const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
-      setIsFavorite(favorites.includes(actualBreedName));
-    }
-  }, [actualBreedName]);
-
-  // Toggle favorite
-  const toggleFavorite = () => {
-    const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
-    let newFavorites;
-    
-    if (favorites.includes(actualBreedName)) {
-      newFavorites = favorites.filter(f => f !== actualBreedName);
-    } else {
-      newFavorites = [...favorites, actualBreedName];
-    }
-    
-    localStorage.setItem('favorites', JSON.stringify(newFavorites));
-    setIsFavorite(!isFavorite);
-  };
-
-  // Calculate compatibility score (0-100)
-  const calculateScore = (value) => {
-    if (!value) return 50;
-    
-    const scores = {
-      'Very High': 100,
-      'High': 80,
-      'Moderate to High': 75,
-      'Moderate': 60,
-      'Low to Moderate': 40,
-      'Low': 20,
-      'Very Low': 10,
-    };
-    return scores[value] || 50;
-  };
-
-  // Not found state
-  if (!breed) {
+  if (!actualBreedName) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-800 to-black flex items-center justify-center p-8">
         <div className="text-center max-w-lg">
@@ -127,8 +91,25 @@ const BreedDetailPage = () => {
     );
   }
 
-  // Get breed image from dataset for hero section
-  const breedImage = breed.img_url || getPlaceholderImage(actualBreedName);
+  const breed = breedsData[actualBreedName];
+
+  const toggleFavorite = () => {
+    setIsFavorite(!isFavorite);
+  };
+
+  // Calculate compatibility score (0-100)
+  const calculateScore = (value) => {
+    const scores = {
+      'Very High': 100,
+      High: 80,
+      'Moderate to High': 75,
+      Moderate: 60,
+      'Low to Moderate': 40,
+      Low: 20,
+      'Very Low': 10,
+    };
+    return scores[value] || 50;
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-800 to-black pb-16">
@@ -154,17 +135,24 @@ const BreedDetailPage = () => {
         </button>
       </div>
 
-      {/* Hero Section - Using Dataset Image */}
+      {/* Hero Section */}
       <div className="relative w-full h-[600px] overflow-hidden -mb-24">
         <div className="absolute inset-0">
-          <img
-            src={breedImage}
-            alt={actualBreedName}
-            className="w-full h-full object-cover brightness-75 scale-110 hover:scale-125 transition-transform duration-[8s] ease-out"
-            onError={(e) => {
-              e.target.src = getPlaceholderImage(actualBreedName);
-            }}
-          />
+          {imageLoading ? (
+            <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-purple-600 to-indigo-600">
+              <div className="w-16 h-16 border-4 border-white/30 border-t-white rounded-full animate-spin"></div>
+              <p className="text-white text-xl font-semibold mt-4">Loading image...</p>
+            </div>
+          ) : (
+            <img
+              src={breedImage}
+              alt={actualBreedName}
+              className="w-full h-full object-cover brightness-75 scale-110 hover:scale-125 transition-transform duration-[8s] ease-out"
+              onError={(e) => {
+                e.target.src = 'https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg';
+              }}
+            />
+          )}
           <div className="absolute inset-0 bg-gradient-to-b from-gray-900/30 via-gray-900/70 to-gray-900"></div>
         </div>
         
@@ -173,8 +161,8 @@ const BreedDetailPage = () => {
             <span className="inline-block px-6 py-2 bg-purple-600/30 border border-purple-500/50 rounded-full text-purple-200 text-sm font-semibold mb-4 backdrop-blur-md">
               {breed.group}
             </span>
-            <h1 className="text-7xl md:text-8xl font-black text-white mb-4 drop-shadow-2xl tracking-tight capitalize">
-              {actualBreedName.replace(/-/g, ' ')}
+            <h1 className="text-7xl md:text-8xl font-black text-white mb-4 drop-shadow-2xl tracking-tight">
+              {actualBreedName}
             </h1>
             <div className="flex flex-wrap gap-4">
               <span className="flex items-center gap-2 text-purple-200 text-lg px-6 py-3 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20">
@@ -189,6 +177,7 @@ const BreedDetailPage = () => {
           </div>
         </div>
       </div>
+
       {/* Quick Stats Cards */}
       <div className="max-w-7xl mx-auto px-8 mb-12 relative z-20 mt-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in-up">
@@ -198,7 +187,7 @@ const BreedDetailPage = () => {
             { icon: '📐', label: 'Height', value: breed.height_range },
             { icon: '🕐', label: 'Life Span', value: breed.life_span },
             { icon: '⚡', label: 'Energy', value: breed.energy_level },
-            { icon: '🧠', label: 'Trainability', value: breed.trainability?.split('-')[0]?.trim() || 'Moderate' },
+            { icon: '🧠', label: 'Trainability', value: breed.trainability.split('-')[0].trim() },
           ].map((stat, idx) => (
             <div
               key={idx}
@@ -256,18 +245,14 @@ const BreedDetailPage = () => {
                 </h2>
               </div>
               <div className="flex flex-wrap gap-3">
-                {breed.temperament.length > 0 ? (
-                  breed.temperament.map((trait, idx) => (
-                    <span
-                      key={idx}
-                      className="px-6 py-3 rounded-full bg-gradient-to-br from-purple-600/20 to-indigo-600/20 border border-purple-500/40 text-purple-200 text-base font-semibold hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/30 hover:from-purple-600/30 hover:to-indigo-600/30 transition-all duration-300"
-                    >
-                      {trait}
-                    </span>
-                  ))
-                ) : (
-                  <p className="text-gray-400">No temperament data available</p>
-                )}
+                {breed.temperament.map((trait, idx) => (
+                  <span
+                    key={idx}
+                    className="px-6 py-3 rounded-full bg-gradient-to-br from-purple-600/20 to-indigo-600/20 border border-purple-500/40 text-purple-200 text-base font-semibold hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/30 hover:from-purple-600/30 hover:to-indigo-600/30 transition-all duration-300"
+                  >
+                    {trait}
+                  </span>
+                ))}
               </div>
             </div>
 
@@ -280,19 +265,15 @@ const BreedDetailPage = () => {
                 </h2>
               </div>
               <div className="grid grid-cols-2 gap-4">
-                {breed.colors.length > 0 ? (
-                  breed.colors.map((color, idx) => (
-                    <div
-                      key={idx}
-                      className="flex flex-col items-center gap-3 p-5 bg-white/3 border-2 border-pink-500/30 rounded-2xl hover:-translate-y-2 hover:border-pink-400 hover:shadow-xl hover:shadow-pink-500/30 transition-all duration-300 cursor-pointer"
-                    >
-                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-rose-500 border-4 border-white/20"></div>
-                      <span className="text-pink-100 font-semibold text-center text-sm">{color}</span>
-                    </div>
-                  ))
-                ) : (
-                  <p className="text-gray-400 col-span-2">No color data available</p>
-                )}
+                {breed.colors.map((color, idx) => (
+                  <div
+                    key={idx}
+                    className="flex flex-col items-center gap-3 p-5 bg-white/3 border-2 border-pink-500/30 rounded-2xl hover:-translate-y-2 hover:border-pink-400 hover:shadow-xl hover:shadow-pink-500/30 transition-all duration-300 cursor-pointer"
+                  >
+                    <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-rose-500 border-4 border-white/20"></div>
+                    <span className="text-pink-100 font-semibold text-center text-sm">{color}</span>
+                  </div>
+                ))}
               </div>
             </div>
 
@@ -323,7 +304,7 @@ const BreedDetailPage = () => {
                         style={{ width: `${calculateScore(char.value)}%` }}
                       ></div>
                     </div>
-                    <p className="text-gray-400 text-sm">{char.value || 'N/A'}</p>
+                    <p className="text-gray-400 text-sm">{char.value}</p>
                   </div>
                 ))}
               </div>
@@ -343,14 +324,12 @@ const BreedDetailPage = () => {
                     const normalizedBreed = normalizeBreedName(similarBreed);
 
                     return (
-                      <div 
-                        key={idx}
-                        onClick={() => navigate(`/breeds/${normalizedBreed}`)}
-                        className="flex items-center gap-4 p-6 bg-emerald-500/10 border-2 border-emerald-500/30 rounded-2xl hover:-translate-y-2 hover:border-emerald-400 hover:shadow-xl hover:shadow-emerald-500/30 transition-all duration-300 cursor-pointer"
-                      >
-                        <span className="text-4xl">🐶</span>
-                        <span className="text-emerald-100 font-semibold">{similarBreed}</span>
-                      </div>
+                      <a key={idx} href={`/breeds/${normalizedBreed}`}>
+                        <div className="flex items-center gap-4 p-6 bg-emerald-500/10 border-2 border-emerald-500/30 rounded-2xl hover:-translate-y-2 hover:border-emerald-400 hover:shadow-xl hover:shadow-emerald-500/30 transition-all duration-300 cursor-pointer">
+                          <span className="text-4xl">🐶</span>
+                          <span className="text-emerald-100 font-semibold">{similarBreed}</span>
+                        </div>
+                      </a>
                     );
                   })}
                 </div>
@@ -373,28 +352,24 @@ const BreedDetailPage = () => {
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between items-center p-4 bg-white/3 rounded-2xl border-l-4 border-purple-500">
                   <span className="text-gray-400 font-semibold">Exercise Needs:</span>
-                  <span className="text-white font-bold text-right">{breed.exercise_needs || 'N/A'}</span>
+                  <span className="text-white font-bold text-right">{breed.exercise_needs}</span>
                 </div>
                 <div className="flex justify-between items-center p-4 bg-white/3 rounded-2xl border-l-4 border-purple-500">
                   <span className="text-gray-400 font-semibold">Energy Level:</span>
-                  <span className="text-white font-bold text-right">{breed.energy_level || 'N/A'}</span>
+                  <span className="text-white font-bold text-right">{breed.energy_level}</span>
                 </div>
               </div>
               <div>
                 <h4 className="text-white text-lg font-semibold mb-4">Recommended Activities:</h4>
-                {breed.exercise_preferences.length > 0 ? (
-                  breed.exercise_preferences.map((activity, idx) => (
-                    <div
-                      key={idx}
-                      className="flex items-center gap-4 p-4 bg-white/3 rounded-xl mb-3 hover:bg-white/8 hover:translate-x-2 transition-all duration-300"
-                    >
-                      <span className="text-emerald-400 text-xl font-bold">✓</span>
-                      <span className="text-purple-100">{activity}</span>
-                    </div>
-                  ))
-                ) : (
-                  <p className="text-gray-400">No activity data available</p>
-                )}
+                {breed.exercise_preferences.map((activity, idx) => (
+                  <div
+                    key={idx}
+                    className="flex items-center gap-4 p-4 bg-white/3 rounded-xl mb-3 hover:bg-white/8 hover:translate-x-2 transition-all duration-300"
+                  >
+                    <span className="text-emerald-400 text-xl font-bold">✓</span>
+                    <span className="text-purple-100">{activity}</span>
+                  </div>
+                ))}
               </div>
             </div>
 
@@ -420,17 +395,17 @@ const BreedDetailPage = () => {
                     <span className="text-4xl">{item.icon}</span>
                     <div>
                       <p className="text-gray-400 text-xs uppercase font-semibold mb-1">{item.label}</p>
-                      <p className="text-white font-bold">{item.value || 'N/A'}</p>
+                      <p className="text-white font-bold">{item.value}</p>
                     </div>
                   </div>
                 ))}
               </div>
               <div className="p-6 bg-violet-500/10 border-2 border-violet-500/30 rounded-2xl space-y-3">
                 <p className="text-purple-200">
-                  <strong>Coat Type:</strong> {breed.coat_type || 'N/A'}
+                  <strong>Coat Type:</strong> {breed.coat_type}
                 </p>
                 <p className="text-purple-200">
-                  <strong>Shedding Level:</strong> {breed.shedding_level || 'N/A'}
+                  <strong>Shedding Level:</strong> {breed.shedding_level}
                 </p>
                 <p className="text-purple-200">
                   <strong>Hypoallergenic:</strong> {breed.hypoallergenic ? 'Yes' : 'No'}
@@ -459,7 +434,7 @@ const BreedDetailPage = () => {
                   >
                     <span className="text-5xl block mb-4">{item.icon}</span>
                     <h4 className="text-white text-lg font-bold mb-4">{item.label}</h4>
-                    <p className="text-purple-400 font-bold mb-2">{item.value || 'N/A'}</p>
+                    <p className="text-purple-400 font-bold mb-2">{item.value}</p>
                     {item.extra && <small className="text-gray-400 text-sm">{item.extra}</small>}
                   </div>
                 ))}
@@ -493,7 +468,7 @@ const BreedDetailPage = () => {
                     <span className="text-4xl">{item.icon}</span>
                     <div>
                       <p className="text-gray-400 text-xs uppercase font-semibold mb-1">{item.label}</p>
-                      <p className="text-white font-bold">{item.value || 'N/A'}</p>
+                      <p className="text-white font-bold">{item.value}</p>
                     </div>
                   </div>
                 ))}
@@ -512,7 +487,7 @@ const BreedDetailPage = () => {
               )}
             </div>
 
-            {/* Common Health Issues */}
+            {/*{/* Common Health Issues */}
             <div className="bg-white/5 backdrop-blur-2xl border-2 border-purple-500/20 rounded-3xl p-10 hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-1 transition-all duration-300">
               <div className="mb-8">
                 <h2 className="text-3xl font-bold text-white flex items-center gap-3">
@@ -521,19 +496,15 @@ const BreedDetailPage = () => {
                 </h2>
               </div>
               <div className="grid grid-cols-1 gap-4 mb-6">
-                {breed.common_health_issues.length > 0 ? (
-                  breed.common_health_issues.map((issue, idx) => (
-                    <div
-                      key={idx}
-                      className="flex items-center gap-4 p-5 bg-red-500/10 border-2 border-red-500/30 rounded-2xl hover:translate-x-2 hover:border-red-400 hover:shadow-lg hover:shadow-red-500/30 transition-all duration-300"
-                    >
-                      <span className="text-2xl">⚠️</span>
-                      <span className="text-red-200 font-semibold">{issue}</span>
-                    </div>
-                  ))
-                ) : (
-                  <p className="text-gray-400">No health issue data available</p>
-                )}
+                {breed.common_health_issues.map((issue, idx) => (
+                  <div
+                    key={idx}
+                    className="flex items-center gap-4 p-5 bg-red-500/10 border-2 border-red-500/30 rounded-2xl hover:translate-x-2 hover:border-red-400 hover:shadow-lg hover:shadow-red-500/30 transition-all duration-300"
+                  >
+                    <span className="text-2xl">⚠️</span>
+                    <span className="text-red-200 font-semibold">{issue}</span>
+                  </div>
+                ))}
               </div>
               <div className="p-6 bg-blue-500/10 border-2 border-blue-500/30 border-l-4 rounded-2xl">
                 <p className="text-blue-100 leading-relaxed">
@@ -542,7 +513,7 @@ const BreedDetailPage = () => {
               </div>
             </div>
 
-            {/* Cost breedrmation */}
+            {/* Cost Information */}
             <div className="lg:col-span-2 bg-white/5 backdrop-blur-2xl border-2 border-purple-500/20 rounded-3xl p-10 hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-1 transition-all duration-300">
               <div className="mb-8">
                 <h2 className="text-3xl font-bold text-white flex items-center gap-3">
@@ -553,7 +524,7 @@ const BreedDetailPage = () => {
               <div className="flex items-center gap-8 p-10 bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border-2 border-emerald-500/30 rounded-3xl hover:border-emerald-400 hover:shadow-2xl hover:shadow-emerald-500/30 hover:-translate-y-1 transition-all duration-300">
                 <div className="text-7xl">💵</div>
                 <div className="flex-1">
-                  <p className="text-white text-2xl font-bold mb-3">{breed.cost_range || 'N/A'}</p>
+                  <p className="text-white text-2xl font-bold mb-3">{breed.cost_range}</p>
                   <small className="text-gray-400 leading-relaxed">
                     Costs include initial purchase price and estimated monthly expenses for food, grooming, healthcare, and supplies.
                   </small>
@@ -588,7 +559,7 @@ const BreedDetailPage = () => {
                     <span className="text-5xl">{item.icon}</span>
                     <div className="flex-1">
                       <p className="text-gray-400 text-sm font-semibold mb-1">{item.label}</p>
-                      <p className="text-white text-lg font-bold">{item.value || 'N/A'}</p>
+                      <p className="text-white text-lg font-bold">{item.value}</p>
                     </div>
                   </div>
                 ))}
@@ -625,50 +596,17 @@ const BreedDetailPage = () => {
               </div>
               <div className="p-6 bg-white/3 border-2 border-purple-500/30 rounded-2xl space-y-4">
                 <p className="text-purple-200">
-                  <strong>Adaptability Level:</strong> {breed.adaptability_level || 'N/A'}
+                  <strong>Adaptability Level:</strong> {breed.adaptability_level}
                 </p>
                 <p className="text-purple-200">
-                  <strong>Mental Stimulation Needs:</strong> {breed.mental_stimulation_needs || 'N/A'}
+                  <strong>Mental Stimulation Needs:</strong> {breed.mental_stimulation_needs}
                 </p>
                 <p className="text-purple-200">
-                  <strong>Social Needs:</strong> {breed.social_needs || 'N/A'}
+                  <strong>Social Needs:</strong> {breed.social_needs}
                 </p>
-                
               </div>
-
-
-              {breed.common_names && breed.common_names.length > 0 && (
-  <div 
-    className="relative overflow-hidden rounded-3xl mt-3 p-6 backdrop-blur-xl border border-cyan-400/20 shadow-lg transition-all duration-500 hover:shadow-cyan-400/40 group"
-    style={{ animationDelay: '300ms' }}
-  >
-    <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-transparent to-cyan-700/10 opacity-60 group-hover:opacity-90 transition-opacity duration-500"></div>
-    
-    <div className="relative z-10">
-      <h3 className="text-2xl font-extrabold text-cyan-200 flex items-center gap-3 mb-5 tracking-wide">
-        <span className="text-4xl animate-pulse">🏷️</span>
-        <span className="bg-gradient-to-r from-cyan-300 to-cyan-500 bg-clip-text text-transparent">
-          Common Names
-        </span>
-      </h3>
-
-      <div className="flex flex-wrap gap-3 mt-3">
-        {breed.common_names.map((name, i) => (
-          <span
-            key={i}
-            className="px-5 py-2 rounded-full text-cyan-100 text-sm font-semibold backdrop-blur-md border border-cyan-400/30 bg-cyan-500/10 shadow-md hover:shadow-cyan-400/40 hover:scale-105 transition-all duration-300"
-            style={{ animationDelay: `${i * 80}ms`, animation: 'fadeInUp 0.4s ease forwards' }}
-          >
-            {name}
-          </span>
-        ))}
-      </div>
-    </div>
-  </div>
-)}
-
             </div>
-          
+
             {/* Adoption Considerations */}
             <div className="lg:col-span-2 bg-white/5 backdrop-blur-2xl border-2 border-purple-500/20 rounded-3xl p-10 hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-1 transition-all duration-300">
               <div className="mb-8">
@@ -678,19 +616,15 @@ const BreedDetailPage = () => {
                 </h2>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {breed.adoption_considerations.length > 0 ? (
-                  breed.adoption_considerations.map((consideration, idx) => (
-                    <div
-                      key={idx}
-                      className="flex items-start gap-4 p-6 bg-amber-500/10 border-2 border-amber-500/30 rounded-2xl hover:translate-x-2 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/30 transition-all duration-300"
-                    >
-                      <span className="text-amber-400 text-2xl font-bold flex-shrink-0">•</span>
-                      <p className="text-amber-100 leading-relaxed">{consideration}</p>
-                    </div>
-                  ))
-                ) : (
-                  <p className="text-gray-400 col-span-2">No adoption considerations available</p>
-                )}
+                {breed.adoption_considerations.map((consideration, idx) => (
+                  <div
+                    key={idx}
+                    className="flex items-start gap-4 p-6 bg-amber-500/10 border-2 border-amber-500/30 rounded-2xl hover:translate-x-2 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/30 transition-all duration-300"
+                  >
+                    <span className="text-amber-400 text-2xl font-bold flex-shrink-0">•</span>
+                    <p className="text-amber-100 leading-relaxed">{consideration}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -706,7 +640,7 @@ const BreedDetailPage = () => {
                   <span className="text-4xl bg-gradient-to-br from-purple-600/30 to-indigo-600/30 p-3 rounded-2xl">📸</span>
                   Photo Gallery
                 </h2>
-                <p className="text-gray-400 mt-2">Explore beautiful images of {actualBreedName.replace(/-/g, ' ')}</p>
+                <p className="text-gray-400 mt-2">Explore beautiful images of {actualBreedName}</p>
               </div>
 
               {mediaLoading ? (
@@ -735,8 +669,8 @@ const BreedDetailPage = () => {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div className="absolute bottom-0 left-0 right-0 p-4">
-                          <p className="text-white font-semibold text-sm capitalize">
-                            {actualBreedName.replace(/-/g, ' ')} #{idx + 1}
+                          <p className="text-white font-semibold text-sm">
+                            {actualBreedName} #{idx + 1}
                           </p>
                         </div>
                       </div>
@@ -751,8 +685,76 @@ const BreedDetailPage = () => {
               )}
             </div>
 
-          {/* Video Section */}
-           <VideoContent actualBreedName={actualBreedName} />
+            {/* Video Section */}
+            <div className="bg-white/5 backdrop-blur-2xl border-2 border-purple-500/20 rounded-3xl p-10 hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300">
+              <div className="mb-8">
+                <h2 className="text-3xl font-bold text-white flex items-center gap-3">
+                  <span className="text-4xl bg-gradient-to-br from-purple-600/30 to-indigo-600/30 p-3 rounded-2xl">🎥</span>
+                  Video Content
+                </h2>
+                <p className="text-gray-400 mt-2">Watch videos about {actualBreedName}</p>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                {/* YouTube Video Embed Placeholders */}
+                <div className="aspect-video bg-white/5 border-2 border-purple-500/30 rounded-2xl overflow-hidden hover:border-purple-400 hover:shadow-xl hover:shadow-purple-500/30 transition-all duration-300">
+                  <iframe
+                    className="w-full h-full"
+                    src={`https://www.youtube.com/embed/search?q=${encodeURIComponent(actualBreedName + ' dog breed')}`}
+                    title={`${actualBreedName} Video 1`}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+
+                <div className="aspect-video bg-white/5 border-2 border-purple-500/30 rounded-2xl overflow-hidden hover:border-purple-400 hover:shadow-xl hover:shadow-purple-500/30 transition-all duration-300">
+                  <iframe
+                    className="w-full h-full"
+                    src={`https://www.youtube.com/embed/search?q=${encodeURIComponent(actualBreedName + ' puppy')}`}
+                    title={`${actualBreedName} Video 2`}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+
+                {/* Info Cards */}
+                <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="p-6 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border-2 border-blue-500/30 rounded-2xl hover:-translate-y-2 hover:border-blue-400 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300">
+                    <span className="text-4xl block mb-3">🎬</span>
+                    <h3 className="text-white font-bold text-lg mb-2">Training Videos</h3>
+                    <p className="text-blue-200 text-sm">Learn how to train your {actualBreedName}</p>
+                  </div>
+
+                  <div className="p-6 bg-gradient-to-br from-green-500/10 to-emerald-500/10 border-2 border-green-500/30 rounded-2xl hover:-translate-y-2 hover:border-green-400 hover:shadow-xl hover:shadow-green-500/30 transition-all duration-300">
+                    <span className="text-4xl block mb-3">🏃</span>
+                    <h3 className="text-white font-bold text-lg mb-2">Activity Guides</h3>
+                    <p className="text-green-200 text-sm">Exercise routines and play ideas</p>
+                  </div>
+
+                  <div className="p-6 bg-gradient-to-br from-pink-500/10 to-rose-500/10 border-2 border-pink-500/30 rounded-2xl hover:-translate-y-2 hover:border-pink-400 hover:shadow-xl hover:shadow-pink-500/30 transition-all duration-300">
+                    <span className="text-4xl block mb-3">💝</span>
+                    <h3 className="text-white font-bold text-lg mb-2">Care Tips</h3>
+                    <p className="text-pink-200 text-sm">Grooming and health care guidance</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Additional Resources */}
+              <div className="mt-8 p-6 bg-gradient-to-r from-purple-500/10 to-indigo-500/10 border-2 border-purple-500/30 rounded-2xl">
+                <div className="flex items-start gap-4">
+                  <span className="text-3xl">💡</span>
+                  <div>
+                    <h4 className="text-white font-bold text-lg mb-2">Looking for More Content?</h4>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      Visit YouTube and search for "{actualBreedName}" to find comprehensive videos about breed characteristics, 
+                      training tips, care guides, and real owner experiences.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             {/* Fun Facts Section */}
             <div className="bg-white/5 backdrop-blur-2xl border-2 border-purple-500/20 rounded-3xl p-10 hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300">
@@ -767,7 +769,7 @@ const BreedDetailPage = () => {
                   <span className="text-4xl block mb-4">🌟</span>
                   <h3 className="text-white font-bold text-lg mb-2">Origin Story</h3>
                   <p className="text-yellow-100 text-sm">
-                    The {actualBreedName.replace(/-/g, ' ')} originated from {breed.origin} and was bred for {breed.bred_for.toLowerCase()}.
+                    The {actualBreedName} originated from {breed.origin} and was bred for {breed.bred_for.toLowerCase()}.
                   </p>
                 </div>
 

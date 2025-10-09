@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-
+import Testimonials from "../pages/Testimonials"
 const HomePage = () => {
   const particlesRef = useRef(null);
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -246,7 +246,7 @@ Discover detailed breed characteristics, temperament insights, and personalized 
           </div>
         </div>
       </section>
-
+          <Testimonials/>
       {/* Stats */}
       <section className={`py-20 px-10 ${
         isDarkMode 
